@@ -1,6 +1,11 @@
 @media only screen and (max-width: 768px) {
     header .navbar-brand {
-        padding-left: 1rem;
+        padding-left: 0rem;
+        margin-left: -10vmin;
+    }
+
+    header .reimg {
+        width: 6vw;
     }
 
     .section-1 .row .col-md-6 .panel {
@@ -61,6 +66,11 @@
         margin-top: 8vmin;
     }
 
+    header .navbar-brand {
+        padding-left: 0rem;
+        margin-left: -25vmin;
+    }
+
 }
 
 @media only screen and(max-width:320px) {
@@ -71,5 +81,10 @@
 
     .section4 .carousel-inner {
         margin-left: -14vmin;
+    }
+
+    header .navbar-brand {
+        padding-left: 0rem;
+        margin-left: -30vmin;
     }
 }
