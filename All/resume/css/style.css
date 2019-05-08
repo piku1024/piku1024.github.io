@@ -288,3 +288,17 @@ h4 {
 .leenk3:hover {
     color: rgb(238, 61, 38);
 }
+
+.leenk4 {
+    padding-top: 3vmin;
+    color: rgb(255, 255, 255);
+    float: right;
+    font-weight: 800;
+    font-size: 4vmin;
+    padding-right: 2vmin;
+}
+
+.leenk4:hover {
+    color: #34495e;
+
+}
