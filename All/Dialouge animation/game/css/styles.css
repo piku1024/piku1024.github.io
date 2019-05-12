@@ -1,0 +1,520 @@
+/* google fonts*/
+
+@import url('https://fonts.googleapis.com/css?family=Aclonica|Galdeano|Gugi|Lemon|Press+Start+2P');
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --gal: 'Galdeano', sans-serif;
+    --gug: 'Gugi', cursive;
+    --best: "Audiowide", cursive;
+    --pix: 'Press Start 2P', cursive;
+    --alc: 'Aclonica', sans-serif;
+    --lem: 'Lemon', cursive;
+    --rob: 'Roboto', sans-serif;
+    --bakcol: linear-gradient(to bottom, #ff0000, #ffa600);
+}
+
+
+
+.container-fluid {
+
+    height: 98vh;
+    background-image: var(--bakcol);
+}
+
+.btn-whatever {
+
+    background-image: var(--bakcol);
+    color: white;
+    border: 2px solid white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    -webkit-transition-duration: 0.4s;
+    font-family: var(--pix);
+    transition-duration: 0.8s;
+    font-size: 16px;
+    margin-top: 22%;
+}
+
+.btn-whatever:hover {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 16px 16px 80px 80px rgba(255, 255, 255, 0.24), 16px 16px 80px 80px rgba(255, 255, 255, 0.19);
+    /* Green */
+    color: rgb(255, 255, 255);
+}
+
+
+/* -------------------------- P   ---------------A--------------G---------------E------------1-----------------------xxxxxxxxxxxx*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    height: 100vh;
+    background: url(../Assets/backg/jb.jpg);
+    overflow: hidden;
+}
+
+
+.butt {
+    margin-top: -40vh;
+    text-align: center;
+    cursor: pointer;
+}
+
+.chor {
+    margin-top: 35vh;
+
+}
+
+.char1 {
+    width: 17vw;
+    transition: transform 300ms ease-in-out;
+
+}
+
+.char2 {
+
+    display: none;
+    float: right;
+    width: 17vw;
+    transition: transform 300ms ease-in-out;
+}
+
+.char1:hover {
+    transform: scale(1.1, 1.1) translateX(2vw);
+}
+
+
+
+
+.chor.clicked .char1 {
+    transform: scale(1.1, 1.1) translateX(2vw);
+}
+
+.char2:hover {
+    transform: scale(1.1, 1.1) translateX(-2vw);
+}
+
+.con {
+    border: 4px solid rgb(43, 34, 34);
+    border-right: none;
+    border-left: none;
+    height: 19vmin;
+    font-style: var(--gug);
+}
+
+.card-body {
+    width: 50%;
+    background-color: rgba(169, 169, 169, 0.363);
+
+}
+
+.card {
+    margin-top: -60vmin;
+    margin-left: 10vw;
+    transition: transform 300ms ease-in-out;
+}
+
+/*---------------typwiter-----xxxxxxxxxxx---------effects-----------*/
+
+.css-typing p {
+    font-family: var(--rob);
+    color: antiquewhite;
+    font-size: 24px;
+    width: 96%;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-animation: type 3s steps(40, end);
+    animation: type 3s steps(40, end);
+    border-right: .15em solid rgba(233, 162, 30, 0);
+}
+
+.css-typing p:nth-child(2) {
+    white-space: nowrap;
+    overflow: hidden;
+    opacity: 0;
+    -webkit-animation: type 3s steps(40, end);
+    animation: type2 3s steps(40, end);
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@keyframes type {
+    from {
+        width: 0;
+    }
+}
+
+@-webkit-keyframes type {
+    from {
+        width: 0;
+    }
+}
+
+span {
+    animation: blink 1s infinite;
+}
+
+@keyframes type2 {
+    0% {
+        width: 0;
+    }
+
+    from {
+        opacity: 0;
+    }
+
+    1% {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes type2 {
+    0% {
+        width: 0;
+    }
+
+    from {
+        opacity: 0;
+    }
+
+    1% {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes type3 {
+    0% {
+        width: 0;
+    }
+
+    from {
+        opacity: 0;
+    }
+
+    1% {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+/*---------------typwiter-----xxxxxxxxxxx---------effects-----------*/
+
+
+/* The Modal (background) */
+.modal-body {
+    padding: 1vw 2vw 0px 2vw;
+    ;
+}
+
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 180px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 70%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+.modal3 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 2;
+    /* Sit on top */
+    padding-top: 180px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 70%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+.modal4 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 3;
+    /* Sit on top */
+    padding-top: 0px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+.modal5 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 4;
+    /* Sit on top */
+    padding-top: 500px;
+    /* Location of the box */
+    left: 30vw;
+    top: 0;
+    width: 70%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+
+
+/*------------------------------------ Modal Content 1------------------------------- */
+.modal-content {
+    position: relative;
+    background-color: #fefefe00;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: animateleft;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animateleft;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animateleft {
+    from {
+        left: -300px;
+        opacity: 0
+    }
+
+    to {
+        left: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animateleft {
+    from {
+        left: -300px;
+        opacity: 0
+    }
+
+    to {
+        left: 0;
+        opacity: 1
+    }
+}
+
+/*-------------------------modal 2---------------------*/
+
+.modal2 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 600px;
+    /* Location of the box */
+    left: 30vw;
+    top: 0;
+    width: 70%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+    float: right;
+}
+
+
+/* Modal Content */
+.modal-content2 {
+    position: relative;
+    background-color: #fefefe00;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation: animateright 2s;
+    -webkit-animation-duration: .5s;
+    animation: animateright 2s;
+    animation-duration: .5s;
+}
+
+/*-------------------------modal content3 Specially for top---------------------*/
+.modal-content3 {
+    position: relative;
+    background-color: #fefefe00;
+    margin: auto;
+    padding: 0;
+    text-align: center;
+    border: 1px solid #888;
+    width: 60%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+
+
+/*-------------------------modal 3 ends---------------------*/
+
+/* Add Animation */
+@-webkit-keyframes animateright {
+    from {
+        right: -350px;
+        opacity: 0
+    }
+
+    to {
+        right: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animateright {
+    from {
+        right: -350px;
+        opacity: 0
+    }
+
+    to {
+        lright: 0;
+        opacity: 1
+    }
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
