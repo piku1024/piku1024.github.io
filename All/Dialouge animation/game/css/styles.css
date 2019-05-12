@@ -76,18 +76,15 @@ section {
 
 }
 
+/*-------------------character 1-------------------*/
 .char1 {
     width: 17vw;
     transition: transform 300ms ease-in-out;
-
-}
-
-.char2 {
-
-    display: none;
-    float: right;
-    width: 17vw;
-    transition: transform 300ms ease-in-out;
+    position: relative;
+    -webkit-animation-name: animateleft;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animateleft;
+    animation-duration: 0.4s
 }
 
 .char1:hover {
@@ -101,10 +98,53 @@ section {
     transform: scale(1.1, 1.1) translateX(2vw);
 }
 
+@-webkit-keyframes animateleft {
+    from {
+        left: -300px;
+        opacity: 0
+    }
+
+    to {
+        left: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animateleft {
+    from {
+        left: -300px;
+        opacity: 0
+    }
+
+    to {
+        left: 0;
+        opacity: 1
+    }
+}
+
+/*-------------------character 1-------------------*/
+/*-------------------character 2-------------------*/
+.char2 {
+
+    display: none;
+    float: right;
+    width: 17vw;
+    transition: transform 300ms ease-in-out;
+    position: relative;
+    -webkit-animation-name: animateleft;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animateleft;
+    animation-duration: 0.4s
+}
+
+
+
 .char2:hover {
     transform: scale(1.1, 1.1) translateX(-2vw);
 }
 
+
+/*-------------------character 2-------------------*/
 .con {
     border: 4px solid rgb(43, 34, 34);
     border-right: none;
@@ -240,8 +280,8 @@ span {
 
 /* The Modal (background) */
 .modal-body {
-    padding: 1vw 2vw 0px 2vw;
-    ;
+    padding: 1vw 2vw 2px 2vw;
+    background-color: #444d53d0;
 }
 
 
@@ -335,6 +375,7 @@ span {
     /* Fallback color */
     background-color: rgba(0, 0, 0, 0.4);
     /* Black w/ opacity */
+    float: right;
 }
 
 
@@ -388,7 +429,7 @@ span {
     /* Stay in place */
     z-index: 1;
     /* Sit on top */
-    padding-top: 600px;
+    padding-top: 500px;
     /* Location of the box */
     left: 30vw;
     top: 0;
@@ -486,25 +527,11 @@ span {
     }
 
     to {
-        lright: 0;
+        right: 0;
         opacity: 1
     }
 }
 
-/* The Close Button */
-.close {
-    color: white;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-}
 
 .modal-header {
     padding: 2px 16px;
