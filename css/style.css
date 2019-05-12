@@ -120,8 +120,8 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 200px;
-    height: 200px;
+    width: 20vw;
+    height: 20vw;
     background: #fff;
     border-radius: 50%;
     pointer-events: none;
