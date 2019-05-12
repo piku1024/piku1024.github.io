@@ -8,6 +8,13 @@
     box-sizing: border-box;
 }
 
+section {
+    background-color: #ff2f13;
+    height: 100%;
+    width: 100%;
+    margin-top: 0;
+}
+
 :root {
     --gal: 'Galdeano', sans-serif;
     --gug: 'Gugi', cursive;
@@ -16,23 +23,22 @@
     --alc: 'Aclonica', sans-serif;
     --lem: 'Lemon', cursive;
     --rob: 'Roboto', sans-serif;
+
+    --bakcol: linear-gradient(to bottom, #ff1919, #ffa600);
 }
 
 .navi {
 
     color: white;
     margin-left: 45%;
+    padding-top: 7%;
 }
 
-.space {
-    width: 100%;
-    height: 15vmin;
-    background-color: deepskyblue;
-}
+
 
 .btn-whatever {
 
-    background-color: deepskyblue;
+    background-color: #ff2f13;
     color: white;
     border: 2px solid white;
     padding: 15px 32px;
@@ -48,27 +54,24 @@
     background-color: rgb(255, 255, 255);
     box-shadow: 16px 16px 80px 80px rgba(255, 255, 255, 0.24), 16px 16px 80px 80px rgba(255, 255, 255, 0.19);
     /* Green */
-    color: deepskyblue;
+    color: #ff2f13;
 }
 
 header {
-    background-color: deepskyblue;
+    background-color: #ff2f13;
 }
 
 main {
-    background-color: deepskyblue;
+    background-color: #ff2f13;
 }
 
-footer {
-    background-color: deepskyblue;
-}
 
 .q {
     font-family: var(--best);
     font-size: 65px;
     font-weight: bolder;
     color: white;
-    padding-top: 10%;
+    padding-top: 8%;
 }
 
 .new {
@@ -81,27 +84,41 @@ footer {
     font-family: var(--rob);
     font-size: xx-large;
     font-weight: lighter;
-    color: deepskyblue;
+    color: #ff2f13;
     padding-top: 1%;
 }
 
 .fab {
-    color: deepskyblue;
+    color: #ff2f13;
     font-size: 8vmin;
 }
 
 .fas {
-    color: deepskyblue;
+    color: #ff2f13;
     font-size: 8vmin;
 }
 
 .fab:hover {
-    background-color: rgb(255, 255, 255);
 
-    color: springgreen;
+
+    color: #ff2f13;
 }
 
 .fas:hover {
-    background-color: white;
-    color: springgreen;
+
+    color: #ff2f13;
+}
+
+.pointer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    border-radius: 50%;
+    pointer-events: none;
+    transition: 0.1s;
+    mix-blend-mode: difference;
 }

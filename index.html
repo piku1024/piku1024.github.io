@@ -19,38 +19,50 @@
 </head>
 
 <body>
+    <section>
 
-    <header>
-        <div class="space">
+        <div class="pointer"></div>
+        <header>
 
-        </div>
-        <div class="navi">
+            <div class="navi">
 
-            <a class="btn-whatever btn-lg" href="./All/resume/index.html" role="button">Resume</a>
-        </div>
+                <a class="btn-whatever btn-lg" href="#" role="button">Resume</a>
+            </div>
 
 
-    </header>
-    <main>
+        </header>
+        <main>
 
-        <div class="container-fluid text-center">
-            <p class="q">Hi, I am Piyush!</p>
-        </div>
-        <div class="container-fluid new text-center">
-            <p class="low">ECE UnderGrad Student | UI/UX Designer</p>
-            <a href="https://github.com/piku1024/piku1024.github.io"><i class="fab fa-github"></i></a>
+            <div class="container-fluid text-center">
+                <p class="q">Hi, I am Piyush!</p>
+            </div>
+            <div class="container-fluid new text-center">
+                <p class="low">ECE UnderGrad Student | UI/UX Designer</p>
+                <a href="https://piku1024.github.io"><i class="fab fa-github"></i></a>
 
-            &emsp;
-            &emsp;
-            <a href="https://www.linkedin.com/in/piyush-kumar-195827153/"><i class="fab fa-linkedin"></i></a>
+                &emsp;
+                &emsp;
+                <a href="https://www.linkedin.com/in/piyush-kumar-195827153/"><i class="fab fa-linkedin"></i></a>
 
-            &emsp;
-            &emsp;
-            <a href="mailto:kpiyush1024@gmail.com"><i class="fas fa-envelope"></i></a>
+                &emsp;
+                &emsp;
+                <a href="mailto:kpiyush1024@gmail.com"><i class="fas fa-envelope"></i></a>
 
-        </div>
+            </div>
 
-    </main>
+        </main>
+
+    </section>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).mousemove(function (e) {
+            $('.pointer').css({
+                left: e.pageX,
+                top: e.pageY
+            })
+        })
+    </script>
 
 </body>
 
