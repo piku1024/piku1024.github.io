@@ -51,6 +51,7 @@ section {
 }
 
 .btn-whatever:hover {
+
     background-color: rgb(255, 255, 255);
     box-shadow: 16px 16px 80px 80px rgba(255, 255, 255, 0.24), 16px 16px 80px 80px rgba(255, 255, 255, 0.19);
     /* Green */
@@ -91,6 +92,9 @@ main {
 .fab {
     color: #ff2f13;
     font-size: 8vmin;
+    -webkit-animation-duration: 2s;
+
+    animation-duration: 2s;
 }
 
 .fas {
@@ -100,14 +104,16 @@ main {
 
 .fab:hover {
 
-
-    color: #ff2f13;
+    transform: scale(1.8, 1.8);
+    color: #13c8ff;
 }
 
 .fas:hover {
 
-    color: #ff2f13;
+    transform: scale(1.8, 1.8);
+    color: #13c8ff;
 }
+
 
 .pointer {
     position: absolute;

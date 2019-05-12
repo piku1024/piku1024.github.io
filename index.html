@@ -26,7 +26,7 @@
 
             <div class="navi">
 
-                <a class="btn-whatever btn-lg" href="./All/resume/index.html" role="button">Resume</a>
+                <a class="btn-whatever btn-lg" href="./All/resume/index.html" id="resum" role="button">Resume</a>
             </div>
 
 
@@ -38,15 +38,16 @@
             </div>
             <div class="container-fluid new text-center">
                 <p class="low">ECE UnderGrad Student | UI/UX Designer</p>
-                <a href="https://piku1024.github.io"><i class="fab fa-github"></i></a>
+                <a href="https://piku1024.github.io"><i id="ico11" class="fab fa-github"></i></a>
 
                 &emsp;
                 &emsp;
-                <a href="https://www.linkedin.com/in/piyush-kumar-195827153/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/piyush-kumar-195827153/"><i id="ico12"
+                        class="fab fa-linkedin"></i></a>
 
                 &emsp;
                 &emsp;
-                <a href="mailto:kpiyush1024@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="mailto:kpiyush1024@gmail.com"><i id="ico22" class="fas fa-envelope"></i></a>
 
             </div>
 
@@ -62,6 +63,22 @@
                 top: e.pageY
             })
         })
+
+        var ico = document.getElementById("ico11");
+        var iconi = document.getElementById("ico12");
+        var iconic = document.getElementById("ico22");
+        var butt = document.getElementById("resum");
+
+        ico.onmouseover = function (event) {
+            ico.style.transition = "all 2s";
+        }
+
+        iconic.onmouseover = function (event) {
+            iconic.style.transition = "all 2s";
+        }
+        iconi.onmouseover = function (event) {
+            iconi.style.transition = "all 2s";
+        }
     </script>
 
 </body>
