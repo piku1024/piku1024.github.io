@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chapter-1</title>
+
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href=".\../jav.js">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+
+<body>
+
+    <section id="zzzz">
+
+        <div class="chor">
+            <img src="../Assets/char/sample1.png" id="trigger" class="char1" alt="">
+
+
+            <div id="id01" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <div class="modal-body css-typing">
+                        <p> I speak lorem language ..... </p>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <img src="../Assets/char/sample2.png" id="boi" class="char2" alt="">
+
+            <!-- The Modal -->
+            <div id="id02" class="modal2">
+                <!-- Modal content -->
+                <div class="modal-content2">
+                    <div class="modal-body css-typing">
+                        <p>Lorem what ?........................</p>
+                        <p>Some other text..............</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!------------------------xxxxxxxxxxxxxxxxxx-------------------Dialouges----------------------xxxxxxxxxxxxxxxxxx-->
+
+            <div id="id03" class="modal3">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <div class="modal-body css-typing">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, atque?</p>
+                        <p>Lorem ipsum dolor sit amet ceonsectetur.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div id="id04" class="modal4">
+
+                <!-- Modal content -->
+                <div class="modal-content3">
+                    <div class="modal-body css-typing">
+                        <p>Lorem......................................</p>
+                        <p>Some other text.........</p>
+                    </div>
+                </div>
+
+            </div>
+            <div id="id05" class="modal5">
+
+                <!-- Modal content -->
+                <div class="modal-content2">
+                    <div class="modal-body css-typing">
+                        <p>Lorem (o_0) (o_0) (o_0) (o_0)................</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+            <!------------------------xxxxxxxxxxxxxxxxxx-------------------Dialouges endds----------------------xxxxxxxxxxxxxxxxxx-->
+
+
+
+        </div>
+    </section>
+
+    <!------------------------xxxxxxxxxxxxxxxxxx---------------java script---------------------xxxxxxxxxxxxxxxxxx-------------------->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+        $('section').mousemove(function (e) {
+            var moveX = (e.pageX * -1 / 5);
+            var moveY = (e.pageY * -1 / 5);
+            $(this).css('background-position', moveX + 'px ' + moveY + 'px ')
+        })
+
+        //    $('section').on('click', function () {
+        //       $(this).toggleClass('clicked');
+        //   })   
+        var time = 300;
+
+        var modal = document.getElementById('id01');
+        var modal2 = document.getElementById('id02');
+        var modal3 = document.getElementById('id03');
+        var modal4 = document.getElementById('id04');
+        var modal5 = document.getElementById('id05');
+
+
+        var btn = document.getElementById("trigger");
+        var boy = document.getElementById("boi");
+
+        var god = document.getElementById("zzzz");
+
+
+        var span = document.getElementsByClassName("close")[0];
+
+        function chnggtb() {
+
+
+            btn.style.display = "none";
+            boy.style.display = "block";
+            modal.style.display = "none";
+            modal2.style.display = "block";
+
+
+        }
+
+        function chngbtg() {
+            boy.style.display = "none";
+            btn.style.display = "block";
+            modal2.style.display = "none";
+            modal3.style.display = "block";
+        }
+
+        function chnggtt() {
+            boy.style.display = "none";
+            btn.style.display = "none";
+            modal3.style.display = "none";
+            modal4.style.display = "block";
+        }
+
+        function chngttb() {
+            btn.style.display = "none";
+            boy.style.display = "block";
+            modal4.style.display = "none";
+            modal5.style.display = "block";
+        }
+
+        function chngbtn() {
+            boy.style.display = "none";
+            btn.style.display = "none";
+            modal5.style.display = "none";
+
+        }
+
+
+
+        //$('.chor').on('click', function () {
+        //    $(this).toggleClass('clicked');
+        //})
+
+
+        btn.onclick = function () {
+            modal.style.display = "block";
+
+
+        }
+
+
+        window.onclick = function (event) {
+            if (event.target == modal) {
+
+                setTimeout("chnggtb()", time);
+            }
+
+            if (event.target == modal2) {
+
+                setTimeout("chngbtg()", time);
+            }
+            if (event.target == modal3) {
+
+                setTimeout("chnggtt()", time);
+            }
+            if (event.target == modal4) {
+
+                setTimeout("chngttb()", time);
+            }
+            if (event.target == modal5) {
+
+                setTimeout("chngbtn()", time);
+            }
+
+
+
+        }
+    </script>
+
+</body>
+
+</html>
