@@ -17,6 +17,12 @@
 
     <section id="zzzz">
 
+        <audio controls id="ado">
+
+            <source src="../Assets/backg/melodyloops-preview-battle-stations-2m30s.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
         <div class="chor">
             <img src="../Assets/char/sample1.png" id="trigger" class="char1" alt="">
 
@@ -120,7 +126,7 @@
         var boy = document.getElementById("boi");
 
         var god = document.getElementById("zzzz");
-
+        var audo = document.getElementById("ado");
 
         var span = document.getElementsByClassName("close")[0];
 
@@ -172,8 +178,8 @@
 
         btn.onclick = function () {
             modal.style.display = "block";
-
-
+            audo.play();
+            aud.play();
         }
 
 
