@@ -75,6 +75,7 @@ main {
 }
 
 
+
 .q {
 
     font-weight: bolder;
@@ -122,7 +123,7 @@ main {
 }
 
 #logo {
-    animation: fill 0.5s ease forwards 5.1s;
+    animation: fill 3.5s ease forwards 6.9s;
 
 }
 
@@ -147,55 +148,55 @@ main {
 #logo path:nth-child(4) {
     stroke-dasharray: 160.9375px;
     stroke-dashoffset: 160.9375px;
-    animation: line-anime 2s ease-in-out forwards 1.75s;
+    animation: line-anime 2s ease-in-out forwards 2s;
 }
 
 #logo path:nth-child(5) {
     stroke-dasharray: 313.6001281738281px;
     stroke-dashoffset: 313.6001281738281px;
-    animation: line-anime 2s ease-in-out forwards 2s;
+    animation: line-anime 2s ease-in-out forwards 3.2s;
 }
 
 #logo path:nth-child(6) {
     stroke-dasharray: 428.3379211425781px;
     stroke-dashoffset: 428.3379211425781px;
-    animation: line-anime 2s ease-in-out forwards 2s;
+    animation: line-anime 2s ease-in-out forwards 3.2s;
 }
 
 #logo path:nth-child(7) {
     stroke-dasharray: 335.1279602050781px;
     stroke-dashoffset: 335.1279602050781px;
-    animation: line-anime 2s ease-in-out forwards 3s;
+    animation: line-anime 2s ease-in-out forwards 4.8s;
 }
 
 #logo path:nth-child(8) {
     stroke-dasharray: 157.40914916992188px;
     stroke-dashoffset: 157.40914916992188px;
-    animation: line-anime 2s ease-in-out forwards 3s;
+    animation: line-anime 2s ease-in-out forwards 4.8s;
 }
 
 #logo path:nth-child(9) {
     stroke-dasharray: 281.0960693359375px;
     stroke-dashoffset: 281.0960693359375px;
-    animation: line-anime 2s ease-in-out forwards 3s;
+    animation: line-anime 2s ease-in-out forwards 4.8s;
 }
 
 #logo path:nth-child(10) {
     stroke-dasharray: 273.1811218261719px;
     stroke-dashoffset: 273.1811218261719px;
-    animation: line-anime 2s ease-in-out forwards 3s;
+    animation: line-anime 2s ease-in-out forwards 4.8s;
 }
 
 #logo path:nth-child(11) {
     stroke-dasharray: 284.70599365234375px;
     stroke-dashoffset: 284.70599365234375px;
-    animation: line-anime 2s ease-in-out forwards 3s;
+    animation: line-anime 2s ease-in-out forwards 4.8s;
 }
 
 #logo path:nth-child(12) {
     stroke-dasharray: 319.143798828125px;
     stroke-dashoffset: 319.143798828125px;
-    animation: line-anime 2s ease-in-out forwards 3s;
+    animation: line-anime 2s ease-in-out forwards 4.8s;
 }
 
 @keyframes line-anime {
@@ -211,21 +212,137 @@ main {
 }
 
 @keyframes fill {
-    from {
+    0% {
         fill: transparent;
     }
 
-    to {
+    33% {
+        fill: white;
+    }
+
+    66% {
+        fill: transparent;
+    }
+
+    100% {
         fill: white;
     }
 }
 
 @-webkit-keyframes fill {
-    from {
+    0% {
         fill: transparent;
     }
 
-    to {
+    33% {
         fill: white;
     }
+
+    66% {
+        fill: transparent;
+    }
+
+    100% {
+        fill: white;
+    }
+}
+
+.float {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.colo:hover {
+    color: #d1a461;
+    transform: scale(1.25, 1.25);
+}
+
+.colo {
+    color: white;
+    animation: float 33s linear infinite;
+}
+
+@keyframes float {
+    0% {
+        opacity: 0;
+    }
+
+    7% {
+        opacity: 1;
+        transform: translateX(10vw) translateY(35vh) rotate(90deg);
+        filter: blur(1px);
+
+    }
+
+    15% {
+
+        transform: translateX(22vw) translateY(42vh) rotate(220deg);
+        filter: blur(1px);
+
+    }
+
+    21% {
+        transform: translateX(12vw) translateY(20vh) rotate(360deg);
+        filter: blur(1px);
+    }
+
+    26% {
+        transform: translateX(70vw) translateY(44vh) rotate(200deg);
+        filter: blur(1px);
+
+    }
+
+    36% {
+        transform: translateX(40vw) translateY(59vh) rotate(90deg);
+        filter: blur(1px);
+    }
+
+    44% {
+        transform: translateX(2vw) translateY(50vh) rotate(135deg);
+        filter: blur(1px);
+    }
+
+    54% {
+        transform: translateX(60vw) translateY(5vh) rotate(240deg);
+        filter: blur(1px);
+    }
+
+    61% {
+        transform: translateX(95vw) translateY(50vh) rotate(370deg);
+        filter: blur(1px);
+    }
+
+    69% {
+        transform: translateX(50vw) translateY(15vh) rotate(29deg);
+        filter: blur(1px);
+    }
+
+    76% {
+        transform: translateX(33vw) translateY(20vh) rotate(140deg);
+        filter: blur(1px);
+    }
+
+    82% {
+        transform: translateX(70vw) translateY(27vh) rotate(15deg);
+        filter: blur(1px);
+    }
+
+    89.5% {
+        transform: translateX(40vw) translateY(60vh) rotate(160deg);
+        filter: blur(1px);
+    }
+
+    96% {
+        transform: translateX(90vw) translateY(0vh) rotate(280deg);
+        filter: blur(1px);
+    }
+
+
+    100% {
+        transform: translateX(95vw) translateY(0vh) rotate(360deg);
+        filter: blur(3px);
+    }
+
 }
