@@ -346,3 +346,86 @@ main {
     }
 
 }
+
+@-webkit-keyframes float {
+    0% {
+        opacity: 0;
+    }
+
+    7% {
+        opacity: 1;
+        transform: translateX(10vw) translateY(35vh) rotate(90deg);
+        filter: blur(1px);
+
+    }
+
+    15% {
+
+        transform: translateX(22vw) translateY(42vh) rotate(220deg);
+        filter: blur(1px);
+
+    }
+
+    21% {
+        transform: translateX(12vw) translateY(20vh) rotate(360deg);
+        filter: blur(1px);
+    }
+
+    26% {
+        transform: translateX(70vw) translateY(44vh) rotate(200deg);
+        filter: blur(1px);
+
+    }
+
+    36% {
+        transform: translateX(40vw) translateY(59vh) rotate(90deg);
+        filter: blur(1px);
+    }
+
+    44% {
+        transform: translateX(2vw) translateY(50vh) rotate(135deg);
+        filter: blur(1px);
+    }
+
+    54% {
+        transform: translateX(60vw) translateY(5vh) rotate(240deg);
+        filter: blur(1px);
+    }
+
+    61% {
+        transform: translateX(95vw) translateY(50vh) rotate(370deg);
+        filter: blur(1px);
+    }
+
+    69% {
+        transform: translateX(50vw) translateY(15vh) rotate(29deg);
+        filter: blur(1px);
+    }
+
+    76% {
+        transform: translateX(33vw) translateY(20vh) rotate(140deg);
+        filter: blur(1px);
+    }
+
+    82% {
+        transform: translateX(70vw) translateY(27vh) rotate(15deg);
+        filter: blur(1px);
+    }
+
+    89.5% {
+        transform: translateX(40vw) translateY(60vh) rotate(160deg);
+        filter: blur(1px);
+    }
+
+    96% {
+        transform: translateX(90vw) translateY(0vh) rotate(280deg);
+        filter: blur(1px);
+    }
+
+
+    100% {
+        transform: translateX(95vw) translateY(0vh) rotate(360deg);
+        filter: blur(3px);
+    }
+
+}
