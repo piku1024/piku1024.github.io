@@ -64,6 +64,10 @@ section {
     overflow: hidden;
 }
 
+audio {
+    position: absolute;
+    display: none;
+}
 
 .butt {
     margin-top: -40vh;
