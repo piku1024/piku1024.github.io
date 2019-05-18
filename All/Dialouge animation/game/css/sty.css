@@ -1,0 +1,160 @@
+html {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+:root {
+    --bakcol: linear-gradient(to bottom, #ff0000, #ffa600);
+}
+
+body {
+    height: calc(100vh -8em);
+    padding: 4em;
+    color: rgba(255, 255, 255, 0.75);
+    font-family: 'Courier New', monospace;
+    background-image: var(--bakcol);
+
+}
+
+
+
+.css-typing p {
+    font-family: "Courier";
+    font-size: 14px;
+    width: 7.3em;
+    white-space: nowrap;
+    color: black;
+    overflow: hidden;
+    -webkit-animation: type 2s steps(40, end);
+    animation: type 2s steps(40, end);
+    border-right: .15em solid orange;
+}
+
+.css-typing p:nth-child(2) {
+    white-space: nowrap;
+    overflow: hidden;
+    color: black;
+    opacity: 0;
+    -webkit-animation: type 2s steps(40, end);
+    animation: type2 2s steps(40, end);
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(3) {
+    white-space: nowrap;
+    overflow: hidden;
+    opacity: 0;
+    -webkit-animation: type 4s steps(40, end);
+    animation: type3 4s steps(40, end);
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@keyframes type {
+    from {
+        width: 0;
+    }
+}
+
+@-webkit-keyframes type {
+    from {
+        width: 0;
+    }
+}
+
+span {
+    animation: blink 1s infinite;
+}
+
+@keyframes type2 {
+    0% {
+        width: 0;
+    }
+
+    from {
+        opacity: 0;
+    }
+
+    1% {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes type2 {
+    0% {
+        width: 0;
+    }
+
+    from {
+        opacity: 0;
+    }
+
+    1% {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes type3 {
+    0% {
+        width: 0;
+    }
+
+    from {
+        opacity: 0;
+    }
+
+    1% {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes type3 {
+    0% {
+        width: 0;
+    }
+
+    from {
+        opacity: 0;
+    }
+
+    1% {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
