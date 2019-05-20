@@ -28,7 +28,7 @@
     background-image: var(--bakcol);
 }
 
-.btn-whatever {
+.btn-lg {
 
     background-image: var(--bakcol);
     color: white;
@@ -43,7 +43,7 @@
     margin-top: 22%;
 }
 
-.btn-whatever:hover {
+.btn-lg:hover {
     background-color: rgb(255, 255, 255);
     box-shadow: 16px 16px 80px 80px rgba(255, 255, 255, 0.24), 16px 16px 80px 80px rgba(255, 255, 255, 0.19);
     /* Green */
@@ -58,10 +58,19 @@ body {
     padding: 0;
 }
 
+.sect {
+    margin-top: -10vh;
+    height: 110vh;
+    background: url(../Assets/backg/thegreatwar.png);
+    overflow: hidden;
+
+}
+
 section {
     height: 100vh;
     background: url(../Assets/backg/jb.jpg);
     overflow: hidden;
+
 }
 
 audio {
@@ -80,94 +89,6 @@ audio {
 
 }
 
-/*-------------------character 1----------------------*/
-.char1 {
-    width: 17vw;
-    transition: transform 300ms ease-in-out;
-    position: relative;
-    -webkit-animation-name: animateleft;
-    -webkit-animation-duration: 0.4s;
-    animation-name: animateleft;
-    animation-duration: 0.4s;
-}
-
-.char1:hover {
-    transform: scale(1.1, 1.1) translateX(2vw);
-}
-
-
-
-
-.chor.clicked .char1 {
-    transform: scale(1.1, 1.1) translateX(2vw);
-}
-
-@-webkit-keyframes animateleft {
-    from {
-        left: -300px;
-        opacity: 0
-    }
-
-    to {
-        left: 0;
-        opacity: 1
-    }
-}
-
-@keyframes animateleft {
-    from {
-        left: -300px;
-        opacity: 0
-    }
-
-    to {
-        left: 0;
-        opacity: 1
-    }
-}
-
-/*-------------------character 1-------------------*/
-/*-------------------character 2-------------------*/
-.char2 {
-
-    display: none;
-    float: right;
-    width: 17vw;
-    transition: transform 300ms ease-in-out;
-    position: relative;
-    -webkit-animation-name: animateleft;
-    -webkit-animation-duration: 0.4s;
-    animation-name: animateleft;
-    animation-duration: 0.4s;
-}
-
-
-
-.char2:hover {
-    transform: scale(1.1, 1.1) translateX(-2vw);
-}
-
-
-/*-------------------character 2-------------------*/
-.con {
-    border: 4px solid rgb(43, 34, 34);
-    border-right: none;
-    border-left: none;
-    height: 19vmin;
-    font-style: var(--gug);
-}
-
-.card-body {
-    width: 50%;
-    background-color: rgba(169, 169, 169, 0.363);
-
-}
-
-.card {
-    margin-top: -60vmin;
-    margin-left: 10vw;
-    transition: transform 300ms ease-in-out;
-}
 
 /*---------------typwiter-----xxxxxxxxxxx---------effects-----------*/
 
@@ -176,21 +97,65 @@ audio {
     color: antiquewhite;
     font-size: 24px;
     width: 96%;
+
     white-space: nowrap;
     overflow: hidden;
-    -webkit-animation: type 3s steps(40, end);
-    animation: type 3s steps(40, end);
+    -webkit-animation: type 2s steps(40, end);
+    animation: type 2s steps(40, end);
     border-right: .15em solid rgba(233, 162, 30, 0);
+}
+
+.css-typing p:nth-child(1) {
+    background-color: #444d53a8;
+    font-family: var(--pix);
+    font-size: 34px;
+
 }
 
 .css-typing p:nth-child(2) {
     white-space: nowrap;
     overflow: hidden;
     opacity: 0;
-    -webkit-animation: type 3s steps(40, end);
-    animation: type2 3s steps(40, end);
-    -webkit-animation-delay: 3s;
-    animation-delay: 3s;
+    -webkit-animation: type 2s steps(40, end);
+    animation: type2 2s steps(40, end);
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(3) {
+    white-space: nowrap;
+    overflow: hidden;
+    opacity: 0;
+    -webkit-animation: type 2s steps(40, end);
+    animation: type2 2s steps(40, end);
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(4) {
+    white-space: nowrap;
+    overflow: hidden;
+    opacity: 0;
+    -webkit-animation: type 2s steps(40, end);
+    animation: type2 2s steps(40, end);
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(5) {
+    white-space: nowrap;
+    overflow: hidden;
+    opacity: 0;
+    -webkit-animation: type 2s steps(40, end);
+    animation: type2 2s steps(40, end);
+    -webkit-animation-delay: 7.4s;
+    animation-delay: 7.3s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
@@ -255,27 +220,78 @@ span {
     }
 }
 
-@keyframes type3 {
-    0% {
-        width: 0;
-    }
+/*------------------css-type for selection menu===========--------------------*/
 
-    from {
-        opacity: 0;
-    }
 
-    1% {
-        opacity: 1;
-    }
+.css-type p {
+    font-family: var(--lem);
+    color: antiquewhite;
+    font-size: 24px;
+    width: 96%;
 
-    to {
-        opacity: 1;
-    }
-
-    100% {
-        opacity: 1;
-    }
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-animation: type 2s steps(40, end);
+    animation: type 2s steps(40, end);
+    border-right: .15em solid rgba(233, 162, 30, 0);
 }
+
+.css-type p:nth-child(1) {
+    background-color: #444d53a8;
+    font-family: var(--pix);
+    color: rgb(180, 175, 168);
+
+}
+
+.css-type p:nth-child(2) {
+    white-space: nowrap;
+    overflow: hidden;
+    opacity: 0;
+    -webkit-animation: type 2s steps(40, end);
+    animation: type2 2s steps(40, end);
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.css-type p:nth-child(3) {
+    white-space: nowrap;
+    overflow: hidden;
+    opacity: 0;
+    -webkit-animation: type 2s steps(40, end);
+    animation: type2 2s steps(40, end);
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.css-type p:nth-child(4) {
+    white-space: nowrap;
+    overflow: hidden;
+    opacity: 0;
+    -webkit-animation: type 2s steps(40, end);
+    animation: type2 2s steps(40, end);
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(5) {
+    white-space: nowrap;
+    overflow: hidden;
+    opacity: 0;
+    -webkit-animation: type 2s steps(40, end);
+    animation: type2 2s steps(40, end);
+    -webkit-animation-delay: 7.4s;
+    animation-delay: 7.3s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+
 
 
 
@@ -285,202 +301,12 @@ span {
 /* The Modal (background) */
 .modal-body {
     padding: 1vw 2vw 2px 2vw;
-    background-color: #444d53d0;
-}
+    background-color: #444d535e;
 
-
-.modal {
-    display: none;
-    /* Hidden by default */
-    position: fixed;
-    /* Stay in place */
-    z-index: 1;
-    /* Sit on top */
-    padding-top: 180px;
-    /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 70%;
-    /* Full width */
-    height: 100%;
-    /* Full height */
-    overflow: auto;
-    /* Enable scroll if needed */
-    background-color: rgb(0, 0, 0);
-    /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.4);
-    /* Black w/ opacity */
-}
-
-.modal3 {
-    display: none;
-    /* Hidden by default */
-    position: fixed;
-    /* Stay in place */
-    z-index: 2;
-    /* Sit on top */
-    padding-top: 180px;
-    /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 70%;
-    /* Full width */
-    height: 100%;
-    /* Full height */
-    overflow: auto;
-    /* Enable scroll if needed */
-    background-color: rgb(0, 0, 0);
-    /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.4);
-    /* Black w/ opacity */
-}
-
-.modal4 {
-    display: none;
-    /* Hidden by default */
-    position: fixed;
-    /* Stay in place */
-    z-index: 3;
-    /* Sit on top */
-    padding-top: 0px;
-    /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%;
-    /* Full width */
-    height: 100%;
-    /* Full height */
-    overflow: auto;
-    /* Enable scroll if needed */
-    background-color: rgb(0, 0, 0);
-    /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.4);
-    /* Black w/ opacity */
-}
-
-.modal5 {
-    display: none;
-    /* Hidden by default */
-    position: fixed;
-    /* Stay in place */
-    z-index: 4;
-    /* Sit on top */
-    padding-top: 500px;
-    /* Location of the box */
-    left: 30vw;
-    top: 0;
-    width: 70%;
-    /* Full width */
-    height: 100%;
-    /* Full height */
-    overflow: auto;
-    /* Enable scroll if needed */
-    background-color: rgb(0, 0, 0);
-    /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.4);
-    /* Black w/ opacity */
-    float: right;
-}
-
-
-
-/*------------------------------------ Modal Content 1------------------------------- */
-.modal-content {
-    position: relative;
-    background-color: #fefefe00;
-    margin: auto;
-    padding: 0;
-    border: 1px solid #888;
-    width: 80%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    -webkit-animation-name: animateleft;
-    -webkit-animation-duration: 0.4s;
-    animation-name: animateleft;
-    animation-duration: 0.4s
-}
-
-/* Add Animation */
-@-webkit-keyframes animateleft {
-    from {
-        left: -300px;
-        opacity: 0
-    }
-
-    to {
-        left: 0;
-        opacity: 1
-    }
-}
-
-@keyframes animateleft {
-    from {
-        left: -300px;
-        opacity: 0
-    }
-
-    to {
-        left: 0;
-        opacity: 1
-    }
-}
-
-/*-------------------------modal 2---------------------*/
-
-.modal2 {
-    display: none;
-    /* Hidden by default */
-    position: fixed;
-    /* Stay in place */
-    z-index: 1;
-    /* Sit on top */
-    padding-top: 500px;
-    /* Location of the box */
-    left: 30vw;
-    top: 0;
-    width: 70%;
-    /* Full width */
-    height: 100%;
-    /* Full height */
-    overflow: auto;
-    /* Enable scroll if needed */
-    background-color: rgb(0, 0, 0);
-    /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.4);
-    /* Black w/ opacity */
-    float: right;
-}
-
-
-/* Modal Content */
-.modal-content2 {
-    position: relative;
-    background-color: #fefefe00;
-    margin: auto;
-    padding: 0;
-    border: 1px solid #888;
-    width: 80%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    -webkit-animation: animateright 2s;
-    -webkit-animation-duration: .5s;
-    animation: animateright 2s;
-    animation-duration: .5s;
 }
 
 /*-------------------------modal content3 Specially for top---------------------*/
-.modal-content3 {
-    position: relative;
-    background-color: #fefefe00;
-    margin: auto;
-    padding: 0;
-    text-align: center;
-    border: 1px solid #888;
-    width: 60%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    -webkit-animation-name: animatetop;
-    -webkit-animation-duration: 0.4s;
-    animation-name: animatetop;
-    animation-duration: 0.4s
-}
+
 
 /* Add Animation */
 @-webkit-keyframes animatetop {
@@ -511,30 +337,6 @@ span {
 
 /*-------------------------modal 3 ends---------------------*/
 
-/* Add Animation */
-@-webkit-keyframes animateright {
-    from {
-        right: -350px;
-        opacity: 0
-    }
-
-    to {
-        right: 0;
-        opacity: 1
-    }
-}
-
-@keyframes animateright {
-    from {
-        right: -350px;
-        opacity: 0
-    }
-
-    to {
-        right: 0;
-        opacity: 1
-    }
-}
 
 
 .modal-header {
@@ -548,4 +350,342 @@ span {
     padding: 2px 16px;
     background-color: #5cb85c;
     color: white;
+}
+
+/*-----------------------------------------------------------------------*/
+
+
+.modalstory1 {
+    display: block;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 150px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0);
+    /* Black w/ opacity */
+}
+
+.modal-content1 {
+    position: relative;
+    background-color: #fefefe00;
+    margin: auto;
+    padding: 0;
+    text-align: left;
+    border: 1px solid rgb(83, 83, 83);
+    box-shadow: 0px -3px 3px rgb(168, 168, 168);
+    border-left: none;
+    border-right: none;
+    width: 60%;
+
+    font-size: 1.5;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+}
+
+
+.modalstory2 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 180px;
+    /* Location of the box */
+    left: 0vw;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0);
+    /* Black w/ opacity */
+}
+
+.colink {
+    color: white;
+}
+
+.colink:hover {
+    color: #d19629;
+    text-decoration: none;
+}
+
+.modal-content2 {
+    position: relative;
+    background-color: #fefefe00;
+    margin: auto;
+    padding: 0;
+    text-align: left;
+    border: 1px solid rgb(83, 83, 83);
+    box-shadow: 0px -3px 3px rgb(168, 168, 168);
+    border-left: none;
+    border-right: none;
+    width: 88%;
+
+    font-size: 1.5;
+    -webkit-animation-name: animateleft;
+    -webkit-animation-duration: 1.8s;
+    animation-name: animateleft;
+    animation-duration: 1.8s;
+    animation-timing-function: cubic-bezier(0, 1.61, .82, 1.84);
+    -webkit-animation-timing-function: cubic-bezier(.05, .71, .61, 1.84);
+}
+
+
+
+/* Add Animation */
+@-webkit-keyframes animateleft {
+    from {
+        left: -300px;
+        opacity: 0
+    }
+
+    to {
+        left: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animateleft {
+    from {
+        left: -300px;
+        opacity: 0
+    }
+
+    to {
+        left: 0;
+        opacity: 1
+    }
+}
+
+/*------------------------------------===================---------------------------------------*/
+
+.btn-whatever {
+
+
+    font-weight: bolder;
+
+    text-decoration: none;
+
+    animation: disslove 14.7s linear;
+    background-color: #444d53;
+
+
+    color: white;
+    border: 2px solid white;
+
+    text-align: center;
+    display: inline-block;
+    -webkit-transition-duration: 0.4s;
+    font-family: var(--pix);
+    transition-duration: 0.8s;
+    font-size: 15px;
+
+}
+
+.btn-whatever:hover {
+    color: #444d53;
+    text-decoration: none;
+
+    border: 4px solid white;
+    background-color: white;
+}
+
+
+@keyframes disslove {
+    0% {
+
+        opacity: 0;
+    }
+
+    54% {
+
+        opacity: 0;
+    }
+
+    60% {
+        opacity: 1;
+
+    }
+
+    65% {
+
+        opacity: 0;
+    }
+
+    70% {
+        opacity: 1;
+
+    }
+
+    75% {
+
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 1;
+
+    }
+
+    85% {
+
+        opacity: 0;
+    }
+
+    90% {
+        opacity: 1;
+
+    }
+
+    95% {
+
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+
+    }
+}
+
+@keyframes disslove {
+    0% {
+
+        opacity: 0;
+    }
+
+    54% {
+
+        opacity: 0;
+    }
+
+    60% {
+        opacity: 1;
+
+    }
+
+    65% {
+
+        opacity: 0;
+    }
+
+    70% {
+        opacity: 1;
+
+    }
+
+    75% {
+
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 1;
+
+    }
+
+    85% {
+
+        opacity: 0;
+    }
+
+    90% {
+        opacity: 1;
+
+    }
+
+    95% {
+
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+
+    }
+}
+
+#img1 {
+    display: none;
+    position: absolute;
+    margin-left: 70%;
+    margin-top: -13%;
+    animation: rotat 1s;
+    animation-timing-function: cubic-bezier(0, 1.02, .49, 1.41);
+}
+
+#img1:hover {
+    transform: scale(1.3);
+}
+
+#img2 {
+    display: none;
+    position: absolute;
+    margin-left: 70%;
+    margin-top: -13%;
+    animation: rotat 1s;
+    animation-timing-function: cubic-bezier(0, 1.02, .49, 1.41);
+
+}
+
+#img2:hover {
+    transform: scale(1.3);
+}
+
+#img3 {
+    display: none;
+    position: absolute;
+    margin-left: 70%;
+    margin-top: -13%;
+    animation: rotat 1s;
+    animation-timing-function: cubic-bezier(0, 1.02, .49, 1.41);
+}
+
+#img3:hover {
+    transform: scale(1.3);
+}
+
+@keyframes rotat {
+    0% {
+        opacity: 0;
+        transform: rotate(180deg);
+    }
+
+    100% {
+        opacity: 1;
+        transform: rotate(0deg);
+    }
+}
+
+@-webkit-keyframes rotat {
+    0% {
+        opacity: 0;
+        transform: rotate(180deg);
+    }
+
+    100% {
+        opacity: 1;
+        transform: rotate(0deg);
+    }
 }

@@ -9,13 +9,16 @@
 
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href=".\../jav.js">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 </head>
 
 <body>
 
-    <section id="zzzz">
+    <section class="sect" id="zzzz">
 
         <audio controls id="ado">
 
@@ -23,78 +26,72 @@
             Your browser does not support the audio element.
         </audio>
 
-        <div class="chor">
-            <img src="../Assets/char/sample1.png" id="trigger" class="char1" alt="">
+        <div id="baap" class="chor">
 
-
-            <div id="id01" class="modal">
-
+            <div id="first" class="modalstory1">
                 <!-- Modal content -->
-                <div class="modal-content">
+                <div class="modal-content1">
                     <div class="modal-body css-typing">
-                        <p> I speak lorem language ..... </p>
+                        <p>The Great War</p>
+                        &nbsp;
+                        <p>99 years since the fall of Napolean.</p>
+                        <p>99 Years since all the Great Powers fought together.<br></p>
+                        &nbsp;
+                        <p>In 1914, you watched the peace fall apart into the biggest</p>
+                        <p>war the world had ever seen.</p>
+                        &nbsp;
+                        <br>
+                        <br>
 
+                        <a class="btn-whatever btn-sm" id="start" href="#" role="button"> Start </a>
+                        <br>
                     </div>
-                </div>
-
-            </div>
-
-            <img src="../Assets/char/sample2.png" id="boi" class="char2" alt="">
-
-            <!-- The Modal -->
-            <div id="id02" class="modal2">
-                <!-- Modal content -->
-                <div class="modal-content2">
-                    <div class="modal-body css-typing">
-                        <p>Lorem what ?........................</p>
-                        <p>Some other text..............</p>
-                    </div>
-
                 </div>
             </div>
 
-
-            <!------------------------xxxxxxxxxxxxxxxxxx-------------------Dialouges----------------------xxxxxxxxxxxxxxxxxx-->
-
-            <div id="id03" class="modal3">
-
-                <!-- Modal content -->
-                <div class="modal-content">
-                    <div class="modal-body css-typing">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, atque?</p>
-                        <p>Lorem ipsum dolor sit amet ceonsectetur.</p>
-                    </div>
-                </div>
-
-            </div>
-            <div id="id04" class="modal4">
-
-                <!-- Modal content -->
-                <div class="modal-content3">
-                    <div class="modal-body css-typing">
-                        <p>Lorem......................................</p>
-                        <p>Some other text.........</p>
-                    </div>
-                </div>
-
-            </div>
-            <div id="id05" class="modal5">
-
+            <div id="second" class="modalstory2">
                 <!-- Modal content -->
                 <div class="modal-content2">
-                    <div class="modal-body css-typing">
-                        <p>Lorem (o_0) (o_0) (o_0) (o_0)................</p>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                    <div class="modal-body css-type">
+                        <p>Select your character</p>
+                        &nbsp;
+
+                        <p> 1)<a class="colink" id="lk1" href="#" data-toggle="tooltip" data-placement="bottom"
+                                title="Click to see image, then click image"> Son of the Duke of
+                                Seville, a young man
+                                searching for his place
+                                in
+                                a
+                                changing world</a></p>
+                        &nbsp;
+
+                        <p> 2)<a class="colink" id="lk2" href="#" data-toggle="tooltip" data-placement="bottom"
+                                title="Click to see image, then click image">> A freedom fighter
+                                from India, on exile
+                                from his
+                                country</a></p>
+                        &nbsp;
+
+                        <p> 3)<a class="colink" id="lk3" href="#" data-toggle="tooltip" data-placement="bottom"
+                                title="Click to see image, then click image">> A retired
+                                American soldier who fought the
+                                American Civil
+                                War</a>
+                        </p>
+                        <br>
                     </div>
                 </div>
 
+                <a href="./Character1/Choice1.html"><img id="img1" class="pic1"
+                        src="../Assets/char/299px-Borbon,_Francisco_de_Paula.png" alt="">
+                </a>
+                <a href="./choice2a.html"><img id="img2" class="pic2" src="../Assets/char/mangal-pandey.png" alt="">
+                </a>
+                <a href="./choice3a.html"><img id="img3" class="pic3" src="../Assets/char/images.png" alt="">
+                </a>
+
+
             </div>
-
-
-
-
-            <!------------------------xxxxxxxxxxxxxxxxxx-------------------Dialouges endds----------------------xxxxxxxxxxxxxxxxxx-->
-
 
 
         </div>
@@ -113,100 +110,59 @@
         //    $('section').on('click', function () {
         //       $(this).toggleClass('clicked');
         //   })   
-        var time = 300;
-
-        var modal = document.getElementById('id01');
-        var modal2 = document.getElementById('id02');
-        var modal3 = document.getElementById('id03');
-        var modal4 = document.getElementById('id04');
-        var modal5 = document.getElementById('id05');
+        //-------------------------========================================---------------
 
 
-        var btn = document.getElementById("trigger");
-        var boy = document.getElementById("boi");
 
-        var god = document.getElementById("zzzz");
+
+
+        //-------------------
+        var time = 200;
+
+        var modal = document.getElementById('first');
+        var modal2 = document.getElementById('second');
+        var start = document.getElementById('start');
+
         var audo = document.getElementById("ado");
 
-        var span = document.getElementsByClassName("close")[0];
+        var img1 = document.getElementById('img1');
+        var img2 = document.getElementById('img2');
+        var img3 = document.getElementById('img3');
 
-        function chnggtb() {
-
-
-            btn.style.display = "none";
-            boy.style.display = "block";
-            modal.style.display = "none";
-            modal2.style.display = "block";
-
-
-        }
-
-        function chngbtg() {
-            boy.style.display = "none";
-            btn.style.display = "block";
-            modal2.style.display = "none";
-            modal3.style.display = "block";
-        }
-
-        function chnggtt() {
-            boy.style.display = "none";
-            btn.style.display = "none";
-            modal3.style.display = "none";
-            modal4.style.display = "block";
-        }
-
-        function chngttb() {
-            btn.style.display = "none";
-            boy.style.display = "block";
-            modal4.style.display = "none";
-            modal5.style.display = "block";
-        }
-
-        function chngbtn() {
-            boy.style.display = "none";
-            btn.style.display = "none";
-            modal5.style.display = "none";
-
-        }
-
-
+        var link1 = document.getElementById('lk1');
+        var link2 = document.getElementById('lk2');
+        var link3 = document.getElementById('lk3');
 
         //$('.chor').on('click', function () {
         //    $(this).toggleClass('clicked');
         //})
 
 
-        btn.onclick = function () {
-            modal.style.display = "block";
-            audo.play();
+        start.onclick = function () {
+            modal.style.display = "none";
+            modal2.style.display = "block";
+
+            //audo.play();
             aud.play();
         }
 
-
         window.onclick = function (event) {
-            if (event.target == modal) {
+            if (event.target == link1) {
+                img1.style.display = "block";
+                img2.style.display = "none";
+                img3.style.display = "none";
 
-                setTimeout("chnggtb()", time);
             }
-
-            if (event.target == modal2) {
-
-                setTimeout("chngbtg()", time);
+            if (event.target == link2) {
+                img1.style.display = "none";
+                img3.style.display = "none";
+                img2.style.display = "block";
             }
-            if (event.target == modal3) {
-
-                setTimeout("chnggtt()", time);
+            if (event.target == link3) {
+                img1.style.display = "none";
+                img2.style.display = "none";
+                img3.style.display = "block";
             }
-            if (event.target == modal4) {
-
-                setTimeout("chngttb()", time);
-            }
-            if (event.target == modal5) {
-
-                setTimeout("chngbtn()", time);
-            }
-
-
 
         }
     </script>

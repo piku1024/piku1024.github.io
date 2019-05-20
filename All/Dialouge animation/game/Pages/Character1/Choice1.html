@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1024">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Son of Duke</title>
+    <link rel="stylesheet" href="./Style1.css">
+</head>
+
+<body>
+    <section id="top">
+
+        <div id="first" class="modalstory1">
+            <!-- Modal content -->
+            <div class="modal-content1">
+                <div class="modal-body css-typing">
+                    <p>It's a day of joy- festival of Las Fallas De Valencia. Your father</p>
+                    <p>looks so regal in his uniform. The people are out on the street, and</p>
+                    <p>they cheer as he goes by.<br></p>
+                    &nbsp;
+                    <p>It's day of joy but you feel a sense of dread. You've been here</p>
+                    <p>before. You know what is going to happen.</p>
+                    &nbsp;
+                    <br>
+                    <br>
+                    <div class="rii"><a class="btn-whatever" id="next1" href="#" role="button"> Next </a>
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </div>
+
+        <div id="second" class="modalstory2">
+            <!-- Modal content -->
+            <div class="modal-content1">
+                <div class="modal-body css-typing">
+                    <p>You see a man standing a few hundred feet away. He seems normal,</p>
+                    <p> harmless even.</p>
+                    &nbsp;
+                    <p>Yet you feel this great sense of unease. You sense he's about</p>
+                    <p>to do something. You shout at the soldiers, trying to warn them,</p>
+                    <p>but nobody can hear you over the noise of the festival.</p>
+                    <a class="btn-whatever" id="next2" href="#" role="button"> Next </a>
+                    <br>
+                </div>
+            </div>
+            <img id="image" class="imgset" src="../../Assets/char/saw_man.png" alt="">
+        </div>
+
+        <div id="third" class="modalstory3">
+            <!-- Modal content -->
+            <div class="modal-content1">
+                <div class="modal-body css-typing">
+                    <p>As you scream and shout, trying desperately to get someone's </p>
+                    <p>attention, you catch the man's eye. You see a gleam of madness.</p>
+                    &nbsp;
+                    <p>And then he shoots your father in the chest.</p>
+                    <p>.................................................</p>
+                    <p>...............................................</p>
+                    <div class="rii"><a class="btn-whatever" id="next3" href="#" role="button"> Next </a>
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <div id="fourth" class="modalstory4">
+            <!-- Modal content -->
+            <div class="modal-content1">
+                <div class="modal-body css-typing">
+                    <p>You wake up in your hotel room, sweating.</p>
+
+                    <a class="btn-whatever" id="next4" href="#" role="button"> Next </a>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <div id="fifth" class="modalstory5">
+            <!-- Modal content -->
+            <div class="modal-content1">
+                <div class="modal-body css-typing">
+                    <p>"Many, many years have passed since father was shot." You think. </p>
+                    <p>"Everything that I learnt during my childhood, the legends of my </p>
+
+                    <p>great family, the sacred place of the dukes and the kings, ordained </p>
+                    <p>by god himself, everything has shown itself to be a lie in this new </p>
+                    <p>world.</p>
+                    &nbsp;
+                    <p>Ever since that day, you've been searching for your place in the </p>
+                    <p>world. But right now, you can't even remember where you are.</p>
+                    <div class="rii"><a class="btn-whatever" id="next5" href="#" role="button"> Next </a>
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <div id="sixth" class="modalstory6">
+            <!-- Modal content -->
+            <div class="modal-content1">
+                <div class="modal-body css-typing">
+                    <p>Finally you remember.</p>
+                    <p>It was on June 18th, 1914. You were in Sarajevo.</p>
+                    <p> <img class="big" src="../../Assets/backg/map.jpg" alt=""> </p>
+
+                    <p>Sarajevo , which had been under Ottomon Rule for 425 </p>
+                    <p>years, had recently been annexed by the Hasburg Dynasty, </p>
+
+                    <p>the rulers of the Austo-Hungarian Empire. </p>
+                    <div class="rii"><a class="btn-whatever" id="next5" href="#" role="button"> Next </a>
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+        $('section').mousemove(function (e) {
+            var moveX = (e.pageX * -1 / 5);
+            var moveY = (e.pageY * -1 / 5);
+            $(this).css('background-position', moveX + 'px ' + moveY + 'px ')
+        })
+
+        var next1 = document.getElementById('next1');
+        var next2 = document.getElementById('next2');
+        var next3 = document.getElementById('next3');
+        var next4 = document.getElementById('next4');
+        var next5 = document.getElementById('next5');
+        var next6 = document.getElementById('next6');
+        var modal = document.getElementById('first');
+        var modal2 = document.getElementById('second');
+        var modal3 = document.getElementById('third');
+        var modal4 = document.getElementById('fourth');
+        var modal5 = document.getElementById('fifth');
+        var modal6 = document.getElementById('sixth');
+        var top = document.getElementById('top');
+
+        function getSetGo() {
+
+            document.getElementById('image').style.display = "block";
+        }
+
+        next1.onclick = function () {
+            modal.style.display = "none";
+            modal2.style.display = "block";
+            setTimeout("getSetGo()", 2400);
+
+        }
+        next2.onclick = function () {
+            document.getElementById('image').style.display = "none";
+            $('section').toggleClass('change');
+            modal2.style.display = "none";
+            modal3.style.display = "block";
+
+        }
+        next3.onclick = function () {
+
+            $('section').toggleClass('change2');
+            modal3.style.display = "none";
+            modal4.style.display = "block";
+        }
+        next4.onclick = function () {
+            $('section').toggleClass('change3');
+            modal4.style.display = "none";
+            modal5.style.display = "block";
+        }
+        next5.onclick = function () {
+            $('section').toggleClass('change4');
+            modal5.style.display = "none";
+            modal6.style.display = "block";
+        }
+    </script>
+
+
+</body>
+
+</html>
