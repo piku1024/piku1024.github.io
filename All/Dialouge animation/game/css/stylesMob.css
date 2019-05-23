@@ -1,7 +1,7 @@
 @media only screen and(max-width:425px) {
 
     section {
-        height: 100vh;
+        height: 200vh;
         background: url(../Assets/backg/jb.jpg);
         background-size: contain;
 
@@ -9,8 +9,8 @@
 
     .sect {
         margin-top: -10vh;
-        height: 110vh;
-        background: url(../Assets/backg/thegreatwar.png);
+        height: 210vh;
+        background: url(../Assets/backg/jb.png);
         background-size: contain;
 
     }
@@ -20,7 +20,7 @@
 @media only screen and(max-width:768px) {
 
     section {
-        height: 100vh;
+        height: 200vh;
         background: url(../Assets/backg/jb.jpg);
         background-size: contain;
 
@@ -28,8 +28,8 @@
 
     .sect {
         margin-top: -10vh;
-        height: 110vh;
-        background: url(../Assets/backg/thegreatwar.png);
+        height: 210vh;
+        background: url(../Assets/backg/jb.jpg);
         background-size: contain;
 
     }

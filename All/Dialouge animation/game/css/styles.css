@@ -60,15 +60,25 @@ body {
 
 .sect {
     margin-top: -10vh;
-    height: 110vh;
+
     background: url(../Assets/backg/thegreatwar.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 110vh;
     overflow: hidden;
 
 }
 
 section {
-    height: 100vh;
+
     background: url(../Assets/backg/jb.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
     overflow: hidden;
 
 }
