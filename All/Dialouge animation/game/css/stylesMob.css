@@ -1,0 +1,37 @@
+@media only screen and(max-width:425px) {
+
+    section {
+        height: 100vh;
+        background: url(../Assets/backg/jb.jpg);
+        background-size: contain;
+
+    }
+
+    .sect {
+        margin-top: -10vh;
+        height: 110vh;
+        background: url(../Assets/backg/thegreatwar.png);
+        background-size: contain;
+
+    }
+
+}
+
+@media only screen and(max-width:768px) {
+
+    section {
+        height: 100vh;
+        background: url(../Assets/backg/jb.jpg);
+        background-size: contain;
+
+    }
+
+    .sect {
+        margin-top: -10vh;
+        height: 110vh;
+        background: url(../Assets/backg/thegreatwar.png);
+        background-size: contain;
+
+    }
+
+}
