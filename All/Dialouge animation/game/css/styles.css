@@ -310,6 +310,7 @@ span {
 
 /* The Modal (background) */
 .modal-body {
+
     padding: 1vw 2vw 2px 2vw;
     background-color: #444d535e;
 
@@ -372,7 +373,7 @@ span {
     /* Stay in place */
     z-index: 1;
     /* Sit on top */
-    padding-top: 150px;
+    padding-top: 50%;
     /* Location of the box */
     left: 0;
     top: 0;
@@ -415,7 +416,7 @@ span {
     /* Stay in place */
     z-index: 1;
     /* Sit on top */
-    padding-top: 180px;
+    padding-top: 50%;
     /* Location of the box */
     left: 0vw;
     top: 0;
