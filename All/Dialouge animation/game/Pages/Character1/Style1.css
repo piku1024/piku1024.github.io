@@ -85,11 +85,15 @@ section {
 }
 
 .colink {
-    color: #d19629;
+    color: #ffffff;
+    background-color: #444d53;
+    font-style: italic;
 }
 
 .colink:hover {
-    color: white;
+    font-style: italic;
+    color: #444d53;
+    background-color: #ffffff;
     text-decoration: none;
 }
 
@@ -114,8 +118,8 @@ section {
 
     white-space: nowrap;
     overflow: hidden;
-    -webkit-animation: type 2s steps(40, end);
-    animation: type 2s steps(40, end);
+    -webkit-animation: type 1.5s steps(40, end);
+    animation: type 1.5s steps(40, end);
     border-right: .15em solid rgba(233, 162, 30, 0);
 }
 
@@ -125,10 +129,10 @@ section {
     white-space: nowrap;
     overflow: hidden;
     opacity: 0;
-    -webkit-animation: type 2s steps(40, end);
-    animation: type2 2s steps(40, end);
-    -webkit-animation-delay: 2s;
-    animation-delay: 2s;
+    -webkit-animation: type2 1.5s steps(40, end);
+    animation: type2 1.5s steps(40, end);
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
@@ -137,10 +141,10 @@ section {
     white-space: nowrap;
     overflow: hidden;
     opacity: 0;
-    -webkit-animation: type 2s steps(40, end);
-    animation: type2 2s steps(40, end);
-    -webkit-animation-delay: 4s;
-    animation-delay: 4s;
+    -webkit-animation: type2 1.5s steps(40, end);
+    animation: type2 1.5s steps(40, end);
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
@@ -149,10 +153,10 @@ section {
     white-space: nowrap;
     overflow: hidden;
     opacity: 0;
-    -webkit-animation: type 2s steps(40, end);
-    animation: type2 2s steps(40, end);
-    -webkit-animation-delay: 6s;
-    animation-delay: 6s;
+    -webkit-animation: type2 1.5s steps(40, end);
+    animation: type2 1.5s steps(40, end);
+    -webkit-animation-delay: 4.5s;
+    animation-delay: 4.5s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
@@ -161,10 +165,10 @@ section {
     white-space: nowrap;
     overflow: hidden;
     opacity: 0;
-    -webkit-animation: type 2s steps(40, end);
-    animation: type2 2s steps(40, end);
-    -webkit-animation-delay: 8s;
-    animation-delay: 8s;
+    -webkit-animation: type2 1.5s steps(40, end);
+    animation: type2 1.5ss steps(40, end);
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
@@ -173,10 +177,10 @@ section {
     white-space: nowrap;
     overflow: hidden;
     opacity: 0;
-    -webkit-animation: type 2s steps(40, end);
-    animation: type2 2s steps(40, end);
-    -webkit-animation-delay: 710s;
-    animation-delay: 10s;
+    -webkit-animation: type2 1.5s steps(40, end);
+    animation: type2 1.5s steps(40, end);
+    -webkit-animation-delay: 7.5s;
+    animation-delay: 7.5s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
@@ -185,10 +189,10 @@ section {
     white-space: nowrap;
     overflow: hidden;
     opacity: 0;
-    -webkit-animation: type 2s steps(40, end);
-    animation: type2 2s steps(40, end);
-    -webkit-animation-delay: 12s;
-    animation-delay: 12s;
+    -webkit-animation: type2 1.5s steps(40, end);
+    animation: type2 1.5s steps(40, end);
+    -webkit-animation-delay: 9s;
+    animation-delay: 9s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
@@ -197,10 +201,10 @@ section {
     white-space: nowrap;
     overflow: hidden;
     opacity: 0;
-    -webkit-animation: type 2s steps(40, end);
-    animation: type2 2s steps(40, end);
-    -webkit-animation-delay: 14s;
-    animation-delay: 14s;
+    -webkit-animation: type2 1.5s steps(40, end);
+    animation: type2 1.5s steps(40, end);
+    -webkit-animation-delay: 10.5s;
+    animation-delay: 10.5s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
@@ -541,34 +545,6 @@ span {
     /* Fallback color */
     background-color: rgba(0, 0, 0, 0);
     /* Black w/ opacity */
-}
-
-.modalstory11 {
-    display: none;
-    /* Hidden by default */
-    position: fixed;
-    /* Stay in place */
-    z-index: 0;
-    /* Sit on top */
-    padding-top: 45%;
-    /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%;
-    /* Full width */
-    height: 100%;
-    /* Full height */
-    overflow: auto;
-    /* Enable scroll if needed */
-
-    /* Fallback color */
-    background-color: rgba(0, 0, 0, 0);
-    /* Black w/ opacity */
-}
-
-
-.rii {
-    text-align: right;
 }
 
 .btn-whatever {
