@@ -71,17 +71,7 @@ body {
 
 }
 
-section {
 
-    background: url(../Assets/backg/jb.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100%;
-    overflow: hidden;
-
-}
 
 audio {
     position: absolute;

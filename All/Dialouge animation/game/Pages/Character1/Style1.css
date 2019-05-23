@@ -582,69 +582,6 @@ span {
 
 }
 
-#next4 {
-
-    font-weight: bolder;
-    align-content: right;
-    text-decoration: none;
-
-    animation: disslove 2s linear;
-    -webkit-animation: disslove 2s linear;
-    background-color: #444d53;
-
-
-    color: white;
-    border: 3px solid white;
-    padding: 9px 12px;
-    text-align: center;
-    display: inline-block;
-    -webkit-transition-duration: 0.4s;
-    font-family: var(--pix);
-    transition-duration: 0.8s;
-    font-size: 20px;
-    filter: blur(2px);
-}
-
-#next4:hover {
-    color: #444d53;
-    text-decoration: none;
-    filter: blur(0px);
-    border: 4px solid white;
-    background-color: white;
-}
-
-#next5 {
-
-    font-weight: bolder;
-    align-content: right;
-    text-decoration: none;
-
-    animation: disslove 21s linear;
-    -webkit-animation: disslove 21s linear;
-    background-color: #444d53;
-
-
-    color: white;
-    border: 3px solid white;
-    padding: 9px 12px;
-    text-align: center;
-    display: inline-block;
-    -webkit-transition-duration: 0.4s;
-    font-family: var(--pix);
-    transition-duration: 0.8s;
-    font-size: 20px;
-    filter: blur(2px);
-}
-
-#next5:hover {
-    color: #444d53;
-    text-decoration: none;
-    filter: blur(0px);
-    border: 4px solid white;
-    background-color: white;
-
-
-}
 
 @keyframes disslove {
     0% {
