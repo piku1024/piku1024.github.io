@@ -27,34 +27,59 @@ body {
 section {
     height: 100vh;
     background: url('../../Assets/backg/choice1a.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
     overflow: hidden;
 
 }
 
-section.change {
+.change {
     height: 100vh;
     background: url('../../Assets/backg/choice1b.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
     overflow: hidden;
 
 }
 
-section.change2 {
+.change2 {
     height: 100vh;
     background: url('../../Assets/backg/choice1c.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
     overflow: hidden;
 
 }
 
-section.change3 {
+.change3 {
     height: 100vh;
     background: url('../../Assets/backg/choice1d.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
     overflow: hidden;
 
 }
 
-section.change4 {
+.change4 {
     height: 100vh;
     background: url('../../Assets/backg/choice1db.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
     overflow: hidden;
 
 }
