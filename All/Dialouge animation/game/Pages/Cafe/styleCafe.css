@@ -27,37 +27,28 @@ body {
 section {
     height: 100vh;
     background: url('../../Assets/backg/cafe1.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
     overflow: hidden;
 
 }
 
-section.change {
-    height: 100vh;
-    background: url('../../Assets/backg/choice1b.png');
-    overflow: hidden;
-
+.colink {
+    color: #ffffff;
+    background-color: #444d53;
+    font-style: italic;
 }
 
-section.change2 {
-    height: 100vh;
-    background: url('../../Assets/backg/choice1c.png');
-    overflow: hidden;
-
+.colink:hover {
+    font-style: italic;
+    color: #444d53;
+    background-color: #ffffff;
+    text-decoration: none;
 }
 
-section.change3 {
-    height: 100vh;
-    background: url('../../Assets/backg/choice1d.png');
-    overflow: hidden;
-
-}
-
-section.change4 {
-    height: 100vh;
-    background: url('../../Assets/backg/choice1db.png');
-    overflow: hidden;
-
-}
 
 /* The Modal (background) */
 .modal-body {
@@ -79,8 +70,8 @@ section.change4 {
 
     white-space: nowrap;
     overflow: hidden;
-    -webkit-animation: type 2s steps(40, end);
-    animation: type 2s steps(40, end);
+    -webkit-animation: type 1.5s steps(40, end);
+    animation: type 1.5s steps(40, end);
     border-right: .15em solid rgba(233, 162, 30, 0);
 }
 
@@ -90,10 +81,10 @@ section.change4 {
     white-space: nowrap;
     overflow: hidden;
     opacity: 0;
-    -webkit-animation: type 2s steps(40, end);
-    animation: type2 2s steps(40, end);
-    -webkit-animation-delay: 2s;
-    animation-delay: 2s;
+    -webkit-animation: type2 1.5s steps(40, end);
+    animation: type2 1.5s steps(40, end);
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
@@ -102,10 +93,10 @@ section.change4 {
     white-space: nowrap;
     overflow: hidden;
     opacity: 0;
-    -webkit-animation: type 2s steps(40, end);
-    animation: type2 2s steps(40, end);
-    -webkit-animation-delay: 4s;
-    animation-delay: 4s;
+    -webkit-animation: type2 1.5s steps(40, end);
+    animation: type2 1.5s steps(40, end);
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
@@ -114,10 +105,10 @@ section.change4 {
     white-space: nowrap;
     overflow: hidden;
     opacity: 0;
-    -webkit-animation: type 2s steps(40, end);
-    animation: type2 2s steps(40, end);
-    -webkit-animation-delay: 6s;
-    animation-delay: 6s;
+    -webkit-animation: type2 1.5s steps(40, end);
+    animation: type2 1.5s steps(40, end);
+    -webkit-animation-delay: 4.5s;
+    animation-delay: 4.5s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
@@ -126,10 +117,10 @@ section.change4 {
     white-space: nowrap;
     overflow: hidden;
     opacity: 0;
-    -webkit-animation: type 2s steps(40, end);
-    animation: type2 2s steps(40, end);
-    -webkit-animation-delay: 8s;
-    animation-delay: 8s;
+    -webkit-animation: type2 1.5s steps(40, end);
+    animation: type2 1.5ss steps(40, end);
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
@@ -138,10 +129,10 @@ section.change4 {
     white-space: nowrap;
     overflow: hidden;
     opacity: 0;
-    -webkit-animation: type 2s steps(40, end);
-    animation: type2 2s steps(40, end);
-    -webkit-animation-delay: 710s;
-    animation-delay: 10s;
+    -webkit-animation: type2 1.5s steps(40, end);
+    animation: type2 1.5s steps(40, end);
+    -webkit-animation-delay: 7.5s;
+    animation-delay: 7.5s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
@@ -150,10 +141,22 @@ section.change4 {
     white-space: nowrap;
     overflow: hidden;
     opacity: 0;
-    -webkit-animation: type 2s steps(40, end);
-    animation: type2 2s steps(40, end);
-    -webkit-animation-delay: 12s;
-    animation-delay: 12s;
+    -webkit-animation: type2 1.5s steps(40, end);
+    animation: type2 1.5s steps(40, end);
+    -webkit-animation-delay: 9s;
+    animation-delay: 9s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(8) {
+    white-space: nowrap;
+    overflow: hidden;
+    opacity: 0;
+    -webkit-animation: type2 1.5s steps(40, end);
+    animation: type2 1.5s steps(40, end);
+    -webkit-animation-delay: 10.5s;
+    animation-delay: 10.5s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
@@ -249,12 +252,12 @@ span {
 
 .modalstory1 {
     display: block;
-    /* Hidden by default */
+
     position: fixed;
     /* Stay in place */
     z-index: 1;
     /* Sit on top */
-    padding-top: 150px;
+    padding-top: 45%;
     /* Location of the box */
     left: 0;
     top: 0;
@@ -277,10 +280,10 @@ span {
     padding: 0;
     text-align: left;
     border: 1px solid rgb(83, 83, 83);
-    box-shadow: 0px -3px 3px rgb(168, 168, 168);
+    box-shadow: 0px -8px 3px rgb(168, 168, 168);
     border-left: none;
     border-right: none;
-    width: 60%;
+    width: 88%;
 
     font-size: 1.5;
     -webkit-animation-name: animatetop;
@@ -296,7 +299,7 @@ span {
     /* Stay in place */
     z-index: 1;
     /* Sit on top */
-    padding-top: 150px;
+    padding-top: 45%;
     /* Location of the box */
     left: 0;
     top: 0;
@@ -319,7 +322,7 @@ span {
     /* Stay in place */
     z-index: 1;
     /* Sit on top */
-    padding-top: 150px;
+    padding-top: 45%;
     /* Location of the box */
     left: 0;
     top: 0;
@@ -342,7 +345,7 @@ span {
     /* Stay in place */
     z-index: 1;
     /* Sit on top */
-    padding-top: 150px;
+    padding-top: 45%;
     /* Location of the box */
     left: 0;
     top: 0;
@@ -365,7 +368,7 @@ span {
     /* Stay in place */
     z-index: 1;
     /* Sit on top */
-    padding-top: 150px;
+    padding-top: 45%;
     /* Location of the box */
     left: 0;
     top: 0;
@@ -388,7 +391,7 @@ span {
     /* Stay in place */
     z-index: 0;
     /* Sit on top */
-    padding-top: 30px;
+    padding-top: 45%;
     /* Location of the box */
     left: 0;
     top: 0;
@@ -404,231 +407,135 @@ span {
     /* Black w/ opacity */
 }
 
-.rii {
-    text-align: right;
+.modalstory7 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 0;
+    /* Sit on top */
+    padding-top: 45%;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0);
+    /* Black w/ opacity */
 }
 
-.btn-whatever {
+.modalstory8 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 0;
+    /* Sit on top */
+    padding-top: 45%;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
 
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0);
+    /* Black w/ opacity */
+}
 
-    font-weight: bolder;
-    align-content: right;
-    text-decoration: none;
+.modalstory9 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 0;
+    /* Sit on top */
+    padding-top: 45%;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
 
-    animation: disslove 14.7s linear;
-    -webkit-animation: disslove 14.7s linear;
-    background-color: #444d53;
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0);
+    /* Black w/ opacity */
+}
 
+.modalstory10 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 0;
+    /* Sit on top */
+    padding-top: 45%;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
 
-    color: white;
-    border: 3px solid white;
-    padding: 9px 12px;
-    text-align: center;
-    display: inline-block;
-    -webkit-transition-duration: 0.4s;
-    font-family: var(--pix);
-    transition-duration: 0.8s;
-    font-size: 20px;
-    filter: blur(2px);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0);
+    /* Black w/ opacity */
+}
+
+.modalstory11 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 0;
+    /* Sit on top */
+    padding-top: 45%;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0);
+    /* Black w/ opacity */
 }
 
 
-.btn-whatever:hover {
-    color: #444d53;
-    text-decoration: none;
-    filter: blur(0px);
-    border: 4px solid white;
-    background-color: white;
-
-
-}
-
-#next4 {
-
-    font-weight: bolder;
-    align-content: right;
-    text-decoration: none;
-
-    animation: disslove 2s linear;
-    -webkit-animation: disslove 2s linear;
-    background-color: #444d53;
-
-
-    color: white;
-    border: 3px solid white;
-    padding: 9px 12px;
-    text-align: center;
-    display: inline-block;
-    -webkit-transition-duration: 0.4s;
-    font-family: var(--pix);
-    transition-duration: 0.8s;
-    font-size: 20px;
-    filter: blur(2px);
-}
-
-#next4:hover {
-    color: #444d53;
-    text-decoration: none;
-    filter: blur(0px);
-    border: 4px solid white;
-    background-color: white;
-}
-
-#next5 {
-
-    font-weight: bolder;
-    align-content: right;
-    text-decoration: none;
-
-    animation: disslove 21s linear;
-    -webkit-animation: disslove 21s linear;
-    background-color: #444d53;
-
-
-    color: white;
-    border: 3px solid white;
-    padding: 9px 12px;
-    text-align: center;
-    display: inline-block;
-    -webkit-transition-duration: 0.4s;
-    font-family: var(--pix);
-    transition-duration: 0.8s;
-    font-size: 20px;
-    filter: blur(2px);
-}
-
-#next5:hover {
-    color: #444d53;
-    text-decoration: none;
-    filter: blur(0px);
-    border: 4px solid white;
-    background-color: white;
-
-
-}
-
-@keyframes disslove {
-    0% {
-
-        opacity: 0;
-    }
-
-    54% {
-
-        opacity: 0;
-    }
-
-    60% {
-        opacity: 1;
-
-    }
-
-    65% {
-
-        opacity: 0;
-    }
-
-    70% {
-        opacity: 1;
-
-    }
-
-    75% {
-
-        opacity: 0;
-    }
-
-    80% {
-        opacity: 1;
-
-    }
-
-    85% {
-
-        opacity: 0;
-    }
-
-    90% {
-        opacity: 1;
-
-    }
-
-    95% {
-
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-
-    }
-}
-
-@-webkit-keyframes disslove {
-    0% {
-
-        opacity: 0;
-    }
-
-    54% {
-
-        opacity: 0;
-    }
-
-    60% {
-        opacity: 1;
-
-    }
-
-    65% {
-
-        opacity: 0;
-    }
-
-    70% {
-        opacity: 1;
-
-    }
-
-    75% {
-
-        opacity: 0;
-    }
-
-    80% {
-        opacity: 1;
-
-    }
-
-    85% {
-
-        opacity: 0;
-    }
-
-    90% {
-        opacity: 1;
-
-    }
-
-    95% {
-
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-
-    }
+.imgs {
+    width: auto;
+    height: 319px;
 }
 
 .imgset {
-    display: none;
-    position: absolute;
-    left: 70%;
-    margin-top: -30%;
-    animation: diss 15s;
 
-    -webkit-animation: diss 30s;
+    position: relative;
+    left: 35%;
+
+    animation: diss 4s;
+
+    -webkit-animation: diss 4s;
 
 }
 
@@ -636,33 +543,33 @@ span {
     0% {
 
         opacity: 0;
-    }
-
-    10% {
-        opacity: 1;
 
     }
+
+
 
     100% {
+        opacity: 1;
 
-        transform: translateX(30vw) translateY(-40vh) scale(.1, .1);
     }
 }
 
 @-webkit-keyframes diss {
     0% {
+
         opacity: 0;
+
     }
 
-    30% {
-        opacity: 1;
-        display: block;
-    }
+
 
     100% {
-        opacity: 0;
+        opacity: 1;
+
     }
 }
+
+
 
 .big {
     height: 100px;
