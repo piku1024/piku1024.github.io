@@ -222,12 +222,13 @@
         }
 
         next1.onclick = function () {
+            $('section').toggleClass('change');
             modal.style.display = "none";
             modal2.style.display = "block";
 
         }
         next2.onclick = function () {
-            $('section').toggleClass('change');
+            $('section').toggleClass('change2');
             modal2.style.display = "none";
             modal3.style.display = "block";
 
@@ -240,6 +241,7 @@
         }
         next4.onclick = function () {
 
+            $('section').toggleClass('change3');
             modal4.style.display = "none";
             modal5.style.display = "block";
         }

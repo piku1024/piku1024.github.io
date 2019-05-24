@@ -26,7 +26,7 @@ body {
 
 section {
     height: 100vh;
-    background: url('../../Assets/backg/choice2a.png');
+    background: url('../../Assets/backg/dead.JPG');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -38,7 +38,7 @@ section {
 
 .change {
     height: 100vh;
-    background: url('../../Assets/backg/choice1b.png');
+    background: url('../../Assets/backg/choice2a.png');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -60,29 +60,6 @@ section {
 
 }
 
-.change3 {
-    height: 100vh;
-    background: url('../../Assets/backg/choice1d.png');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    overflow: hidden;
-
-}
-
-.change4 {
-    height: 100vh;
-    background: url('../../Assets/backg/choice1db.png');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    overflow: hidden;
-
-}
 
 .colink {
     color: #ffffff;

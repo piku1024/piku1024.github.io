@@ -56,7 +56,7 @@
                     <p>and then falls at your feet, holding his chest.</p>
                     <p>I try and look down to see if the shot came from my rifle.</p>
                     <p>I'm old now. I don't remember. But as I look down </p>
-
+                    &nbsp;
                     <p><a href="#" class="colink" id="next3"> Next </a></p>
                 </div>
             </div>
@@ -133,27 +133,21 @@
         var modal6 = document.getElementById('sixth');
         var top = document.getElementById('top');
 
-        function getSetGo() {
 
-            document.getElementById('image').style.display = "block";
-        }
 
         next1.onclick = function () {
             modal.style.display = "none";
             modal2.style.display = "block";
-            setTimeout("getSetGo()", 2400);
 
         }
         next2.onclick = function () {
-            document.getElementById('image').style.display = "none";
-
             modal2.style.display = "none";
             modal3.style.display = "block";
 
         }
         next3.onclick = function () {
 
-
+            $('section').toggleClass('change');
             modal3.style.display = "none";
             modal4.style.display = "block";
         }
@@ -168,7 +162,7 @@
             modal5.style.display = "block";
         }
         next6.onclick = function () {
-            $('section').toggleClass('change3');
+
             modal5.style.display = "none";
             modal6.style.display = "block";
         }

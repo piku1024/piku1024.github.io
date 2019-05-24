@@ -60,30 +60,6 @@ section {
 
 }
 
-.change3 {
-    height: 100vh;
-    background: url('../../Assets/backg/choice1d.png');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    overflow: hidden;
-
-}
-
-.change4 {
-    height: 100vh;
-    background: url('../../Assets/backg/choice1db.png');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    overflow: hidden;
-
-}
-
 .colink {
     color: #ffffff;
     background-color: #444d53;
@@ -271,33 +247,6 @@ span {
 
 /*-------------------------modal content Specially for top---------------------*/
 
-
-/* Add Animation */
-@-webkit-keyframes animatetop {
-    from {
-        top: -300px;
-        opacity: 0
-    }
-
-    to {
-        top: 0;
-        opacity: 1
-    }
-}
-
-@keyframes animatetop {
-    from {
-        top: -300px;
-        opacity: 0
-    }
-
-    to {
-        top: 0;
-        opacity: 1
-    }
-}
-
-
 .modalstory1 {
     display: block;
 
@@ -338,6 +287,31 @@ span {
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
     animation-duration: 0.4s;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
 }
 
 .modalstory2 {
