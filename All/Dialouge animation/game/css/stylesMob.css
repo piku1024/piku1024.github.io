@@ -1,37 +1,109 @@
-@media only screen and(max-width:425px) {
+.siz {
+    width: 15vw;
+}
 
-    section {
-        height: 200vh;
-        background: url(../Assets/backg/jb.jpg);
-        background-size: contain;
+.one {
+    position: absolute;
+    margin-left: 0;
+}
+
+.two {
+    position: absolute;
+    margin-top: 25vh;
+    margin-left: 30vw;
+}
+
+.thre {
+    position: absolute;
+    margin-top: 50vh;
+    margin-left: 60vw;
+}
+
+.invi {
+    animation: blink 4s linear infinite;
+    animation-delay: 1s;
+    -webkit-animation: blink 4s linear infinite;
+    -webkit-animation-delay: 1s;
+}
+
+@keyframes blink {
+
+    0% {
+        opacity: 1;
+    }
+
+    24% {
+        opacity: 1;
+    }
+
+    25% {
+        opacity: 0;
+    }
+
+    49% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    74% {
+        opacity: 1;
 
     }
 
-    .sect {
-        margin-top: -10vh;
-        height: 210vh;
-        background: url(../Assets/backg/jb.png);
-        background-size: contain;
+    75% {
+        opacity: 0;
+    }
 
+    99% {
+        opacity: 0;
+
+    }
+
+    100% {
+        opacity: 1;
     }
 
 }
 
-@media only screen and(max-width:768px) {
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
 
-    section {
-        height: 200vh;
-        background: url(../Assets/backg/jb.jpg);
-        background-size: contain;
+    24% {
+        opacity: 1;
+    }
+
+    25% {
+        opacity: 0;
+    }
+
+    49% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    74% {
+        opacity: 1;
 
     }
 
-    .sect {
-        margin-top: -10vh;
-        height: 210vh;
-        background: url(../Assets/backg/jb.jpg);
-        background-size: contain;
+    75% {
+        opacity: 0;
+    }
+
+    99% {
+        opacity: 0;
 
     }
 
+    100% {
+        opacity: 1;
+    }
 }
