@@ -27,6 +27,8 @@
                     <br>
                 </div>
             </div>
+            <img id="img1" class="pic" src="../../Assets/char/char1face2.png" alt="">
+
         </div>
 
         <div id="second" class="modalstory2">
@@ -48,23 +50,48 @@
                 </div>
             </div>
 
+
+
         </div>
 
         <div id="third" class="modalstory3">
             <!-- Modal content -->
-            <div class="modal-content1">
+            <img class="pic2" src="../../Assets/char/char1face1.png" alt="">
+            <img id="img2" class="pic2" src="../../Assets/char/char1face2.png" alt="">
+
+            <div class="modal-content2">
                 <div class="modal-body css-typing">
                     <p>"Guards look at that man. Guards. GUARDS!"</p>
-                    <p>Nobody can hear you over the noise of the event.</p>
 
-                    <p>.................................................</p>
-                    <p>...............................................</p>
                     &nbsp;
                     <p><a href="#" class="colink" id="next4"> Next</a></p>
 
                 </div>
             </div>
+
         </div>
+
+
+        <div id="third-2" class="modalstory3-2">
+            <!-- Modal content -->
+            <div class="modal-content1">
+                <div class="modal-body css-typing">
+
+                    <p>Nobody can hear you over the noise of the event.</p>
+
+                    <p>.................................................</p>
+                    <p>...............................................</p>
+                    &nbsp;
+                    <p><a href="#" class="colink" id="next4-2"> Next</a></p>
+
+                </div>
+            </div>
+            <img id="img3" class="pic" src="../../Assets/char/char1face3.png" alt="">
+
+        </div>
+
+
+
         <div id="fourth" class="modalstory4">
             <!-- Modal content -->
             <div class="modal-content1">
@@ -97,21 +124,38 @@
             </div>
         </div>
         <div id="sixth" class="modalstory6">
+
+            <img class="pic2" src="../../Assets/char/char1face3.png" alt="">
+            <img id="img5" class="pic2" src="../../Assets/char/char1face2.png" alt="">
             <!-- Modal content -->
-            <div class="modal-content1">
+            <div class="modal-content2">
                 <div class="modal-body css-typing">
                     <p>"Son........................"</p>
                     <p>................................................</p>
-                    <p>Your father says his last words, but you can't hear them.</p>
-                    <p>There's too much noise.</p>
-                    <p>He dies.</p>
-                    <p>Leaving you to forever wonder what he wanted to say.</p>
+
                     &nbsp;
                     <p><a href="#" class="colink" id="next7"> Next</a></p>
 
                 </div>
             </div>
         </div>
+
+        <div id="sixth-2" class="modalstory6-2">
+            <!-- Modal content -->
+            <div class="modal-content1">
+                <div class="modal-body css-typing">
+
+                    <p>Your father says his last words, but you can't hear them.</p>
+                    <p>There's too much noise.</p>
+                    <p>He dies.</p>
+                    <p>Leaving you to forever wonder what he wanted to say.</p>
+                    &nbsp;
+                    <p><a href="#" class="colink" id="next7-2"> Next</a></p>
+
+                </div>
+            </div>
+        </div>
+
         <div id="seven" class="modalstory7">
             <!-- Modal content -->
             <div class="modal-content1">
@@ -133,6 +177,8 @@
         </div>
         </div>
         <div id="eigth" class="modalstory8">
+            <img class="pic2" src="../../Assets/char/char1face1.png" alt="">
+            <img id="img4" class="pic2" src="../../Assets/char/char1face2.png" alt="">
             <!-- Modal content -->
             <div class="modal-content1">
                 <div class="modal-body css-typing">
@@ -149,19 +195,35 @@
             </div>
         </div>
         <div id="ninth" class="modalstory9">
+            <img class="pic2" src="../../Assets/char/char1face1.png" alt="">
+            <img id="img6" class="pic2" src="../../Assets/char/char1face2.png" alt="">
             <!-- Modal content -->
             <div class="modal-content1">
                 <div class="modal-body css-typing">
                     <p>"I've been lost, ever since that day. </p>
-                    <p> If only I could have heard father's last words.</p>
-                    <p> Anyway. It's time to get dressed and have some breakfast
-                    </p>
+                    <p> If only I could have heard father's last words."</p>
 
+                    &nbsp;
                     <p><a href="#" class="colink" id="next11"> Next</a></p>
 
                 </div>
             </div>
         </div>
+
+        <div id="ninth-2" class="modalstory9-2">
+            <!-- Modal content -->
+            <div class="modal-content1">
+                <div class="modal-body css-typing">
+
+                    <p> Anyway. It's time to get dressed and have some breakfast
+                    </p>
+                    &nbsp;
+                    <p><a href="#" class="colink" id="next11-2"> Next</a></p>
+
+                </div>
+            </div>
+        </div>
+
         <div id="tenth" class="modalstory10">
             <!-- Modal content -->
             <div class="card">
@@ -228,10 +290,16 @@
             modal2.style.display = "none";
             modal4.style.display = "block";
         }
+
         next4.onclick = function () {
 
             modal3.style.display = "none";
-            modal5.style.display = "block";
+            document.getElementById('third-2').style.display = "block";
+        }
+        document.getElementById('next4-2').onclick = function () {
+
+            document.getElementById('third-2').style.display = "none";
+            modal4.style.display = "block";
         }
         next5.onclick = function () {
 
@@ -244,8 +312,13 @@
             modal6.style.display = "block";
         }
         document.getElementById('next7').onclick = function () {
-            $('section').toggleClass('change2');
+
             modal6.style.display = "none";
+            document.getElementById('sixth-2').style.display = "block";
+        }
+        document.getElementById('next7-2').onclick = function () {
+            $('section').toggleClass('change2');
+            document.getElementById('sixth-2').style.display = "none";
             document.getElementById('seven').style.display = "block";
         }
         document.getElementById('next8').onclick = function () {
@@ -258,6 +331,7 @@
             document.getElementById('seven').style.display = "none";
             document.getElementById('eigth').style.display = "block";
         }
+
         document.getElementById('next10').onclick = function () {
 
             document.getElementById('eigth').style.display = "none";
@@ -266,6 +340,11 @@
         document.getElementById('next11').onclick = function () {
 
             document.getElementById('ninth').style.display = "none";
+            document.getElementById('ninth-2').style.display = "block";
+        }
+        document.getElementById('next11-2').onclick = function () {
+
+            document.getElementById('ninth-2').style.display = "none";
             document.getElementById('tenth').style.display = "block";
         }
         document.getElementById('next12').onclick = function () {
