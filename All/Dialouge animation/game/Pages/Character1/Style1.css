@@ -270,13 +270,15 @@ span {
     /* Black w/ opacity */
 }
 
+
+
 .modal-content1 {
     position: relative;
     background-color: #fefefe00;
     margin: auto;
     padding: 0;
     text-align: left;
-    border: 1px solid rgb(83, 83, 83);
+    border: 1px solid rgb(255, 255, 255);
 
     border-left: none;
     border-right: none;
@@ -287,6 +289,30 @@ span {
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
     animation-duration: 0.4s;
+}
+
+.modal-content1:before {
+    content: '';
+    position: absolute;
+    top: .7px;
+    right: -8px;
+    bottom: -.7px;
+    left: -8px;
+    background: #ffffff;
+    transform: skew(2deg, 2deg);
+    z-index: -1;
+}
+
+.modal-content2:before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    right: -2px;
+    bottom: -2px;
+    left: -2px;
+    background: #ffffff;
+    transform: skew(2deg, 2deg);
+    z-index: -1;
 }
 
 /* Add Animation */
@@ -889,14 +915,11 @@ span {
     font-family: var(--gug);
 }
 
-#img1 {
-    position: absolute;
-    margin-top: -3vh;
-}
 
 .pic2 {
     position: absolute;
-    margin-top: -30vh;
+    margin-top: -22vh;
+    z-index: 1;
 }
 
 #img2 {
