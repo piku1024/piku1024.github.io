@@ -274,6 +274,51 @@ span {
     }
 }
 
+.modal-content2 {
+    position: relative;
+    background-color: #fefefe00;
+    margin: auto;
+    padding: 0;
+    text-align: left;
+    border: 1px solid rgb(83, 83, 83);
+    box-shadow: 0px -3px 3px rgb(168, 168, 168);
+    border-left: none;
+    border-right: none;
+    width: 88%;
+
+    font-size: 1.5;
+    -webkit-animation-name: animateleft;
+    -webkit-animation-duration: 1.8s;
+    animation-name: animateleft;
+    animation-duration: 1.8s;
+    animation-timing-function: cubic-bezier(0, 1.61, .82, 1.84);
+    -webkit-animation-timing-function: cubic-bezier(.05, .71, .61, 1.84);
+}
+
+/* Add Animation */
+@-webkit-keyframes animateleft {
+    from {
+        left: -300px;
+        opacity: 0
+    }
+
+    to {
+        left: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animateleft {
+    from {
+        left: -300px;
+        opacity: 0
+    }
+
+    to {
+        left: 0;
+        opacity: 1
+    }
+}
 
 .modalstory1 {
     display: block;
