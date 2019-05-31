@@ -9,13 +9,49 @@
 
 .two {
     position: absolute;
-    margin-top: 25vh;
+
     margin-left: 30vw;
 }
 
 .thre {
     position: absolute;
-    margin-top: 50vh;
+
+    margin-left: 60vw;
+}
+
+.one2 {
+    position: absolute;
+    margin-left: 0;
+    margin-top: 30vh;
+}
+
+.two2 {
+    position: absolute;
+    margin-top: 30vh;
+    margin-left: 30vw;
+}
+
+.thre2 {
+    position: absolute;
+    margin-top: 30vh;
+    margin-left: 60vw;
+}
+
+.one3 {
+    position: absolute;
+    margin-left: 0;
+    margin-top: 60vh;
+}
+
+.two3 {
+    position: absolute;
+    margin-top: 60vh;
+    margin-left: 30vw;
+}
+
+.thre3 {
+    position: absolute;
+    margin-top: 60vh;
     margin-left: 60vw;
 }
 

@@ -16,6 +16,7 @@
             <!-- Modal content -->
             <div class="modal-content1">
                 <div class="modal-body css-typing">
+
                     <p>He visited you again in your dreams, Havaldar Kesri Singh.</p>
                     <p>As always, he was wearing his uniform.</p>
                     <p>Including the red spot on his chest where you shot him,</p>
@@ -29,25 +30,43 @@
         </div>
         <div id="second" class="modalstory2">
             <!-- Modal content -->
-            <div class="modal-content2">
+            <div class="modal-content3">
                 <div class="modal-body css-typing">
 
+                    <img class="pic2" src="../../Assets/char/cho2.png" alt="">
+
+
                     <p>“I almost died of the bubonic plague,” said Havaldar Kesri Singh.</p>
-                    <p>"But you're already dead."</p>
                     &nbsp;
-                    <p>“Rand saab saved my life." Havaldar Kesri repeated. </p>
                     <p><a href="#" class="colink" id="next2"> Next </a></p>
                     <br>
                 </div>
             </div>
         </div>
-
-        <div id="third" class="modalstory3">
+        <div id="second2" class="modalstory2-2">
             <!-- Modal content -->
             <div class="modal-content2">
                 <div class="modal-body css-typing">
+                    <img class="pic2" src="../../Assets/char/char2face2.png" alt="">
+                    <img id="img2" class="pic2" src="../../Assets/char/char2face1.png" alt="">
+
+                    <p>"But you're already dead."</p>
+                    &nbsp;
+
+                    <p><a href="#" class="colink" id="next2b"> Next </a></p>
+                    <br>
+                </div>
+            </div>
+        </div>
 
 
+        <div id="third" class="modalstory3">
+            <!-- Modal content -->
+            <div class="modal-content3">
+                <div class="modal-body css-typing">
+
+                    <img class="pic2" src="../../Assets/char/cho2.png" alt="">
+                    <p>“Rand saab saved my life." Havaldar Kesri repeated. </p>
                     <p>"Rand saab saved many lives. Rand saab is a great man.</p>
                     <p>God bless Rand saab.”</p>
                     <p>"Why did you kill Rand Saab."</p>
@@ -65,24 +84,55 @@
 
         <div id="fourth" class="modalstory4">
             <!-- Modal content -->
-            <div class="modal-content1">
+            <div class="modal-content2">
                 <div class="modal-body css-typing">
+
+                    <img class="pic2" src="../../Assets/char/char2face4.png" alt="">
+                    <img id="img4" class="pic2" src="../../Assets/char/char2face1.png" alt="">
                     <p>He humiliated my city. Somebody needed to fight for our dignity</p>
-                    <p>"Rand saab saved me life. And that of many people in Pune"</p>
+
 
                     &nbsp;
                     <p><a href="#" class="colink" id="next5"> Next </a></p>
                 </div>
             </div>
         </div>
+        <div id="fourth2" class="modalstory4-2">
+            <!-- Modal content -->
+            <div class="modal-content3">
+                <div class="modal-body css-typing">
+                    <img class="pic2" src="../../Assets/char/cho2.png" alt="">
+                    <p>"Rand saab saved me life. And that of many people in Pune"</p>
+
+                    &nbsp;
+                    <p><a href="#" class="colink" id="next5b"> Next </a></p>
+                </div>
+            </div>
+        </div>
+
         <div id="fifth" class="modalstory5">
             <!-- Modal content -->
-            <div class="modal-content1">
+            <div class="modal-content2">
                 <div class="modal-body css-typing">
+                    <img class="pic2" src="../../Assets/char/char2face4.png" alt="">
+                    <img id="img6" class="pic2" src="../../Assets/char/char2face1.png" alt="">
                     <p>He was an instrument of British tyranny. We could not tolerate tyranny.</p>
-                    <p>"Rand saab saved me life. And that of many people in Pune"</p>
+
                     &nbsp;
                     <p><a href="#" class="colink" id="next6"> Next </a></p>
+
+                </div>
+            </div>
+        </div>
+        <div id="fifth2" class="modalstory5-2">
+            <!-- Modal content -->
+            <div class="modal-content3">
+                <div class="modal-body css-typing">
+                    <img class="pic2" src="../../Assets/char/cho2.png" alt="">
+
+                    <p>"Rand saab saved me life. And that of many people in Pune"</p>
+                    &nbsp;
+                    <p><a href="#" class="colink" id="next6b"> Next </a></p>
 
                 </div>
             </div>
@@ -182,6 +232,13 @@
             document.getElementById('image').style.display = "none";
 
             modal2.style.display = "none";
+            document.getElementById('second2').style.display = "block";
+
+        }
+        document.getElementById('next2b').onclick = function () {
+
+
+            document.getElementById('second2').style.display = "none";
             modal3.style.display = "block";
 
         }
@@ -199,11 +256,21 @@
         next5.onclick = function () {
 
             modal4.style.display = "none";
+            document.getElementById('fourth2').style.display = "block";
+        }
+        document.getElementById('next5b').onclick = function () {
+
+            document.getElementById('fourth2').style.display = "none";
             modal6.style.display = "block";
         }
         next6.onclick = function () {
             $('section').toggleClass('change2');
             modal5.style.display = "none";
+            document.getElementById('fifth2').style.display = "block";
+        }
+        document.getElementById('next6b').onclick = function () {
+            $('section').toggleClass('change2');
+            document.getElementById('fifth2').style.display = "none";
             modal6.style.display = "block";
         }
         document.getElementById('next7').onclick = function () {

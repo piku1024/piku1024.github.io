@@ -291,29 +291,7 @@ span {
     animation-duration: 0.4s;
 }
 
-.modal-content1:before {
-    content: '';
-    position: absolute;
-    top: .7px;
-    right: -8px;
-    bottom: -.7px;
-    left: -8px;
-    background: #ffffff;
-    transform: skew(2deg, 2deg);
-    z-index: -1;
-}
 
-.modal-content2:before {
-    content: '';
-    position: absolute;
-    top: 2px;
-    right: -2px;
-    bottom: -2px;
-    left: -2px;
-    background: #ffffff;
-    transform: skew(2deg, 2deg);
-    z-index: -1;
-}
 
 /* Add Animation */
 @-webkit-keyframes animatetop {
@@ -1004,6 +982,7 @@ span {
     animation-timing-function: cubic-bezier(0, 1.61, .82, 1.84);
     -webkit-animation-timing-function: cubic-bezier(.05, .71, .61, 1.84);
 }
+
 
 
 
