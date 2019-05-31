@@ -414,7 +414,7 @@ span {
     /* Stay in place */
     z-index: 1;
     /* Sit on top */
-    padding-top: 45%;
+    padding-top: 85%;
     /* Location of the box */
     left: 0;
     top: 0;
@@ -437,7 +437,7 @@ span {
     /* Stay in place */
     z-index: 1;
     /* Sit on top */
-    padding-top: 45%;
+    padding-top: 85%;
     /* Location of the box */
     left: 0;
     top: 0;
@@ -460,7 +460,7 @@ span {
     /* Stay in place */
     z-index: 1;
     /* Sit on top */
-    padding-top: 45%;
+    padding-top: 85%;
     /* Location of the box */
     left: 0;
     top: 0;
@@ -483,7 +483,7 @@ span {
     /* Stay in place */
     z-index: 1;
     /* Sit on top */
-    padding-top: 45%;
+    padding-top: 85%;
     /* Location of the box */
     left: 0;
     top: 0;
@@ -506,7 +506,7 @@ span {
     /* Stay in place */
     z-index: 1;
     /* Sit on top */
-    padding-top: 45%;
+    padding-top: 85%;
     /* Location of the box */
     left: 0;
     top: 0;
@@ -529,7 +529,7 @@ span {
     /* Stay in place */
     z-index: 1;
     /* Sit on top */
-    padding-top: 45%;
+    padding-top: 85%;
     /* Location of the box */
     left: 0;
     top: 0;
@@ -552,7 +552,7 @@ span {
     /* Stay in place */
     z-index: 1;
     /* Sit on top */
-    padding-top: 45%;
+    padding-top: 85%;
     /* Location of the box */
     left: 0;
     top: 0;
@@ -868,17 +868,18 @@ span {
 
 .pic2 {
     position: absolute;
-    margin-top: -22vh;
-    z-index: 1;
+    margin-top: -24.5vh;
+    z-index: -1;
+    margin-left: 70%;
 }
 
-#img1 {
-
-    animation: magic 10s;
-    animation-delay: .5s;
-    -webkit-animation: magic 10s;
-    -webkit-animation-delay: .5s;
+.pic3 {
+    position: absolute;
+    margin-top: -27vh;
+    z-index: -1;
 }
+
+
 
 #img2 {
 
@@ -888,7 +889,9 @@ span {
     -webkit-animation-delay: .5s;
 }
 
-#img3 {
+
+
+#img4 {
 
     animation: magic 10s;
     animation-delay: .5s;
@@ -896,7 +899,7 @@ span {
     -webkit-animation-delay: .5s;
 }
 
-#img4 {
+#img6 {
 
     animation: magic 10s;
     animation-delay: .5s;
