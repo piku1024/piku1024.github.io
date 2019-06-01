@@ -77,7 +77,9 @@ section {
 /* The Modal (background) */
 .modal-body {
     padding: 1vw 2vw 2px 2vw;
-    background-color: #303538d7;
+    background-color: #30353800;
+
+
 
 }
 
@@ -276,14 +278,19 @@ span {
     position: relative;
     background-color: #fefefe00;
     margin: auto;
-    padding: 0;
+
+    padding: 7vh 0 2vh 12vw;
     text-align: left;
-    border: 1px solid rgb(255, 255, 255);
+
 
     border-left: none;
     border-right: none;
     width: 88%;
-
+    background-image: url(../../Assets/char/textbox.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100%;
     font-size: 1.5;
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
@@ -318,6 +325,60 @@ span {
     }
 }
 
+.modal-content2 {
+    position: relative;
+    background-color: #fefefe00;
+    margin: auto;
+    padding: 7vh 0 2vh 12vw;
+    text-align: left;
+
+
+    border-left: none;
+    border-right: none;
+    width: 88%;
+
+    background-image: url(../../Assets/char/textboxleft.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100%;
+    font-size: 1.5;
+    -webkit-animation-name: animateleft;
+    -webkit-animation-duration: 1.8s;
+    animation-name: animateleft;
+    animation-duration: 1.8s;
+    animation-timing-function: cubic-bezier(0, 1.61, .82, 1.84);
+    -webkit-animation-timing-function: cubic-bezier(.05, .71, .61, 1.84);
+}
+
+
+
+
+/* Add Animation */
+@-webkit-keyframes animateleft {
+    from {
+        left: -300px;
+        opacity: 0
+    }
+
+    to {
+        left: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animateleft {
+    from {
+        left: -300px;
+        opacity: 0
+    }
+
+    to {
+        left: 0;
+        opacity: 1
+    }
+}
+
 .modalstory2 {
     display: none;
     /* Hidden by default */
@@ -337,7 +398,7 @@ span {
     /* Enable scroll if needed */
 
     /* Fallback color */
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(56, 51, 51, 0);
     /* Black w/ opacity */
 }
 
@@ -896,8 +957,8 @@ span {
 
 .pic2 {
     position: absolute;
-    margin-top: -22vh;
-    z-index: 1;
+    margin-top: -23vh;
+    z-index: -1;
 }
 
 #img2 {
@@ -957,56 +1018,5 @@ span {
 
     100% {
         opacity: 0;
-    }
-}
-
-
-
-.modal-content2 {
-    position: relative;
-    background-color: #fefefe00;
-    margin: auto;
-    padding: 0;
-    text-align: left;
-    border: 1px solid rgb(83, 83, 83);
-    box-shadow: 0px -3px 3px rgb(168, 168, 168);
-    border-left: none;
-    border-right: none;
-    width: 88%;
-
-    font-size: 1.5;
-    -webkit-animation-name: animateleft;
-    -webkit-animation-duration: 1.8s;
-    animation-name: animateleft;
-    animation-duration: 1.8s;
-    animation-timing-function: cubic-bezier(0, 1.61, .82, 1.84);
-    -webkit-animation-timing-function: cubic-bezier(.05, .71, .61, 1.84);
-}
-
-
-
-
-/* Add Animation */
-@-webkit-keyframes animateleft {
-    from {
-        left: -300px;
-        opacity: 0
-    }
-
-    to {
-        left: 0;
-        opacity: 1
-    }
-}
-
-@keyframes animateleft {
-    from {
-        left: -300px;
-        opacity: 0
-    }
-
-    to {
-        left: 0;
-        opacity: 1
     }
 }
