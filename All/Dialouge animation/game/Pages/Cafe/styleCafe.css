@@ -300,7 +300,7 @@ span {
     /* Full height */
     overflow: auto;
     /* Enable scroll if needed */
-
+    font-family: var(--rob);
     /* Fallback color */
     background-color: rgba(0, 0, 0, 0);
     /* Black w/ opacity */
@@ -313,7 +313,7 @@ span {
 
     padding: 7vh 0 2vh 12vw;
     text-align: left;
-
+    font-family: var(--rob);
 
     border-left: none;
     border-right: none;
@@ -337,7 +337,7 @@ span {
 
     padding: 7vh 0 2vh 12vw;
     text-align: left;
-
+    font-family: var(--rob);
 
     border-left: none;
     border-right: none;
@@ -371,7 +371,7 @@ span {
     /* Full height */
     overflow: auto;
     /* Enable scroll if needed */
-
+    font-family: var(--rob);
     /* Fallback color */
     background-color: rgba(0, 0, 0, 0);
     /* Black w/ opacity */
@@ -394,7 +394,7 @@ span {
     /* Full height */
     overflow: auto;
     /* Enable scroll if needed */
-
+    font-family: var(--rob);
     /* Fallback color */
     background-color: rgba(0, 0, 0, 0);
     /* Black w/ opacity */
@@ -417,7 +417,7 @@ span {
     /* Full height */
     overflow: auto;
     /* Enable scroll if needed */
-
+    font-family: var(--rob);
     /* Fallback color */
     background-color: rgba(0, 0, 0, 0);
     /* Black w/ opacity */
