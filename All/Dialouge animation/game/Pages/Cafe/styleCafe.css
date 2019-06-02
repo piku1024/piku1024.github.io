@@ -38,7 +38,7 @@ section {
 
 .change {
     height: 100vh;
-    background: url('../../Assets/backg/cafetable.JPG');
+    background: url('../../Assets/backg/cafetable.png');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -49,7 +49,7 @@ section {
 
 .change2 {
     height: 100vh;
-    background: url('../../Assets/backg/cafe.JPG');
+    background: url('../../Assets/backg/cafe.png');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -86,7 +86,7 @@ section {
 /* The Modal (background) */
 .modal-body {
     padding: 1vw 2vw 2px 2vw;
-    background-color: #303538d7;
+    background-color: #30353800;
 
 }
 
@@ -97,7 +97,7 @@ section {
 
 .css-typing p {
     font-family: var(--rob);
-    color: rgb(250, 140, 14);
+    color: rgb(0, 0, 0);
     font-size: 24px;
     width: 96%;
 
@@ -310,14 +310,43 @@ span {
     position: relative;
     background-color: #fefefe00;
     margin: auto;
-    padding: 0;
+
+    padding: 7vh 0 2vh 12vw;
     text-align: left;
-    border: 1px solid rgb(83, 83, 83);
-    box-shadow: 0px -8px 3px rgb(168, 168, 168);
+
+
     border-left: none;
     border-right: none;
     width: 88%;
+    background-image: url(../../Assets/char/textboxx.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100%;
+    font-size: 1.5;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+}
 
+.modal-content1new {
+    position: relative;
+    background-color: #fefefe00;
+    margin: auto;
+
+    padding: 7vh 0 2vh 12vw;
+    text-align: left;
+
+
+    border-left: none;
+    border-right: none;
+    width: 88%;
+    background-image: url(../../Assets/char/textboxxbig.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100%;
     font-size: 1.5;
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
@@ -564,7 +593,7 @@ span {
 .imgset {
 
     position: relative;
-    left: 35%;
+    left: 27%;
 
     animation: diss 4s;
 
