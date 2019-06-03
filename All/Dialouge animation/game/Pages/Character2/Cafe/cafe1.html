@@ -78,6 +78,7 @@
 
         <div id="fifth" class="modalstory5">
             <!-- Modal content -->
+            <p><img class="imgset" src="../../Assets/char/cafeman1.png" alt=""></p>
             <div class="modal-content1">
                 <div class="modal-body css-typing">
                     <p>The first one is wearing expensive clothes. </p>
@@ -90,7 +91,7 @@
                     <p><a href="#" class="colink" id="next5"> See the others</a></p>
                 </div>
             </div>
-            <p><img class="imgset" src="../../Assets/char/cafeman1.png" alt="">
+
         </div>
         <div id="sixth" class="modalstory6">
 
@@ -110,6 +111,7 @@
         </div>
         <div id="seven" class="modalstory7">
             <!-- Modal content -->
+            <p> <img class="imgset" src="../../Assets/char/cafeman3.png" alt=""> </p>
             <div class="modal-content1">
                 <div class="modal-body css-typing">
                     <p>He is the smallest, and looks as if he is ill. </p>
@@ -120,7 +122,7 @@
                     <p><a href="#" class="colink" id="next7"> Next</a></p>
                 </div>
             </div>
-            <p> <img class="imgset" src="../../Assets/char/cafeman3.png" alt=""> </p>
+
 
         </div>
         <div id="eight" class="modalstory8">
@@ -132,27 +134,26 @@
                     <p>Who should you follow? (Select one man by clicking on the image)</p>
 
 
-
-
                     &nbsp;
-                    <p><a href="#" class="colink" id="next8"> next </a></p>
+
                 </div>
             </div>
-            <p> <img class="imgs" src="../../Assets/char/cafeman1.png" alt=""> <img class="imgs"
-                    src="../../Assets/char/cafeman2.png" alt=""> <img class="imgs" src="../../Assets/char/cafeman3.png"
-                    alt=""> </p>
+            <p><a href="#" id="next8a"> <img class="imgs" src="../../Assets/char/cafeman1.png" alt=""> </a>
+                <a href="#" id="next8b"> <img class="imgs" src="../../Assets/char/cafeman2.png" alt=""> </a>
+                <a href="#" id="next8c"> <img class="imgs" src="../../Assets/char/cafeman3.png" alt=""> </a></p>
+
         </div>
         <div id="ninth" class="modalstory9">
             <!-- Modal content -->
             <div class="modal-content1">
                 <div class="modal-body css-typing">
-                    <p>The man walks for a short distance before he reaches the riverfront.</p>
-                    <p> There, he sits down on a bench. </p>
-                    <p>From where he is sitting, there's a clean line of sight, </p>
-                    <p> 4-5 miles on each side.</p>
+                    <p>The man walks for a short distance before he reaches the </p>
+                    <p>riverfront. There, he sits down on a bench. </p>
+                    <p>From where he is sitting, there's a clean line of </p>
+                    <p>sight, 4-5 miles on each side.A crowd is slowly forming.</p>
+                    \
                     &nbsp;
-                    <p>A crowd is slowly forming.</p>
-                    &nbsp;
+
                     <p><a href="#" class="colink" id="next9"> Next </a></p>
                 </div>
             </div>
@@ -161,11 +162,21 @@
             <!-- Modal content -->
             <div class="modal-content1">
                 <div class="modal-body css-typing">
+
                     <p>30 minutes later.</p>&nbsp;
                     <p>The man seems to be waiting for something. In the </p>
                     <p>meantime, the crowd gets larger. </p>
                     &nbsp;
                     <p>Soon, you sense a slight buzz. You look to your left, and </p>
+                    <p><a href="#" class="colink" id="next10"> Next </a></p>
+                </div>
+            </div>
+        </div>
+        <div id="eleven" class="modalstory11">
+            <!-- Modal content -->
+            <div class="modal-content1">
+                <div class="modal-body css-typing">
+
                     <p>see 6 cars travelling slowly, towards the end of the road, a </p>
                     <p>few kilometres away. </p>
 
@@ -173,11 +184,11 @@
                     <p>Just then, you also catch sight of two posters on the </p>
                     <p>opposite wall, stuck right next to each other.</p>
                     &nbsp;
-                    <p><a href="#" class="colink" id="next10"> Next </a></p>
+                    <p><a href="#" class="colink" id="next11"> Next </a></p>
                 </div>
             </div>
         </div>
-        <div id="eleven" class="modalstory11">
+        <div id="twelve" class="modalstory12">
             <!-- Modal content -->
             <div class="modal-content1">
                 <div class="modal-body css-typing">
@@ -210,7 +221,12 @@
         var next5 = document.getElementById('next5');
         var next6 = document.getElementById('next6');
         var next7 = document.getElementById('next7');
-        var next8 = document.getElementById('next8');
+        var next9 = document.getElementById('next9');
+        var next10 = document.getElementById('next10');
+        var next11 = document.getElementById('next11');
+        var next12 = document.getElementById('next12');
+
+
         var modal = document.getElementById('first');
         var modal2 = document.getElementById('second');
         var modal3 = document.getElementById('third');
@@ -219,6 +235,9 @@
         var modal6 = document.getElementById('sixth');
         var modal7 = document.getElementById('seven');
         var modal8 = document.getElementById('eight');
+        var modal10 = document.getElementById('ten');
+        var modal11 = document.getElementById('eleven');
+        var modal12 = document.getElementById('twelve');
         var top = document.getElementById('top');
 
         function getSetGo() {
@@ -264,6 +283,38 @@
 
             modal7.style.display = "none";
             modal8.style.display = "block";
+        }
+        document.getElementById('next8a').onclick = function () {
+            modal8.style.display = "none";
+            document.getElementById('ninth').style.display = "block";
+        }
+        document.getElementById('next8b').onclick = function () {
+            modal8.style.display = "none";
+            document.getElementById('ninth').style.display = "block";
+        }
+        document.getElementById('next8c').onclick = function () {
+            modal8.style.display = "none";
+            document.getElementById('ninth').style.display = "block";
+        }
+        next9.onclick = function () {
+
+            document.getElementById('ninth').style.display = "none";
+            modal10.style.display = "block";
+        }
+        next10.onclick = function () {
+
+            modal10.style.display = "none";
+            modal11.style.display = "block";
+        }
+        next11.onclick = function () {
+
+            modal11.style.display = "none";
+            modal12.style.display = "block";
+        }
+        next12.onclick = function () {
+
+            modal12.style.display = "none";
+
         }
     </script>
 

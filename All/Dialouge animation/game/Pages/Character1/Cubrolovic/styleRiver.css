@@ -1,0 +1,740 @@
+@import url('https://fonts.googleapis.com/css?family=Aclonica|Galdeano|Gugi|Lemon|Press+Start+2P');
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+
+:root {
+    --gal: 'Galdeano', sans-serif;
+    --gug: 'Gugi', cursive;
+    --best: "Audiowide", cursive;
+    --pix: 'Press Start 2P', cursive;
+    --alc: 'Aclonica', sans-serif;
+    --lem: 'Lemon', cursive;
+    --rob: 'Roboto', sans-serif;
+    --bakcol: linear-gradient(to bottom, #ff0000, #ffa600);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    height: 100vh;
+    background: url('../../../Assets/backg/riverside.JPG');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    overflow: hidden;
+
+}
+
+.change {
+    height: 100vh;
+    background: url('../../../Assets/backg/street.JPG');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    overflow: hidden;
+}
+
+
+
+.colink {
+    color: #ffffff;
+    background-color: #444d53;
+    font-style: italic;
+}
+
+.colink:hover {
+    font-style: italic;
+    color: #444d53;
+    background-color: #ffffff;
+    text-decoration: none;
+}
+
+
+/* The Modal (background) */
+.modal-body {
+    padding: 1vw 2vw 2px 2vw;
+    background-color: #30353800;
+
+}
+
+/*----------------------------------------typewriter-------------------------------------====================*/
+
+
+/*---------------typwiter-----xxxxxxxxxxx---------effects-----------*/
+
+.css-typing p {
+    font-family: var(--rob);
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    width: 96%;
+
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-animation: type 1.5s steps(40, end);
+    animation: type 1.5s steps(40, end);
+    border-right: .15em solid rgba(233, 162, 30, 0);
+}
+
+
+
+.css-typing p:nth-child(2) {
+    white-space: nowrap;
+    overflow: hidden;
+    opacity: 0;
+    -webkit-animation: type2 1.5s steps(40, end);
+    animation: type2 1.5s steps(40, end);
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(3) {
+    white-space: nowrap;
+    overflow: hidden;
+    opacity: 0;
+    -webkit-animation: type2 1.5s steps(40, end);
+    animation: type2 1.5s steps(40, end);
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(4) {
+    white-space: nowrap;
+    overflow: hidden;
+    opacity: 0;
+    -webkit-animation: type2 1.5s steps(40, end);
+    animation: type2 1.5s steps(40, end);
+    -webkit-animation-delay: 4.5s;
+    animation-delay: 4.5s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(5) {
+    white-space: nowrap;
+    overflow: hidden;
+    opacity: 0;
+    -webkit-animation: type2 1.5s steps(40, end);
+    animation: type2 1.5ss steps(40, end);
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(6) {
+    white-space: nowrap;
+    overflow: hidden;
+    opacity: 0;
+    -webkit-animation: type2 1.5s steps(40, end);
+    animation: type2 1.5s steps(40, end);
+    -webkit-animation-delay: 7.5s;
+    animation-delay: 7.5s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(7) {
+    white-space: nowrap;
+    overflow: hidden;
+    opacity: 0;
+    -webkit-animation: type2 1.5s steps(40, end);
+    animation: type2 1.5s steps(40, end);
+    -webkit-animation-delay: 9s;
+    animation-delay: 9s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(8) {
+    white-space: nowrap;
+    overflow: hidden;
+    opacity: 0;
+    -webkit-animation: type2 1.5s steps(40, end);
+    animation: type2 1.5s steps(40, end);
+    -webkit-animation-delay: 10.5s;
+    animation-delay: 10.5s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@keyframes type {
+    from {
+        width: 0;
+    }
+}
+
+@-webkit-keyframes type {
+    from {
+        width: 0;
+    }
+}
+
+span {
+    animation: blink 1s infinite;
+}
+
+@keyframes type2 {
+    0% {
+        width: 0;
+    }
+
+    from {
+        opacity: 0;
+    }
+
+    1% {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes type2 {
+    0% {
+        width: 0;
+    }
+
+    from {
+        opacity: 0;
+    }
+
+    1% {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/*-------------------------modal content Specially for top---------------------*/
+
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+
+.modalstory1 {
+    display: block;
+
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 25%;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    font-family: var(--rob);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0);
+    /* Black w/ opacity */
+}
+
+.modal-content1 {
+    position: relative;
+    background-color: #fefefe00;
+    margin: auto;
+
+    padding: 7vh 0 2vh 12vw;
+    text-align: left;
+    font-family: var(--rob);
+
+    border-left: none;
+    border-right: none;
+    width: 88%;
+    background-image: url(../../../Assets/char/textboxx.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100%;
+    font-size: 1.5;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+}
+
+.modal-content1new {
+    position: relative;
+    background-color: #fefefe00;
+    margin: auto;
+
+    padding: 7vh 0 2vh 12vw;
+    text-align: left;
+    font-family: var(--rob);
+
+    border-left: none;
+    border-right: none;
+    width: 88%;
+    background-image: url(../../Assets/char/textboxxbig.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100%;
+    font-size: 1.5;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+}
+
+.modalstory2 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 45%;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    font-family: var(--rob);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0);
+    /* Black w/ opacity */
+}
+
+.modalstory3 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 45%;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    font-family: var(--rob);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0);
+    /* Black w/ opacity */
+}
+
+.modalstory4 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 45%;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    font-family: var(--rob);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0);
+    /* Black w/ opacity */
+}
+
+.modalstory5 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 45%;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0);
+    /* Black w/ opacity */
+}
+
+.modalstory6 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 0;
+    /* Sit on top */
+    padding-top: 45%;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0);
+    /* Black w/ opacity */
+}
+
+.modalstory7 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 0;
+    /* Sit on top */
+    padding-top: 45%;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0);
+    /* Black w/ opacity */
+}
+
+.modalstory8 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 0;
+    /* Sit on top */
+    padding-top: 45%;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0);
+    /* Black w/ opacity */
+}
+
+.modalstory9 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 0;
+    /* Sit on top */
+    padding-top: 45%;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0);
+    /* Black w/ opacity */
+}
+
+.modalstory10 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 0;
+    /* Sit on top */
+    padding-top: 45%;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0);
+    /* Black w/ opacity */
+}
+
+.modalstory11 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 0;
+    /* Sit on top */
+    padding-top: 45%;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0);
+    /* Black w/ opacity */
+}
+
+.modalstory12 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 0;
+    /* Sit on top */
+    padding-top: 45%;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0);
+    /* Black w/ opacity */
+}
+
+.modalstory13 {
+    display: none;
+    position: fixed;
+    z-index: 0;
+    padding-top: 45%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.modalstory14 {
+    display: none;
+    position: fixed;
+    z-index: 0;
+    padding-top: 45%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.modalstory15 {
+    display: none;
+    position: fixed;
+    z-index: 0;
+    padding-top: 45%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.modalstory16 {
+    display: none;
+    position: fixed;
+    z-index: 0;
+    padding-top: 45%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.modalstory17 {
+    display: none;
+    position: fixed;
+    z-index: 0;
+    padding-top: 45%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.modalstory18 {
+    display: none;
+    position: fixed;
+    z-index: 0;
+    padding-top: 45%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.modalstory19 {
+    display: none;
+    position: fixed;
+    z-index: 0;
+    padding-top: 45%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+.imgs {
+    width: auto;
+    height: 319px;
+}
+
+.imgset {
+
+    position: relative;
+    left: 27%;
+
+    animation: diss 4s;
+
+    -webkit-animation: diss 4s;
+
+}
+
+@keyframes diss {
+    0% {
+
+        opacity: 0;
+
+    }
+
+
+
+    100% {
+        opacity: 1;
+
+    }
+}
+
+@-webkit-keyframes diss {
+    0% {
+
+        opacity: 0;
+
+    }
+
+
+
+    100% {
+        opacity: 1;
+
+    }
+}
+
+
+
+.big {
+    height: 100px;
+    width: 200px;
+
+}
+
+.big:hover {
+    z-index: 1;
+    height: 350px;
+    width: 700px;
+}
