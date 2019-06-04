@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1024">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Archduke assassination</title>
+    <link rel="stylesheet" href="./Arch.css">
+</head>
+
+<body>
+    <section id="top">
+
+        <div id="first" class="modalstory1">
+            <!-- Modal content -->
+            <div class="modal-content1">
+                <div class="modal-body css-typing">
+
+                    <p>Just then, three cars turn into the street. You learn later </p>
+                    <p>that the Archduke was going to visit the wounded from </p>
+                    <p>the earlier, failed bombing. </p>
+                    &nbsp;
+                    <p>What followed next, might have been the most significant moment </p>
+                    <p>of the 20th century, and also the strangest coincidence.</p>
+                    <p><a href="#" class="colink" id="next1"> Next </a></p><br>
+                </div>
+            </div>
+        </div>
+
+        <div id="second" class="modalstory2">
+            <!-- Modal content -->
+            <div class="modal-content1">
+                <div class="modal-body css-typing">
+
+                    <p>For later you learnt that the drivers weren't updated about </p>
+
+                    <p>the new route, so they took a wrong turn.</p>
+
+                    &nbsp;
+                    <p>The wrong turn took them right in front of Gavillo. Somebody </p>
+                    <p>shouted out to the driver about his error, and as he tried to turn </p>
+                    <p>around, the car stalled. </p>
+                    <p><a href="#" class="colink" id="next2"> Next </a></p><br>
+                </div>
+            </div>
+        </div>
+        <div id="third" class="modalstory3">
+            <!-- Modal content -->
+            <div class="modal-content1">
+                <div class="modal-body css-typing">
+
+                    <p>Right in front of Gavillo Princep. </p>
+                    &nbsp;
+                    <p>Gavillo stood there for a few moments. </p>
+                    <p>Perhaps he was unable to believe his luck.</p>
+                    &nbsp;
+                    <p><a href="#" class="colink" id="next3"> Next </a></p><br>
+                </div>
+            </div>
+        </div>
+
+        <div id="fourth" class="modalstory4">
+            <!-- Modal content -->
+            <div class="modal-content1">
+                <div class="modal-body css-typing">
+                    <p>Then, as the car started, he took a few steps forward, </p>
+                    <p>reached into his coat, and.............</p>
+
+                    &nbsp;
+                    <p><a href="#" class="colink" id="next4"> Next</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div id="fifth" class="modalstory5">
+            <!-- Modal content -->
+
+            <div class="modal-content1">
+                <div class="modal-body css-typing">
+                    <p>Two shots. </p>
+                    <p>That’s all it took, for the greatest empires in the world to </p>
+                    <p>get to the brink of the biggest war in history.</p>
+                    &nbsp;
+                    <p>One of them hit the Archduke. The other hit his wife. </p>
+                    <p><a href="#" class="colink" id="next5"> Next</a></p>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+        //$('section').mousemove(function (e) {
+        //    var moveX = (e.pageX * -1 / 5);
+        //    var moveY = (e.pageY * -1 / 5);
+        //    $(this).css('background-position', moveX + 'px ' + moveY + 'px ')
+        //})
+
+        var next1 = document.getElementById('next1');
+        var next2 = document.getElementById('next2');
+        var next3 = document.getElementById('next3');
+        var next4 = document.getElementById('next4');
+        var next5 = document.getElementById('next5');
+
+
+
+
+        var modal = document.getElementById('first');
+        var modal2 = document.getElementById('second');
+        var modal3 = document.getElementById('third');
+        var modal4 = document.getElementById('fourth');
+        var modal5 = document.getElementById('fifth');
+
+
+        var top = document.getElementById('top');
+
+        function getSetGo() {
+
+            document.getElementById('image').style.display = "block";
+        }
+
+        next1.onclick = function () {
+
+            modal.style.display = "none";
+            modal2.style.display = "block";
+
+        }
+        next2.onclick = function () {
+
+            modal2.style.display = "none";
+            modal3.style.display = "block";
+
+        }
+        next3.onclick = function () {
+
+
+            modal3.style.display = "none";
+            modal4.style.display = "block";
+        }
+        next4.onclick = function () {
+
+            $('section').toggleClass('change');
+            modal4.style.display = "none";
+            modal5.style.display = "block";
+        }
+        next5.onclick = function () {
+
+            modal5.style.display = "none";
+
+        }
+    </script>
+
+
+</body>
+
+</html>
