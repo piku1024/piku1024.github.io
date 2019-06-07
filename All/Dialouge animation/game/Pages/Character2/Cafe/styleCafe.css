@@ -26,7 +26,7 @@ body {
 
 section {
     height: 100vh;
-    background: url('../../Assets/backg/choice1c.png');
+    background: url('../../../Assets/backg/choice1c.png');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -38,7 +38,7 @@ section {
 
 .change {
     height: 100vh;
-    background: url('../../Assets/backg/cafetable.png');
+    background: url('../../../Assets/backg/cafetable.png');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -49,7 +49,7 @@ section {
 
 .change2 {
     height: 100vh;
-    background: url('../../Assets/backg/cafe.png');
+    background: url('../../../Assets/backg/cafe.png');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -60,7 +60,7 @@ section {
 
 .change3 {
     height: 100vh;
-    background: url('../../Assets/backg/cafe1.png');
+    background: url('../../../Assets/backg/cafe1.png');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -318,7 +318,7 @@ span {
     border-left: none;
     border-right: none;
     width: 88%;
-    background-image: url(../../Assets/char/textboxx.png);
+    background-image: url(../../../Assets/char/textboxx.png);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -342,7 +342,7 @@ span {
     border-left: none;
     border-right: none;
     width: 88%;
-    background-image: url(../../Assets/char/textboxxbig.png);
+    background-image: url(../../../Assets/char/textboxxbig.png);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
