@@ -241,24 +241,24 @@ span {
 @-webkit-keyframes animatetop {
     from {
         top: -300px;
-        opacity: 0
+        opacity: 0;
     }
 
     to {
         top: 0;
-        opacity: 1
+        opacity: 1;
     }
 }
 
 @keyframes animatetop {
     from {
         top: -300px;
-        opacity: 0
+        opacity: 0;
     }
 
     to {
         top: 0;
-        opacity: 1
+        opacity: 1;
     }
 }
 
@@ -266,24 +266,24 @@ span {
 @-webkit-keyframes animateleft {
     from {
         left: -300px;
-        opacity: 0
+        opacity: 0;
     }
 
     to {
         left: 0;
-        opacity: 1
+        opacity: 1;
     }
 }
 
 @keyframes animateleft {
     from {
         left: -300px;
-        opacity: 0
+        opacity: 0;
     }
 
     to {
         left: 0;
-        opacity: 1
+        opacity: 1;
     }
 }
 
@@ -291,24 +291,24 @@ span {
 @-webkit-keyframes animateright {
     from {
         right: -300px;
-        opacity: 0
+        opacity: 0;
     }
 
     to {
         right: 0;
-        opacity: 1
+        opacity: 1;
     }
 }
 
 @keyframes animateright {
     from {
         right: -300px;
-        opacity: 0
+        opacity: 0;
     }
 
     to {
         right: 0;
-        opacity: 1
+        opacity: 1;
     }
 }
 
@@ -697,7 +697,7 @@ span {
 
     position: relative;
     left: 62%;
-    margin-top: -17vh;
+    margin-top: -27vh;
     animation: diss 2s;
 
     -webkit-animation: diss 2s;

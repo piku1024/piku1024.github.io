@@ -230,27 +230,76 @@ span {
 @-webkit-keyframes animatetop {
     from {
         top: -300px;
-        opacity: 0
+        opacity: 0;
     }
 
     to {
         top: 0;
-        opacity: 1
+        opacity: 1;
     }
 }
 
 @keyframes animatetop {
     from {
         top: -300px;
-        opacity: 0
+        opacity: 0;
     }
 
     to {
         top: 0;
-        opacity: 1
+        opacity: 1;
     }
 }
 
+/* Add Animation */
+@-webkit-keyframes animateleft {
+    from {
+        left: -300px;
+        opacity: 0;
+    }
+
+    to {
+        left: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes animateleft {
+    from {
+        left: -300px;
+        opacity: 0;
+    }
+
+    to {
+        left: 0;
+        opacity: 1;
+    }
+}
+
+/* Add Animation */
+@-webkit-keyframes animateright {
+    from {
+        right: -300px;
+        opacity: 0;
+    }
+
+    to {
+        right: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes animateright {
+    from {
+        right: -300px;
+        opacity: 0
+    }
+
+    to {
+        right: 0;
+        opacity: 1
+    }
+}
 
 .modalstory1 {
     display: block;
@@ -299,7 +348,53 @@ span {
     animation-duration: 0.4s;
 }
 
+.modal-content2 {
+    position: relative;
+    background-color: #fefefe00;
+    margin: auto;
 
+    padding: 7vh 0 2vh 12vw;
+    text-align: left;
+    font-family: var(--rob);
+
+    border-left: none;
+    border-right: none;
+    width: 88%;
+    background-image: url(../../../Assets/char/textboxx.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100%;
+    font-size: 1.5;
+    -webkit-animation-name: animateleft;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animateleft;
+    animation-duration: 0.4s;
+}
+
+.modal-content3 {
+    position: relative;
+    background-color: #fefefe00;
+    margin: auto;
+
+    padding: 7vh 0 2vh 12vw;
+    text-align: left;
+    font-family: var(--rob);
+
+    border-left: none;
+    border-right: none;
+    width: 88%;
+    background-image: url(../../../Assets/char/textboxx.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100%;
+    font-size: 1.5;
+    -webkit-animation-name: animateright;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animateright;
+    animation-duration: 0.4s;
+}
 
 .modalstory2 {
     display: none;
@@ -308,7 +403,7 @@ span {
     /* Stay in place */
     z-index: 1;
     /* Sit on top */
-    padding-top: 45%;
+    padding-top: 85%;
     /* Location of the box */
     left: 0;
     top: 0;
@@ -354,7 +449,7 @@ span {
     /* Stay in place */
     z-index: 1;
     /* Sit on top */
-    padding-top: 45%;
+    padding-top: 85%;
     /* Location of the box */
     left: 0;
     top: 0;
@@ -377,7 +472,7 @@ span {
     /* Stay in place */
     z-index: 1;
     /* Sit on top */
-    padding-top: 45%;
+    padding-top: 85%;
     /* Location of the box */
     left: 0;
     top: 0;
@@ -400,7 +495,7 @@ span {
     /* Stay in place */
     z-index: 0;
     /* Sit on top */
-    padding-top: 45%;
+    padding-top: 85%;
     /* Location of the box */
     left: 0;
     top: 0;
@@ -423,7 +518,7 @@ span {
     /* Stay in place */
     z-index: 0;
     /* Sit on top */
-    padding-top: 45%;
+    padding-top: 85%;
     /* Location of the box */
     left: 0;
     top: 0;
@@ -508,7 +603,47 @@ span {
     /* Black w/ opacity */
 }
 
+.pic2 {
+    position: absolute;
+    margin-top: -23vh;
+    z-index: -1;
+}
 
+#img1 {
+
+    animation: magic 10s;
+    animation-delay: .5s;
+    -webkit-animation: magic 10s;
+    -webkit-animation-delay: .5s;
+}
+
+@keyframes magic {
+    0% {
+        opacity: 1;
+    }
+
+    .1% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes magic {
+    0% {
+        opacity: 1;
+    }
+
+    .1% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
 
 .imgs {
     width: auto;
@@ -518,11 +653,11 @@ span {
 .imgset {
 
     position: relative;
-    left: 27%;
+    left: 62%;
+    margin-top: -17vh;
+    animation: diss 2s;
 
-    animation: diss 4s;
-
-    -webkit-animation: diss 4s;
+    -webkit-animation: diss 2s;
 
 }
 
