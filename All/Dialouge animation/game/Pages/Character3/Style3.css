@@ -12,7 +12,7 @@
     --alc: 'Aclonica', sans-serif;
     --lem: 'Lemon', cursive;
     --rob: 'Roboto', sans-serif;
-    --bakcol: linear-gradient(to bottom, #ff0000, #ffa600);
+    --bakcol: linear-gradient(to bottom, #2f71ff, #00eeff);
 }
 
 * {
@@ -26,7 +26,7 @@ body {
 
 section {
     height: 100vh;
-    background: url('../../Assets/backg/choice2a.png');
+    background: url('../../Assets/backg/Civil\ War\ Background.png');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -34,6 +34,21 @@ section {
 
     overflow: hidden;
 
+}
+
+.btn-lg {
+
+    background-image: var(--bakcol);
+    color: rgb(228, 228, 228);
+    border: 2px solid white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    -webkit-transition-duration: 0.4s;
+    font-family: var(--pix);
+    transition-duration: 0.8s;
+    font-size: 20px;
+    border-radius: 18px;
 }
 
 .change {
@@ -65,7 +80,7 @@ section {
 /* The Modal (background) */
 .modal-body {
     padding: 1vw 2vw 2px 2vw;
-    background-color: #303538d7;
+    background-color: #30353800;
 
 }
 
@@ -275,18 +290,24 @@ span {
     /* Black w/ opacity */
 }
 
+
 .modal-content1 {
     position: relative;
     background-color: #fefefe00;
     margin: auto;
-    padding: 0;
+
+    padding: 7vh 0 2vh 12vw;
     text-align: left;
-    border: 1px solid rgb(83, 83, 83);
-    box-shadow: 0px -8px 3px rgb(168, 168, 168);
+
+
     border-left: none;
     border-right: none;
     width: 88%;
-
+    background-image: url(../../Assets/char/textbox.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100%;
     font-size: 1.5;
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
@@ -679,4 +700,8 @@ span {
     z-index: 1;
     height: 350px;
     width: 700px;
+}
+
+#image {
+    margin-left: 29%;
 }

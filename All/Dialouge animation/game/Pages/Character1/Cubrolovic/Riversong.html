@@ -138,8 +138,9 @@
                     <p> You don't have much time to decide.</p>
 
                     &nbsp;
-                    <p><a href="#" class="colink" id="next8a"> Do not intervene</a></p>
-                    <p><a href="#" class="colink" id="next8b"> Try and stop the man</a></p>
+                    <p><a class="btn-lg colink" role="button" href="#" id="next8a"> Do not intervene </a></p>
+                    <p><a class="btn-lg colink" href="#" id="next8b" role="button"> Try and stop the man </a></p>
+
 
                 </div>
             </div>
@@ -316,10 +317,11 @@
                     <p> and then turns around and starts walking.</p>
 
                     &nbsp;
-                    <p><a href="../Cubrolovic/Police.html" class="colink" id="next8a"> Inform the Police about what you
-                            saw</a>
-                    </p>
-                    <p><a href="../Cubrolovic/Chase.html" class="colink" id="next19"> Follow the man </a></p>
+
+                    <p><a class="btn-lg colink" href="../Cubrolovic/Police.html" id="next20" role="button"> Inform the
+                            Police about what you saw </a></p>
+                    <p><a class="btn-lg colink" href="../Cubrolovic/Police.html" id="next19" role="button">Follow the
+                            man </a></p>
 
                 </div>
             </div>
@@ -355,6 +357,7 @@
         var next17 = document.getElementById('next17');
         var next18 = document.getElementById('next18');
         var next19 = document.getElementById('next19');
+        var next20 = document.getElementById('next20');
 
 
         var modal = document.getElementById('first');
@@ -490,6 +493,11 @@
             modal19.style.display = "block";
         }
         next19.onclick = function () {
+
+            modal12.style.display = "none";
+
+        }
+        next20.onclick = function () {
 
             modal12.style.display = "none";
 

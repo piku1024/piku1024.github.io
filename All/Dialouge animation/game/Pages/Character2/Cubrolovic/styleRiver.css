@@ -12,7 +12,7 @@
     --alc: 'Aclonica', sans-serif;
     --lem: 'Lemon', cursive;
     --rob: 'Roboto', sans-serif;
-    --bakcol: linear-gradient(to bottom, #ff0000, #ffa600);
+    --bakcol: linear-gradient(to bottom, #2f71ff, #00eeff);
 }
 
 * {
@@ -34,6 +34,21 @@ section {
 
     overflow: hidden;
 
+}
+
+.btn-lg {
+
+    background-image: var(--bakcol);
+    color: rgb(228, 228, 228);
+    border: 2px solid white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    -webkit-transition-duration: 0.4s;
+    font-family: var(--pix);
+    transition-duration: 0.8s;
+    font-size: 20px;
+    border-radius: 18px;
 }
 
 .change {

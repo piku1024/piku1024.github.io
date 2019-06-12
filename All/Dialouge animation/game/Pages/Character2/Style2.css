@@ -12,7 +12,7 @@
     --alc: 'Aclonica', sans-serif;
     --lem: 'Lemon', cursive;
     --rob: 'Roboto', sans-serif;
-    --bakcol: linear-gradient(to bottom, #ff0000, #ffa600);
+    --bakcol: linear-gradient(to bottom, #2f71ff, #00eeff);
 }
 
 * {
@@ -34,6 +34,21 @@ section {
 
     overflow: hidden;
 
+}
+
+.btn-lg {
+
+    background-image: var(--bakcol);
+    color: rgb(228, 228, 228);
+    border: 2px solid white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    -webkit-transition-duration: 0.4s;
+    font-family: var(--pix);
+    transition-duration: 0.8s;
+    font-size: 20px;
+    border-radius: 18px;
 }
 
 .change {
@@ -78,7 +93,7 @@ section {
 /* The Modal (background) */
 .modal-body {
     padding: 1vw 2vw 2px 2vw;
-    background-color: #303538d7;
+    background-color: #30353800;
 
 }
 
@@ -278,14 +293,19 @@ span {
     position: relative;
     background-color: #fefefe00;
     margin: auto;
-    padding: 0;
+    padding: 7vh 0 2vh 12vw;
     text-align: left;
-    border: 1px solid rgb(83, 83, 83);
-    box-shadow: 0px -3px 3px rgb(168, 168, 168);
+
+
     border-left: none;
     border-right: none;
     width: 88%;
 
+    background-image: url(../../Assets/char/textboxleft.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100%;
     font-size: 1.5;
     -webkit-animation-name: animateleft;
     -webkit-animation-duration: 1.8s;
@@ -299,22 +319,29 @@ span {
     position: relative;
     background-color: #fefefe00;
     margin: auto;
-    padding: 0;
+    padding: 7vh 0 2vh 12vw;
     text-align: left;
-    border: 1px solid rgb(83, 83, 83);
-    box-shadow: 0px -3px 3px rgb(168, 168, 168);
+
+
     border-left: none;
     border-right: none;
     width: 88%;
 
+    background-image: url(../../Assets/char/textboxright.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100%;
     font-size: 1.5;
-    -webkit-animation-name: animateright;
+    -webkit-animation-name: animateleft;
     -webkit-animation-duration: 1.8s;
-    animation-name: animateright;
+    animation-name: animateleft;
     animation-duration: 1.8s;
     animation-timing-function: cubic-bezier(0, 1.61, .82, 1.84);
     -webkit-animation-timing-function: cubic-bezier(.05, .71, .61, 1.84);
 }
+
+
 
 /* Add Animation */
 @-webkit-keyframes animateleft {
@@ -388,24 +415,31 @@ span {
     /* Black w/ opacity */
 }
 
+
 .modal-content1 {
     position: relative;
     background-color: #fefefe00;
     margin: auto;
-    padding: 0;
+
+    padding: 7vh 0 2vh 12vw;
     text-align: left;
-    border: 1px solid rgb(83, 83, 83);
-    box-shadow: 0px -8px 3px rgb(168, 168, 168);
+
+
     border-left: none;
     border-right: none;
     width: 88%;
-
+    background-image: url(../../Assets/char/textbox.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100%;
     font-size: 1.5;
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
     animation-duration: 0.4s;
 }
+
 
 .modalstory2 {
     display: none;
@@ -868,15 +902,16 @@ span {
 
 .pic2 {
     position: absolute;
-    margin-top: -24.5vh;
+    margin-top: -23vh;
     z-index: -1;
-    margin-left: 70%;
+    margin-left: 50%;
 }
 
 .pic3 {
     position: absolute;
     margin-top: -27vh;
     z-index: -1;
+    margin-left: -22%;
 }
 
 
@@ -933,4 +968,9 @@ span {
     100% {
         opacity: 0;
     }
+}
+
+#image {
+    position: relative;
+    margin-left: 27%;
 }

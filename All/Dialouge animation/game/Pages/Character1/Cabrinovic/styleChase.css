@@ -12,7 +12,7 @@
     --alc: 'Aclonica', sans-serif;
     --lem: 'Lemon', cursive;
     --rob: 'Roboto', sans-serif;
-    --bakcol: linear-gradient(to bottom, #ff0000, #ffa600);
+    --bakcol: linear-gradient(to bottom, #2f71ff, #00eeff);
 }
 
 * {
@@ -22,6 +22,21 @@
 body {
     margin: 0;
     padding: 0;
+}
+
+.btn-lg {
+
+    background-image: var(--bakcol);
+    color: rgb(228, 228, 228);
+    border: 2px solid white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    -webkit-transition-duration: 0.4s;
+    font-family: var(--pix);
+    transition-duration: 0.8s;
+    font-size: 20px;
+    border-radius: 18px;
 }
 
 section {
@@ -241,24 +256,24 @@ span {
 @-webkit-keyframes animatetop {
     from {
         top: -300px;
-        opacity: 0
+        opacity: 0;
     }
 
     to {
         top: 0;
-        opacity: 1
+        opacity: 1;
     }
 }
 
 @keyframes animatetop {
     from {
         top: -300px;
-        opacity: 0
+        opacity: 0;
     }
 
     to {
         top: 0;
-        opacity: 1
+        opacity: 1;
     }
 }
 
@@ -266,24 +281,24 @@ span {
 @-webkit-keyframes animateleft {
     from {
         left: -300px;
-        opacity: 0
+        opacity: 0;
     }
 
     to {
         left: 0;
-        opacity: 1
+        opacity: 1;
     }
 }
 
 @keyframes animateleft {
     from {
         left: -300px;
-        opacity: 0
+        opacity: 0;
     }
 
     to {
         left: 0;
-        opacity: 1
+        opacity: 1;
     }
 }
 
@@ -291,24 +306,24 @@ span {
 @-webkit-keyframes animateright {
     from {
         right: -300px;
-        opacity: 0
+        opacity: 0;
     }
 
     to {
         right: 0;
-        opacity: 1
+        opacity: 1;
     }
 }
 
 @keyframes animateright {
     from {
         right: -300px;
-        opacity: 0
+        opacity: 0;
     }
 
     to {
         right: 0;
-        opacity: 1
+        opacity: 1;
     }
 }
 
@@ -697,7 +712,7 @@ span {
 
     position: relative;
     left: 62%;
-    margin-top: -17vh;
+    margin-top: -27vh;
     animation: diss 2s;
 
     -webkit-animation: diss 2s;

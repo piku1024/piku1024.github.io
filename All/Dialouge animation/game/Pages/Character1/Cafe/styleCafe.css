@@ -98,7 +98,7 @@ section {
 .css-typing p {
     font-family: var(--rob);
     color: rgb(0, 0, 0);
-    font-size: 24px;
+    font-size: 26px;
     width: 96%;
 
     white-space: nowrap;
