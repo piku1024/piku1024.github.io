@@ -849,6 +849,7 @@ span {
     padding: 40px;
     z-index: -1;
     font-family: var(--gug);
+    font-size: x-large;
 }
 
 .pic2 {

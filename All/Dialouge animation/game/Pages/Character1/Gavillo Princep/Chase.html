@@ -129,6 +129,27 @@
                 </div>
             </div>
         </div>
+        <div id="eight2" class="modalstory8-2">
+            <!-- Modal content -->
+            <div class="card">
+                <div class="imgBox">
+                    <img src="../../../Assets/backg/bookcover.png" alt="">
+                </div>
+                <div class="details">
+                    <h1>Achievement page</h1>
+                    &nbsp;
+                    <p>
+                        Congratulations ! You made your first friend .
+                    </p>
+
+                    <p>Throughout your journey you will have the chance to make friends. These friendships could be very
+                        helpful in the trials ahead !</p>
+                    &nbsp;
+                    <p><img src="../../../Assets//char/friend.png alt="></p> &nbsp;
+                    <p><a href="#" class="colink" id="next8-2"> Next</a></p>
+                </div>
+            </div>
+        </div>
         <div id="nine" class="modalstory9">
             <!-- Modal content -->
             <p> <img class="imgset" src="../../../Assets/char/friend.png" alt=""> </p>
@@ -191,6 +212,7 @@
         var next6 = document.getElementById('next6');
         var next7 = document.getElementById('next7');
         var next8a = document.getElementById('next8a');
+        var next8ac = document.getElementById('next8-2');
         var next8b = document.getElementById('next8b');
         var next9 = document.getElementById('next9');
         var next10 = document.getElementById('next10');
@@ -207,6 +229,7 @@
         var modal6 = document.getElementById('sixth');
         var modal7 = document.getElementById('seven');
         var modal8 = document.getElementById('eight');
+        var modal8b = document.getElementById('eight2');
         var modal9 = document.getElementById('nine');
         var modal10 = document.getElementById('ten');
         var modal11 = document.getElementById('eleven');
@@ -257,6 +280,16 @@
 
             modal7.style.display = "none";
             modal8.style.display = "block";
+        }
+        next8a.onclick = function () {
+
+            modal8.style.display = "none";
+            modal8b.style.display = "block";
+        }
+        next8ac.onclick = function () {
+
+            modal8b.style.display = "none";
+            modal10.style.display = "block";
         }
         next8b.onclick = function () {
 
