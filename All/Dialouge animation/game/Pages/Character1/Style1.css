@@ -38,7 +38,7 @@ section {
 
 .btn-lg {
 
-    background-image: var(--bakcol);
+    background: darkgrey;
     color: rgb(228, 228, 228);
     border: 2px solid white;
     padding: 15px 32px;
@@ -78,7 +78,8 @@ section {
 .colink {
     color: #ffffff;
     background-color: #444d53;
-    font-style: italic;
+
+    font-size: 140%;
 }
 
 .colink:hover {
@@ -266,6 +267,29 @@ span {
 
 .modalstory1 {
     display: block;
+
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 45%;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0);
+    /* Black w/ opacity */
+}
+
+.modalstory1fix {
+    display: none;
 
     position: fixed;
     /* Stay in place */
@@ -585,7 +609,7 @@ span {
     /* Stay in place */
     z-index: 0;
     /* Sit on top */
-    padding-top: 85%;
+    padding-top: 45%;
     /* Location of the box */
     left: 0;
     top: 0;
@@ -608,7 +632,7 @@ span {
     /* Stay in place */
     z-index: 0;
     /* Sit on top */
-    padding-top: 85%;
+    padding-top: 45%;
     /* Location of the box */
     left: 0;
     top: 0;
@@ -823,7 +847,7 @@ span {
 .imgset {
     display: none;
     position: relative;
-    left: 50%;
+    left: 40%;
 
     animation: diss 30s;
 
@@ -899,7 +923,7 @@ span {
 
 .card {
     position: absolute;
-    top: 50%;
+    top: 57%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 650px;
@@ -1035,4 +1059,14 @@ span {
     100% {
         opacity: 0;
     }
+}
+
+p.extra {
+    background-color: aliceblue;
+    margin-top: -38%;
+    font-size: 200%;
+    font-family: var(--rob);
+    padding-left: 3%;
+    padding-top: 4%;
+    padding-bottom: 4%;
 }

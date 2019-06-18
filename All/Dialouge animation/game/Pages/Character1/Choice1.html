@@ -16,14 +16,29 @@
             <!-- Modal content -->
             <div class="modal-content1">
                 <div class="modal-body css-typing">
+                    <p>Your father looks so regal in his uniform,</p>
+                    <p> surrounded by the adoring public.</p>
                     <p>It's a night of joy- festival of Las Fallas De Valencia. </p>
                     <p>Your father looks so regal in his uniform. </p>
                     <p>The carriage is sorrounded by people.</p>
                     &nbsp;
+
+                    <p><a href="#" class="colink" id="next1"> Next</a></p>
+                    <br>
+                </div>
+            </div>
+
+        </div>
+        <div id="firstfix" class="modalstory1fix">
+            <!-- Modal content -->
+            <div class="modal-content1">
+                <div class="modal-body css-typing">
+
+
                     <p>You feel a sense of dread.</p>
                     <p> You've been here before. </p>
-                    <p>You know what is going to happen.</p>
-                    <p><a href="#" class="colink" id="next1"> Next</a></p>
+                    <p>You know what is going to happen.</p>&nbsp;
+                    <p><a href="#" class="colink" id="next1f"> Next</a></p>
                     <br>
                 </div>
             </div>
@@ -31,18 +46,18 @@
         </div>
 
         <div id="second" class="modalstory2">
-            <!-- Modal content -->
+            <!-- Modal content --><img id="image" class="imgset" src="../../Assets/char/saw_man.png" alt="the man">
             <div class="modal-content1">
                 <div class="modal-body css-typing">
                     <p>You see a man standing a few hundred feet away.</p>
                     <p>He seems normal, harmless even.</p>
-                    <img id="image" class="imgset" src="../../Assets/char/saw_man.png" alt="the man">
+
                     &nbsp;
                     <p>Yet you feel this great sense of unease.</p>
                     <p>You sense he's about to do something. </p>
-                    <p><a href="#" class="btn-lg colink" role="button" id="next2">--> Shout and Warn the guards</a>
+                    <p><a href="#" class="btn-lg colink" role="button" id="next2">Shout and Warn the guards</a>
                     </p>
-                    <p><a href="#" class="btn-lg colink" role="button" id="next3">--> Run towards your Father</a>
+                    <p><a href="#" class="btn-lg colink" role="button" id="next3">Run towards your Father</a>
                     </p>
 
 
@@ -163,11 +178,10 @@
 
                     &nbsp;
 
-                    <p><a href="#" class="btn-lg colink" role="button" id="next8">--> You led the crowd that lynched of
+                    <p><a href="#" class="colink" id="next8">You led the crowd that lynched of
                             the assasin</a></p>
 
-                    <p><a href="#" class="btn-lg colink" role="button" id="next9">--> You stopped the crowd from
-                            lynching him</a>
+                    <p><a href="#" class="colink" id="next9">You stopped the crowd from lynching him</a>
                     </p>
 
 
@@ -177,10 +191,9 @@
         </div>
         </div>
         <div id="eigth" class="modalstory8">
-            <img class="pic2" src="../../Assets/char/char1face3.png" alt="">
-            <img id="img4" class="pic2" src="../../Assets/char/char1face1.png" alt="">
+
             <!-- Modal content -->
-            <div class="modal-content2">
+            <div class="modal-content1">
                 <div class="modal-body css-typing">
                     <p>" 14 years ago, I realised that everything that I ever learnt,</p>
                     <p>about the divine right of kings,</p>
@@ -195,10 +208,9 @@
             </div>
         </div>
         <div id="ninth" class="modalstory9">
-            <img class="pic2" src="../../Assets/char/char1face3.png" alt="">
-            <img id="img6" class="pic2" src="../../Assets/char/char1face1.png" alt="">
+
             <!-- Modal content -->
-            <div class="modal-content2">
+            <div class="modal-content1">
                 <div class="modal-body css-typing">
                     <p>"I've been lost, ever since that day. </p>
                     <p> If only I could have heard father's last words."</p>
@@ -226,6 +238,9 @@
 
         <div id="tenth" class="modalstory10">
             <!-- Modal content -->
+            <p class="extra">Your story is being written in the pages of history. Which each major descision A new page
+                will be added. What will your story say? It's all in your control.
+            </p>
             <div class="card">
                 <div class="imgBox">
                     <img src="../../Assets/backg/bookcover.png" alt="">
@@ -236,8 +251,9 @@
                     <p>
                         Your story is being written in the pages of history. A new page will be added .
                     </p>
-                    &nbsp;
+
                     <p>What will your story say? It's all in your control.</p>
+                    &nbsp;
                     <p><a href="../Character1/Cafe/cafe1.html" class="colink" id="next12"> Next</a></p>
                 </div>
             </div>
@@ -253,12 +269,14 @@
         //})
 
         var next1 = document.getElementById('next1');
+        var next1f = document.getElementById('next1f');
         var next2 = document.getElementById('next2');
         var next3 = document.getElementById('next3');
         var next4 = document.getElementById('next4');
         var next5 = document.getElementById('next5');
         var next6 = document.getElementById('next6');
         var modal = document.getElementById('first');
+        var modalfix = document.getElementById('firstfix');
         var modal2 = document.getElementById('second');
         var modal3 = document.getElementById('third');
         var modal4 = document.getElementById('fourth');
@@ -273,8 +291,14 @@
 
         next1.onclick = function () {
             modal.style.display = "none";
+            modalfix.style.display = "block";
+
+
+        }
+        next1f.onclick = function () {
+            modalfix.style.display = "none";
             modal2.style.display = "block";
-            setTimeout("getSetGo()", 2400);
+
 
         }
         next2.onclick = function () {
