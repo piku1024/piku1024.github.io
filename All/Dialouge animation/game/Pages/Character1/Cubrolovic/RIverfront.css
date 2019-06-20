@@ -24,18 +24,19 @@ body {
     padding: 0;
 }
 
+
 .btn-lg {
 
-    background-image: var(--bakcol);
+    background: darkgrey;
     color: rgb(228, 228, 228);
-    border: 2px solid white;
-    padding: 15px 32px;
-    text-align: center;
+    border: 1px solid white;
+    padding: 7px 12px;
+    text-align: left;
     display: inline-block;
     -webkit-transition-duration: 0.4s;
-    font-family: var(--pix);
+    font-family: var(--rob);
     transition-duration: 0.8s;
-    font-size: 20px;
+    font-size: 16px;
     border-radius: 18px;
 }
 
@@ -67,7 +68,8 @@ section {
 .colink {
     color: #ffffff;
     background-color: #444d53;
-    font-style: italic;
+
+    font-size: 140%;
 }
 
 .colink:hover {
@@ -93,8 +95,9 @@ section {
 .css-typing p {
     font-family: var(--rob);
     color: rgb(0, 0, 0);
-    font-size: 24px;
+    font-size: 27px;
     width: 96%;
+    font-weight: bold;
 
     white-space: nowrap;
     overflow: hidden;
@@ -256,24 +259,24 @@ span {
 @-webkit-keyframes animatetop {
     from {
         top: -300px;
-        opacity: 0
+        opacity: 0;
     }
 
     to {
         top: 0;
-        opacity: 1
+        opacity: 1;
     }
 }
 
 @keyframes animatetop {
     from {
         top: -300px;
-        opacity: 0
+        opacity: 0;
     }
 
     to {
         top: 0;
-        opacity: 1
+        opacity: 1;
     }
 }
 
@@ -659,7 +662,7 @@ span {
     /* Stay in place */
     z-index: 0;
     /* Sit on top */
-    padding-top: 45%;
+    padding-top: 85%;
     /* Location of the box */
     left: 0;
     top: 0;
@@ -778,7 +781,6 @@ span {
     overflow: auto;
     background-color: rgba(0, 0, 0, 0);
 }
-
 
 .card {
     position: absolute;
@@ -901,6 +903,29 @@ span {
 }
 
 .imgset {
+
+    position: relative;
+    left: 27%;
+
+    animation: diss 4s;
+
+    -webkit-animation: diss 4s;
+
+}
+
+.imgset2 {
+
+    position: relative;
+    left: 12%;
+
+    animation: diss 4s;
+
+    -webkit-animation: diss 4s;
+
+}
+
+
+.imgset3 {
 
     position: relative;
     left: 27%;

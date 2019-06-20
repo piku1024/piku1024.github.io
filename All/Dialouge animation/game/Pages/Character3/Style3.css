@@ -36,18 +36,19 @@ section {
 
 }
 
+
 .btn-lg {
 
-    background-image: var(--bakcol);
+    background: darkgrey;
     color: rgb(228, 228, 228);
-    border: 2px solid white;
-    padding: 15px 32px;
-    text-align: center;
+    border: 1px solid white;
+    padding: 7px 12px;
+    text-align: left;
     display: inline-block;
     -webkit-transition-duration: 0.4s;
-    font-family: var(--pix);
+    font-family: var(--rob);
     transition-duration: 0.8s;
-    font-size: 20px;
+    font-size: 16px;
     border-radius: 18px;
 }
 
@@ -66,7 +67,8 @@ section {
 .colink {
     color: #ffffff;
     background-color: #444d53;
-    font-style: italic;
+
+    font-size: 140%;
 }
 
 .colink:hover {
@@ -91,9 +93,10 @@ section {
 
 .css-typing p {
     font-family: var(--rob);
-    color: rgb(250, 140, 14);
-    font-size: 24px;
+    color: rgb(0, 0, 0);
+    font-size: 27px;
     width: 96%;
+    font-weight: bold;
 
     white-space: nowrap;
     overflow: hidden;
@@ -362,6 +365,29 @@ span {
 }
 
 .modalstory4 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 45%;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0);
+    /* Black w/ opacity */
+}
+
+.modalstory4fix {
     display: none;
     /* Hidden by default */
     position: fixed;

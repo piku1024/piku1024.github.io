@@ -21,8 +21,6 @@
                     <p>Fighting to end slavery, fighting for the dignity and freedom of your people.</p>
                     <p>dignity and freedom of your people.</p>
                     <p>And then, you see him</p>
-
-
                     &nbsp;
                     <p><a href="#" class="colink" id="next1"> Next </a></p>
 
@@ -75,10 +73,20 @@
                     <p>53 years since I last slept properly.</p>
                     <p>53 years since that battle, after which</p>
                     &nbsp;
-                    <p><a href="#" class="colink" id="next4">--> I Lay down my arms. No war that kills children is worth
-                            fighting</a>
+                    <p><a href="#" class="colink" id="nextf"> Next </a></p>
+                </div>
+            </div>
+        </div>
+        <div id="fourthfix" class="modalstory4fix">
+            <!-- Modal content -->
+            <div class="modal-content1">
+                <div class="modal-body css-typing">
+
+                    &nbsp;
+                    <p><a href="#" class="btn-lg colink" role="button" id="next4">I Lay down my arms. </a>
                     </p>
-                    <p><a href="#" class="colink" id="next5">--> I continued fighting till the end.</a></p>
+                    <p><a href="#" class="btn-lg colink" role="button" id="next5">I continued fighting. </a>
+                    </p>
                 </div>
             </div>
         </div>
@@ -131,12 +139,14 @@
         var next2 = document.getElementById('next2');
         var next3 = document.getElementById('next3');
         var next4 = document.getElementById('next4');
+        var nextf = document.getElementById('nextf');
         var next5 = document.getElementById('next5');
         var next6 = document.getElementById('next6');
         var modal = document.getElementById('first');
         var modal2 = document.getElementById('second');
         var modal3 = document.getElementById('third');
         var modal4 = document.getElementById('fourth');
+        var modal4fix = document.getElementById('fourthfix');
         var modal5 = document.getElementById('fifth');
         var modal6 = document.getElementById('sixth');
         var top = document.getElementById('top');
@@ -159,14 +169,19 @@
             modal3.style.display = "none";
             modal4.style.display = "block";
         }
-        next4.onclick = function () {
+        nextf.onclick = function () {
 
             modal4.style.display = "none";
+            modal4fix.style.display = "block";
+        }
+        next4.onclick = function () {
+
+            modal4fix.style.display = "none";
             modal5.style.display = "block";
         }
         next5.onclick = function () {
 
-            modal4.style.display = "none";
+            modal4fix.style.display = "none";
             modal5.style.display = "block";
         }
         next6.onclick = function () {

@@ -72,7 +72,8 @@ section {
 .colink {
     color: #ffffff;
     background-color: #444d53;
-    font-style: italic;
+
+    font-size: 140%;
 }
 
 .colink:hover {
@@ -98,7 +99,8 @@ section {
 .css-typing p {
     font-family: var(--rob);
     color: rgb(0, 0, 0);
-    font-size: 26px;
+    font-size: 27px;
+    font-weight: bold;
     width: 96%;
 
     white-space: nowrap;

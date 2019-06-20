@@ -29,6 +29,7 @@
 
         <div id="second" class="modalstory2">
             <!-- Modal content -->
+            <p> <img class="imgset2" src="../../../Assets/backg/Poster.png" alt=""> </p>
             <div class="modal-content1">
                 <div class="modal-body css-typing">
 
@@ -52,7 +53,7 @@
                     <p>It hits you suddenly. Those six individuals must be Bosnian </p>
                     <p>nationalists! It's surely not a coincidence that you saw them meet </p>
 
-                    <p>the same day the heir to the throne is visiting the city.</p>
+                    <p>the same day the heir to the throne is visiting the city.</p> &nbsp;
                     <p>The cars, which you now know to be the Prince's Motorcade,</p>
                     <p>are getting nearer. The third car is an open convertible,</p>
 
@@ -258,6 +259,11 @@
                 </div>
             </div>
         </div>
+        <audio src="../../../Assets/Grenade.mp3" autoplay id="ado">
+
+            <source type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
         <div id="sixteen" class="modalstory16">
             <!-- Modal content -->
             <div class="modal-content1">
@@ -383,6 +389,8 @@
         var modal19 = document.getElementById('ninteen');
         var top = document.getElementById('top');
 
+        var audo = document.getElementById("ado");
+
         function getSetGo() {
 
             document.getElementById('image').style.display = "block";
@@ -472,7 +480,7 @@
 
         }
         next15.onclick = function () {
-
+            audo.play();
             modal15.style.display = "none";
             modal16.style.display = "block";
 

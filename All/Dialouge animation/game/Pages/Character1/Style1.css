@@ -40,14 +40,14 @@ section {
 
     background: darkgrey;
     color: rgb(228, 228, 228);
-    border: 2px solid white;
-    padding: 15px 32px;
-    text-align: center;
+    border: 1px solid white;
+    padding: 7px 12px;
+    text-align: left;
     display: inline-block;
     -webkit-transition-duration: 0.4s;
-    font-family: var(--pix);
+    font-family: var(--rob);
     transition-duration: 0.8s;
-    font-size: 20px;
+    font-size: 16px;
     border-radius: 18px;
 }
 
@@ -107,7 +107,8 @@ section {
 .css-typing p {
     font-family: var(--rob);
     color: rgb(0, 0, 0);
-    font-size: 24px;
+    font-size: 27px;
+    font-weight: bold;
     width: 96%;
 
     white-space: nowrap;
@@ -540,7 +541,7 @@ span {
     /* Stay in place */
     z-index: 0;
     /* Sit on top */
-    padding-top: 85%;
+    padding-top: 45%;
     /* Location of the box */
     left: 0;
     top: 0;
@@ -563,7 +564,7 @@ span {
     /* Stay in place */
     z-index: 0;
     /* Sit on top */
-    padding-top: 45%;
+    padding-top: 85%;
     /* Location of the box */
     left: 0;
     top: 0;

@@ -12,6 +12,12 @@
 <body>
     <section id="top">
 
+        <audio src="../../Assets/9mm.mp3" autoplay id="ado">
+
+            <source type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
         <div id="first" class="modalstory1">
             <!-- Modal content -->
             <div class="modal-content1">
@@ -107,7 +113,7 @@
         var next5 = document.getElementById('next5');
 
 
-
+        var audo = document.getElementById("ado");
 
         var modal = document.getElementById('first');
         var modal2 = document.getElementById('second');
@@ -142,7 +148,7 @@
             modal4.style.display = "block";
         }
         next4.onclick = function () {
-
+            audo.play();
             $('section').toggleClass('change');
             modal4.style.display = "none";
             modal5.style.display = "block";
