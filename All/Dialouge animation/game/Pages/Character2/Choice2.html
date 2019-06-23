@@ -299,7 +299,6 @@
             modal.style.display = "none";
             modal2.style.display = "block";
 
-            $('section').toggleClass('change');
         }
         next2.onclick = function () {
             document.getElementById('image').style.display = "none";
@@ -327,12 +326,13 @@
             modal5.style.display = "block";
         }
         next5.onclick = function () {
-
+            $('section').toggleClass('change2');
             modal4.style.display = "none";
             document.getElementById('fourth2').style.display = "block";
         }
         document.getElementById('next5b').onclick = function () {
 
+            $('section').toggleClass('change');
             document.getElementById('fourth2').style.display = "none";
             modal6.style.display = "block";
         }
@@ -342,7 +342,7 @@
             document.getElementById('seven').style.display = "block";
         }
         document.getElementById('next8').onclick = function () {
-            $('section').toggleClass('change2');
+
             document.getElementById('seven').style.display = "none";
             document.getElementById('eigth').style.display = "block";
         }
@@ -355,11 +355,12 @@
 
 
         next6.onclick = function () {
-
+            $('section').toggleClass('change2');
             modal5.style.display = "none";
             document.getElementById('fifth2').style.display = "block";
         }
         document.getElementById('next6b').onclick = function () {
+
             $('section').toggleClass('change');
             document.getElementById('fifth2').style.display = "none";
             modal6b.style.display = "block";

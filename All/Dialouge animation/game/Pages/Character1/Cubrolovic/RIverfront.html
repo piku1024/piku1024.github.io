@@ -31,70 +31,39 @@
 
         <div id="second" class="modalstory2">
             <!-- Modal content -->
+            <p> <img class="imgset2" src="../../../Assets/backg/posterone.png" alt=""> </p>
+
             <div class="modal-content1">
                 <div class="modal-body css-typing">
 
                     <p>30 minutes later.</p>
-                    <p>The man seems to be waiting for something. In the </p>
-                    <p>meantime, the crowd gets larger. </p>
+
+                    <p>Soon, you sense a slight buzz. You look to your left, and see 6 </p>
+                    <p>cars travelling slowly a few kilometres away.</p>
                     &nbsp;
-                    <p>Soon, you sense a slight buzz. You look to your left, </p>
-                    <p>and see 6 cars travelling slowly, towards the end of the </p>
-                    <p>road, a few kilometres away. </p>
+                    <p>Oh! Archduke Franz Ferdinand is visiting Sarajevo! He is</p>
+                    <p>the heir to throne of the Austra-Hungarian Empire that annexed </p>
+                    <p>Sarajevo in 1914. This should be quite a spectacle</p>
+
                     <p><a href="#" class="colink" id="next2"> Next </a></p><br>
                 </div>
             </div>
         </div>
-        <div id="third" class="modalstory3">
-            <!-- Modal content -->
-
-            <div class="modal-content1">
-                <div class="modal-body css-typing">
-
-                    <p>Just then, you also catch sight of two posters on the </p>
-                    <p> opposite wall, stuck right next to each other. </p>
-                    &nbsp;
-                    <p>Oh!Archduke Franz Ferdinand , the current heir of the </p>
-                    <p>Hasburg Dynasty, the rulers of Sarajevo, is visiting today.</p>
-                    <p><a href="#" class="colink" id="next3"> Next </a></p><br>
-                </div>
-            </div>
-        </div>
-
-        <div id="fourth" class="modalstory4">
-            <!-- Modal content -->
-            <p> <img class="imgset2" src="../../../Assets/backg/posterone.png" alt=""> </p>
-            <div class="modal-content2">
-                <div class="modal-body css-typing">
-                    <p> You remember meeting him as a child. The Hasburgs have </p>
-
-                    <p> been great friends of your family for centuries. The jarring </p>
-                    <p> imagery of the other poster catches your eye. It's in Serbian. </p>
-                    &nbsp;
-                    <p>You ask a person standing next to you what it means.</p>
-                    <p>He just shakes his head and looks the other way.</p>
-                    &nbsp;
-                    <p><a href="#" class="colink" id="next4"> Next</a></p>
-                </div>
-            </div>
-        </div>
-
-        <div id="fifth" class="modalstory5">
+        <div id="secondb" class="modalstory2b">
             <!-- Modal content -->
             <p> <img class="imgset2" src="../../../Assets/backg/postertwo.png" alt=""> </p>
 
             <div class="modal-content1">
                 <div class="modal-body css-typing">
-                    <p>It takes you a couple more tries before somebody finally tells </p>
-                    <p>you what it means. The poster says- </p>
-                    &nbsp;
-                    <p>"Save Mother Bosnia before the Hasburgs take everything from it."</p>
 
+                    <p>Just then, you also catch sight of second poster on the </p>
+                    <p> opposite wall, stuck right next to each other.</p>
                     &nbsp;
-                    <p><a href="#" class="colink" id="next5"> Next</a></p>
+                    <p>It's a poster inciting Independance. Or Rebellion,</p>
+                    <p>depending upon which way you look at it.</p>
+                    <p><a href="#" class="colink" id="next2b"> Next </a></p><br>
                 </div>
             </div>
-
         </div>
         <div id="sixth" class="modalstory6">
 
@@ -220,11 +189,7 @@
                 </div>
             </div>
         </div>
-        <audio src="../../../Assets/Grenade.mp3" autoplay id="ado">
 
-            <source type="audio/mpeg">
-            Your browser does not support the audio element.
-        </audio>
         <div id="ten" class="modalstory10">
             <!-- Modal content -->
             <div class="modal-content1">
@@ -421,6 +386,7 @@
 
         var next1 = document.getElementById('next1');
         var next2 = document.getElementById('next2');
+        var next2b = document.getElementById('next2b');
         var next3 = document.getElementById('next3');
         var next4 = document.getElementById('next4');
         var next5 = document.getElementById('next5');
@@ -449,6 +415,7 @@
 
         var modal = document.getElementById('first');
         var modal2 = document.getElementById('second');
+        var modal2b = document.getElementById('secondb');
         var modal3 = document.getElementById('third');
         var modal4 = document.getElementById('fourth');
         var modal5 = document.getElementById('fifth');
@@ -484,24 +451,13 @@
         next2.onclick = function () {
 
             modal2.style.display = "none";
-            modal3.style.display = "block";
+            modal2b.style.display = "block";
 
         }
-        next3.onclick = function () {
+        next2b.onclick = function () {
 
             $('section').toggleClass('change');
-            modal3.style.display = "none";
-            modal4.style.display = "block";
-        }
-        next4.onclick = function () {
-
-
-            modal4.style.display = "none";
-            modal5.style.display = "block";
-        }
-        next5.onclick = function () {
-
-            modal5.style.display = "none";
+            modal2b.style.display = "none";
             modal6.style.display = "block";
         }
         next6.onclick = function () {
@@ -541,7 +497,7 @@
         }
 
         next9.onclick = function () {
-            audo.play();
+
             modal9.style.display = "none";
             modal10.style.display = "block";
         }

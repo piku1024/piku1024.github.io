@@ -448,7 +448,7 @@ span {
     /* Black w/ opacity */
 }
 
-.modalstory3 {
+.modalstory2b {
     display: none;
     /* Hidden by default */
     position: fixed;
@@ -471,51 +471,6 @@ span {
     /* Black w/ opacity */
 }
 
-.modalstory4 {
-    display: none;
-    /* Hidden by default */
-    position: fixed;
-    /* Stay in place */
-    z-index: 1;
-    /* Sit on top */
-    padding-top: 85%;
-    /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%;
-    /* Full width */
-    height: 100%;
-    /* Full height */
-    overflow: auto;
-    /* Enable scroll if needed */
-    font-family: var(--rob);
-    /* Fallback color */
-    background-color: rgba(0, 0, 0, 0);
-    /* Black w/ opacity */
-}
-
-.modalstory5 {
-    display: none;
-    /* Hidden by default */
-    position: fixed;
-    /* Stay in place */
-    z-index: 1;
-    /* Sit on top */
-    padding-top: 45%;
-    /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%;
-    /* Full width */
-    height: 100%;
-    /* Full height */
-    overflow: auto;
-    /* Enable scroll if needed */
-
-    /* Fallback color */
-    background-color: rgba(0, 0, 0, 0);
-    /* Black w/ opacity */
-}
 
 .modalstory6 {
     display: none;
