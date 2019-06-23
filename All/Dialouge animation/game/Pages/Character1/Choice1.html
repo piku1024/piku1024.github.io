@@ -102,7 +102,18 @@
             </div>
 
         </div>
+        <div id="extra" class="modalstory4x">
+            <!-- Modal content -->
+            <div class="modal-content1">
+                <div class="modal-body css-typing">
 
+                    <p>empty</p>
+                    &nbsp;
+                    <p><a href="#" class="colink" id="nextex"> Next</a></p>
+
+                </div>
+            </div>
+        </div>
 
 
         <div id="fourth" class="modalstory4">
@@ -135,6 +146,22 @@
         </div>
         <div id="sixth" class="modalstory6">
             <!-- Modal content -->
+            <img class="pic2" src="../../Assets/char/char1face3.png" alt="">
+            <img id="img5" class="pic2" src="../../Assets/char/char1face1.png" alt="">
+            <div class="modal-content2">
+                <div class="modal-body css-typing">
+
+                    <p>Father....................</p>
+                    <p>.....................................</p>
+                    &nbsp;
+                    <p><a href="#" class="colink" id="next7"> Next</a></p>
+                    <p><br></p>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="sixth-2" class="modalstory6-2">
             <div class="modal-content1">
                 <div class="modal-body css-typing">
                     <p> You lean in closer, your ears almost </p>
@@ -142,25 +169,8 @@
                     <p>has to say, but it's too late.</p>
                     &nbsp;
                     <p>Your father, King Umberto I of Italy is no more</p>
-                    <p><a href="#" class="colink" id="next7"> Next</a></p>
-                    <br>
-                </div>
-            </div>
-        </div>
-
-        <div id="sixth-2" class="modalstory6-2">
-            <!-- Modal content --><img class="pic2" src="../../Assets/char/char1face3.png" alt="">
-            <img id="img5" class="pic2" src="../../Assets/char/char1face1.png" alt="">
-            <div class="modal-content2">
-                <div class="modal-body css-typing">
-
-                    <p>Father....................</p>
-                    <p>.....................................</p>
-
-
-                    &nbsp;
                     <p><a href="#" class="colink" id="next7-2"> Next</a></p>
-                    <p><br></p>
+                    <br>
                 </div>
             </div>
         </div>
@@ -233,6 +243,21 @@
                 </div>
             </div>
         </div>
+        <div id="ninth-2-2" class="modalstory9-2-2">
+            <!-- Modal content -->
+            <div class="modal-content1">
+                <div class="modal-body css-typing">
+
+                    <p> Anyway. It's time to get dressed and have some breakfast
+                    </p>
+                    &nbsp;
+                    <p><a href="#" class="colink" id="next11-2-2"> Next</a></p>
+                    <br>
+                    <p><br></p>
+
+                </div>
+            </div>
+        </div>
 
         <div id="tenth" class="modalstory10">
             <!-- Modal content -->
@@ -247,12 +272,36 @@
                     <h1>Achievement page</h1>
                     &nbsp;
                     <p>
-                        Your story is being written in the pages of history. A new page will be added .
+                        Giuseppe di Savoia was the younger son of King Umberto I,
+                        who was assassinated on 29 July 1900. After the assassination,
+                        he led the crowd that lynched the assassin.
                     </p>
-
-                    <p>What will your story say? It's all in your control.</p>
                     &nbsp;
                     <p><a href="../Character1/Cafe/cafe1.html" class="colink" id="next12"> Next</a></p>
+                </div>
+            </div>
+        </div>
+        <div id="eleven" class="modalstory11">
+            <!-- Modal content -->
+            <p class="extra">Your story is being written in the pages of history. Which each major descision A new page
+                will be added. What will your story say? It's all in your control.
+            </p>
+            <div class="card">
+                <div class="imgBox">
+                    <img src="../../Assets/backg/bookcover.png" alt="">
+                </div>
+                <div class="details">
+                    <h1>Achievement page</h1>
+                    &nbsp;
+                    <p>
+                        Giuseppe di Savoia was the younger son of King Umberto I,
+                        who was assassinated on 29 July 1900. After the assassination, he
+                        saved the assassin from being lynched by the crowd.
+                    </p>
+
+
+                    &nbsp;
+                    <p><a href="../Character1/Cafe/cafe1.html" class="colink" id="next13"> Next</a></p>
                 </div>
             </div>
         </div>
@@ -294,6 +343,7 @@
 
         }
         next1f.onclick = function () {
+            document.getElementById('image').style.display = "block";
             modalfix.style.display = "none";
             modal2.style.display = "block";
 
@@ -307,12 +357,16 @@
 
         }
         next3.onclick = function () {
-
+            document.getElementById('image').style.display = "none";
             $('section').toggleClass('change');
             modal2.style.display = "none";
+            document.getElementById('extra').style.display = "block";
+        }
+        document.getElementById('nextex').onclick = function () {
+
+            document.getElementById('extra').style.display = "none";
             modal4.style.display = "block";
         }
-
         next4.onclick = function () {
 
             modal3.style.display = "none";
@@ -344,7 +398,7 @@
             document.getElementById('seven').style.display = "block";
         }
         document.getElementById('next8').onclick = function () {
-
+            $('section').toggleClass('change3');
             document.getElementById('seven').style.display = "none";
             document.getElementById('eigth').style.display = "block";
         }
@@ -363,16 +417,26 @@
         document.getElementById('next11b').onclick = function () {
 
             document.getElementById('ninth').style.display = "none";
-            document.getElementById('ninth-2').style.display = "block";
+            document.getElementById('ninth-2-2').style.display = "block";
         }
         document.getElementById('next11-2').onclick = function () {
 
             document.getElementById('ninth-2').style.display = "none";
             document.getElementById('tenth').style.display = "block";
         }
+        document.getElementById('next11-2-2').onclick = function () {
+
+            document.getElementById('ninth-2-2').style.display = "none";
+            document.getElementById('eleven').style.display = "block";
+        }
         document.getElementById('next12').onclick = function () {
 
             document.getElementById('tenth').style.display = "none";
+
+        }
+        document.getElementById('next13').onclick = function () {
+
+            document.getElementById('eleven').style.display = "none";
 
         }
     </script>

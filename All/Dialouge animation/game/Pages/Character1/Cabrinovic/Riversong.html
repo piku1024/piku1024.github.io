@@ -263,7 +263,7 @@
                 </div>
             </div>
         </div>
-        <audio src="../../../Assets/Grenade.mp3" autoplay id="ado">
+        <audio src="../../../Assets/Grenade.mp3" id="ado">
 
             <source type="audio/mpeg">
             Your browser does not support the audio element.
@@ -393,13 +393,14 @@
         var modal18 = document.getElementById('eiteen');
         var modal19 = document.getElementById('ninteen');
         var top = document.getElementById('top');
+        var audo = document.getElementById("ado");
 
         function getSetGo() {
 
             document.getElementById('image').style.display = "block";
         }
 
-        var audo = document.getElementById("ado");
+
         next1.onclick = function () {
 
             modal.style.display = "none";
