@@ -54,7 +54,7 @@ section {
 
 .change {
     height: 100vh;
-    background: url('../../Assets/backg/choice2a.png');
+    background: url('../../Assets/backg/choice1c.png');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -66,7 +66,7 @@ section {
 
 .change2 {
     height: 100vh;
-    background: url('../../Assets/backg/choice1c.png');
+    background: url('../../Assets/backg/maap.png');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -311,9 +311,9 @@ span {
     background-size: 100% 100%;
     font-size: 1.5;
     -webkit-animation-name: animateleft;
-    -webkit-animation-duration: 1.8s;
+    -webkit-animation-duration: 0.8s;
     animation-name: animateleft;
-    animation-duration: 1.8s;
+    animation-duration: 0.8s;
     animation-timing-function: cubic-bezier(0, 1.61, .82, 1.84);
     -webkit-animation-timing-function: cubic-bezier(.05, .71, .61, 1.84);
 }
@@ -337,9 +337,9 @@ span {
     background-size: 100% 100%;
     font-size: 1.5;
     -webkit-animation-name: animateleft;
-    -webkit-animation-duration: 1.8s;
+    -webkit-animation-duration: 0.8s;
     animation-name: animateleft;
-    animation-duration: 1.8s;
+    animation-duration: 0.8s;
     animation-timing-function: cubic-bezier(0, 1.61, .82, 1.84);
     -webkit-animation-timing-function: cubic-bezier(.05, .71, .61, 1.84);
 }
@@ -635,7 +635,7 @@ span {
     /* Stay in place */
     z-index: 0;
     /* Sit on top */
-    padding-top: 45%;
+    padding-top: 85%;
     /* Location of the box */
     left: 0;
     top: 0;
@@ -652,6 +652,75 @@ span {
 }
 
 .modalstory8 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 0;
+    /* Sit on top */
+    padding-top: 45%;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0);
+    /* Black w/ opacity */
+}
+
+.modalstory6b {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 0;
+    /* Sit on top */
+    padding-top: 45%;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0);
+    /* Black w/ opacity */
+}
+
+.modalstory7b {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 0;
+    /* Sit on top */
+    padding-top: 85%;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0);
+    /* Black w/ opacity */
+}
+
+.modalstory8b {
     display: none;
     /* Hidden by default */
     position: fixed;
@@ -903,7 +972,7 @@ span {
 
 .card {
     position: absolute;
-    top: 50%;
+    top: 57%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 650px;
@@ -974,20 +1043,30 @@ span {
     font-size: x-large;
 }
 
+p.extra {
+    background-color: aliceblue;
+    margin-top: -38%;
+    font-size: 200%;
+    font-family: var(--rob);
+    padding-left: 3%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
 /*----------------xxxxxxxxxxxxxxxxxx----x-x-x-xx-x-x-x-x-x-xx-x-x-x-x-x-x-x-*/
 
 .pic2 {
     position: absolute;
-    margin-top: -23vh;
-    z-index: -1;
-    margin-left: 50%;
+    margin-top: -17vh;
+
+    margin-left: 62%;
 }
 
 .pic3 {
     position: absolute;
-    margin-top: -27vh;
-    z-index: -1;
-    margin-left: -22%;
+    margin-top: -21vh;
+
+    margin-left: 0%;
 }
 
 
@@ -1011,6 +1090,14 @@ span {
 }
 
 #img6 {
+
+    animation: magic 10s;
+    animation-delay: .5s;
+    -webkit-animation: magic 10s;
+    -webkit-animation-delay: .5s;
+}
+
+#img8 {
 
     animation: magic 10s;
     animation-delay: .5s;
