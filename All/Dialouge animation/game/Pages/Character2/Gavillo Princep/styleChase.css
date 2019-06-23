@@ -454,7 +454,7 @@ span {
     /* Stay in place */
     z-index: 1;
     /* Sit on top */
-    padding-top: 85%;
+    padding-top: 45%;
     /* Location of the box */
     left: 0;
     top: 0;
@@ -523,7 +523,7 @@ span {
     /* Stay in place */
     z-index: 0;
     /* Sit on top */
-    padding-top: 85%;
+    padding-top: 45%;
     /* Location of the box */
     left: 0;
     top: 0;
@@ -569,7 +569,7 @@ span {
     /* Stay in place */
     z-index: 0;
     /* Sit on top */
-    padding-top: 85%;
+    padding-top: 45%;
     /* Location of the box */
     left: 0;
     top: 0;
@@ -592,7 +592,7 @@ span {
     /* Stay in place */
     z-index: 0;
     /* Sit on top */
-    padding-top: 85%;
+    padding-top: 45%;
     /* Location of the box */
     left: 0;
     top: 0;
@@ -615,7 +615,7 @@ span {
     /* Stay in place */
     z-index: 0;
     /* Sit on top */
-    padding-top: 85%;
+    padding-top: 45%;
     /* Location of the box */
     left: 0;
     top: 0;
@@ -736,7 +736,18 @@ span {
 .imgset {
 
     position: relative;
-    left: 62%;
+    left: 63%;
+    margin-bottom: -7.5vh;
+    animation: diss 2s;
+
+    -webkit-animation: diss 2s;
+
+}
+
+.imgset2 {
+
+    position: relative;
+    left: 32%;
     margin-top: -27vh;
     animation: diss 2s;
 

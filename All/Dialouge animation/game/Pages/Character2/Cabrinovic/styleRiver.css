@@ -413,6 +413,29 @@ span {
     /* Black w/ opacity */
 }
 
+.modalstory2b {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 45%;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    font-family: var(--rob);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0);
+    /* Black w/ opacity */
+}
+
 .modalstory3 {
     display: none;
     /* Hidden by default */
@@ -772,6 +795,16 @@ span {
 
 }
 
+.imgset2 {
+
+    position: relative;
+    left: 32%;
+    animation: diss 4s;
+
+    -webkit-animation: diss 4s;
+
+}
+
 @keyframes diss {
     0% {
 
@@ -814,14 +847,4 @@ span {
     z-index: 1;
     height: 350px;
     width: 700px;
-}
-
-.imgset2 {
-
-    position: relative;
-    left: 12%;
-    animation: diss 4s;
-
-    -webkit-animation: diss 4s;
-
 }
