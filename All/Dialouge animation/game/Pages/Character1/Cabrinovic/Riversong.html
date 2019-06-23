@@ -29,20 +29,37 @@
 
         <div id="second" class="modalstory2">
             <!-- Modal content -->
-            <p> <img class="imgset2" src="../../../Assets/backg/Poster.png" alt=""> </p>
+            <p> <img class="imgset2" src="../../../Assets/backg/posterone.png" alt=""> </p>
 
             <div class="modal-content1">
                 <div class="modal-body css-typing">
 
                     <p>30 minutes later.</p>
-                    &nbsp;
+
                     <p>Soon, you sense a slight buzz. You look to your left, and see 6 </p>
                     <p>cars travelling slowly a few kilometres away.</p>
+                    &nbsp;
+                    <p>Oh! Archduke Franz Ferdinand is visiting Sarajevo! He is</p>
+                    <p>the heir to throne of the Austra-Hungarian Empire that annexed </p>
+                    <p>Sarajevo in 1914. This should be quite a spectacle</p>
+
+                    <p><a href="#" class="colink" id="next2"> Next </a></p><br>
+                </div>
+            </div>
+        </div>
+        <div id="secondb" class="modalstory2b">
+            <!-- Modal content -->
+            <p> <img class="imgset2" src="../../../Assets/backg/postertwo.png" alt=""> </p>
+
+            <div class="modal-content1">
+                <div class="modal-body css-typing">
 
                     <p>Just then, you also catch sight of two posters on the </p>
                     <p> opposite wall, stuck right next to each other.</p>
                     &nbsp;
-                    <p><a href="#" class="colink" id="next2"> Next </a></p><br>
+                    <p>It's a poster inciting Independance. Or Rebellion,</p>
+                    <p>depending upon which way you look at it.</p>
+                    <p><a href="#" class="colink" id="next2b"> Next </a></p><br>
                 </div>
             </div>
         </div>
@@ -352,6 +369,7 @@
 
         var next1 = document.getElementById('next1');
         var next2 = document.getElementById('next2');
+        var next2b = document.getElementById('next2b');
         var next3 = document.getElementById('next3');
         var next4 = document.getElementById('next4');
         var next5 = document.getElementById('next5');
@@ -375,6 +393,7 @@
 
         var modal = document.getElementById('first');
         var modal2 = document.getElementById('second');
+        var modal2b = document.getElementById('secondb');
         var modal3 = document.getElementById('third');
         var modal4 = document.getElementById('fourth');
         var modal5 = document.getElementById('fifth');
@@ -410,6 +429,12 @@
         next2.onclick = function () {
 
             modal2.style.display = "none";
+            modal2b.style.display = "block";
+
+        }
+        next2b.onclick = function () {
+
+            modal2b.style.display = "none";
             modal3.style.display = "block";
 
         }
