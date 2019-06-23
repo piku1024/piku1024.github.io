@@ -311,11 +311,10 @@ span {
     background-size: 100% 100%;
     font-size: 1.5;
     -webkit-animation-name: animateleft;
-    -webkit-animation-duration: 0.8s;
+    -webkit-animation-duration: 0.4s;
     animation-name: animateleft;
-    animation-duration: 0.8s;
-    animation-timing-function: cubic-bezier(0, 1.61, .82, 1.84);
-    -webkit-animation-timing-function: cubic-bezier(.05, .71, .61, 1.84);
+    animation-duration: 0.4s;
+
 }
 
 .modal-content3 {
@@ -336,12 +335,11 @@ span {
     -o-background-size: cover;
     background-size: 100% 100%;
     font-size: 1.5;
-    -webkit-animation-name: animateleft;
-    -webkit-animation-duration: 0.8s;
-    animation-name: animateleft;
-    animation-duration: 0.8s;
-    animation-timing-function: cubic-bezier(0, 1.61, .82, 1.84);
-    -webkit-animation-timing-function: cubic-bezier(.05, .71, .61, 1.84);
+    -webkit-animation-name: animateright;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animateright;
+    animation-duration: 0.4s;
+
 }
 
 
