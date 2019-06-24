@@ -525,7 +525,7 @@ span {
     /* Stay in place */
     z-index: 1;
     /* Sit on top */
-    padding-top: 45%;
+    padding-top: 85%;
     /* Location of the box */
     left: 0;
     top: 0;
@@ -687,7 +687,7 @@ span {
     /* Stay in place */
     z-index: 0;
     /* Sit on top */
-    padding-top: 85%;
+    padding-top: 45%;
     /* Location of the box */
     left: 0;
     top: 0;
@@ -710,7 +710,7 @@ span {
     /* Stay in place */
     z-index: 0;
     /* Sit on top */
-    padding-top: 85%;
+    padding-top: 45%;
     /* Location of the box */
     left: 0;
     top: 0;
@@ -905,7 +905,7 @@ span {
 
 .pic2 {
     position: absolute;
-    margin-top: -23vh;
+    margin-top: -21vh;
     z-index: -1;
 }
 
