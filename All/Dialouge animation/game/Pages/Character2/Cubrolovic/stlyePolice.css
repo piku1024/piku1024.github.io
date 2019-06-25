@@ -38,7 +38,7 @@ section {
 
 .change {
     height: 100vh;
-    background: url('../../../Assets/backg/City.png');
+    background: url('../../../Assets/backg/Deli.png');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -719,7 +719,7 @@ span {
     display: none;
     position: fixed;
     z-index: 0;
-    padding-top: 45%;
+    padding-top: 65%;
     left: 0;
     top: 0;
     width: 100%;

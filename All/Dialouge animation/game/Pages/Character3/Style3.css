@@ -54,6 +54,18 @@ section {
 
 .change {
     height: 100vh;
+    background: url('../../Assets/backg/maap.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    overflow: hidden;
+
+}
+
+.change2 {
+    height: 100vh;
     background: url('../../Assets/backg/choice1c.png');
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -63,6 +75,8 @@ section {
     overflow: hidden;
 
 }
+
+
 
 .colink {
     color: #ffffff;
@@ -364,6 +378,29 @@ span {
     /* Black w/ opacity */
 }
 
+.modalstory3x {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 45%;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0);
+    /* Black w/ opacity */
+}
+
 .modalstory4 {
     display: none;
     /* Hidden by default */
@@ -539,7 +576,7 @@ span {
 
 .card {
     position: absolute;
-    top: 50%;
+    top: 57%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 650px;
@@ -608,6 +645,16 @@ span {
     z-index: -1;
     font-family: var(--gug);
     font-size: x-large;
+}
+
+p.extra {
+    background-color: aliceblue;
+    margin-top: -38%;
+    font-size: 200%;
+    font-family: var(--rob);
+    padding-left: 3%;
+    padding-top: 4%;
+    padding-bottom: 4%;
 }
 
 @keyframes disslove {
@@ -803,4 +850,5 @@ span {
 
 #image {
     margin-left: 29%;
+
 }

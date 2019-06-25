@@ -621,7 +621,7 @@ span {
 
 .pic2 {
     position: absolute;
-    margin-top: -23vh;
+    margin-top: -21vh;
     z-index: -1;
 }
 
@@ -670,7 +670,18 @@ span {
 
     position: relative;
     left: 62%;
-    margin-bottom: -8vh;
+    margin-bottom: -7vh;
+    animation: diss 2s;
+
+    -webkit-animation: diss 2s;
+
+}
+
+.imgset2 {
+
+    position: relative;
+    left: 32%;
+
     animation: diss 2s;
 
     -webkit-animation: diss 2s;

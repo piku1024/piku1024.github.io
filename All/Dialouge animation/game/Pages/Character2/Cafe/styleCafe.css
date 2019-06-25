@@ -100,8 +100,8 @@ section {
     font-family: var(--rob);
     color: rgb(0, 0, 0);
     font-size: 27px;
-    width: 96%;
     font-weight: bold;
+    width: 96%;
 
     white-space: nowrap;
     overflow: hidden;

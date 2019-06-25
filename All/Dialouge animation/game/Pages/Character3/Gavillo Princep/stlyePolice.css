@@ -38,7 +38,7 @@ section {
 
 .change {
     height: 100vh;
-    background: url('../../../Assets/backg/City.png');
+    background: url('../../../Assets/backg/Deli.png');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -812,7 +812,18 @@ span {
 
     position: relative;
     left: 62%;
-    margin-top: -17vh;
+    margin-bottom: -7vh;
+    animation: diss 2s;
+
+    -webkit-animation: diss 2s;
+
+}
+
+.imgset2 {
+
+    position: relative;
+    left: 32%;
+
     animation: diss 2s;
 
     -webkit-animation: diss 2s;

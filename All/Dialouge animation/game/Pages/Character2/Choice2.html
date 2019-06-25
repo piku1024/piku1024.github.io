@@ -33,7 +33,7 @@
             <!-- Modal content --> <img class="pic2" src="../../Assets/char/cho2.png" alt="">
             <div class="modal-content3">
                 <div class="modal-body css-typing">
-                    <p>“I almost died of the bubonic plague,” </p>
+                    <p>I almost died of the bubonic plague. </p>
                     &nbsp;
                     <p><a href="#" class="colink" id="next2"> Next </a></p>
                     <br>
@@ -47,7 +47,7 @@
                 <div class="modal-body css-typing">
 
 
-                    <p>"But you're already dead."</p>
+                    <p>But you're already dead.</p>
                     &nbsp;
 
                     <p><a href="#" class="colink" id="next2b"> Next </a></p>
@@ -63,10 +63,10 @@
                 <div class="modal-body css-typing">
 
 
-                    <p>“Rand saab saved my life." </p>
-                    <p>"Rand saab saved many lives. Rand saab is a great man.</p>
-                    <p>God bless Rand saab.”</p>
-                    <p>"Why did you kill Rand Saab."</p>
+                    <p>Rand saab saved my life. </p>
+                    <p>Rand saab saved many lives.</p>
+                    <p>Rand saab is a great man. God bless Rand saab.</p>
+                    <p>Why did you kill Rand Saab.</p>
                     <p><a href="#" class="btn-lg colink" role="button" id="next3">He humiliated my city.</a>
                     </p>
                     <p><a href="#" class="btn-lg colink" role="button" id="next4">He was an instrument of British
@@ -99,7 +99,7 @@
             <div class="modal-content3">
                 <div class="modal-body css-typing">
 
-                    <p>"Rand saab saved me life. And that of many people in Pune</p>
+                    <p>Rand saab saved me life. And that of many people in Pune .</p>
 
                     &nbsp;
                     <p><a href="#" class="colink" id="next5b"> Next </a></p>
@@ -114,7 +114,7 @@
                 <div class="modal-body css-typing">
 
                     <p>He was an instrument of British tyranny.</p>
-                    <p> We could not tolerate tyranny.</p>
+                    <p>We could not tolerate tyranny.</p>
                     &nbsp;
                     <p><a href="#" class="colink" id="next6"> Next </a></p>
 
@@ -127,9 +127,23 @@
                 <div class="modal-body css-typing">
 
 
-                    <p>"Rand saab saved me life. And that of many people in Pune"</p>
+                    <p>Rand saab saved me life. And that of many people in Pune. </p>
                     &nbsp;
                     <p><a href="#" class="colink" id="next6b"> Next </a></p>
+
+                </div>
+            </div>
+        </div>
+        <div id="extra" class="modalstoryxx">
+            <!-- Modal content -->
+            <div class="modal-content1">
+                <div class="modal-body css-typing">
+
+                    <p>Sarajevo. </p>
+                    <p>28th June 1914 .</p>
+                    &nbsp;
+
+                    <p><a href="#" class="colink" id="nextx"> Next </a></p>
 
                 </div>
             </div>
@@ -140,8 +154,8 @@
             <div class="modal-content1">
                 <div class="modal-body css-typing">
                     <p>You wake up in your hotel room, sweating.</p>
-                    <p>You try to avoid thinking about the day you killed Kesri Singh </p>
-                    <p>and W.C Rand.</p>
+                    <p>You try to avoid thinking about the day you killed </p>
+                    <p> Kesri Singh and W.C Rand.</p>
                     &nbsp;
                     <p>But you can’t control your dreams. </p>
                     <p>Your dreams tell you that the story is more complicated.</p>
@@ -195,15 +209,28 @@
             </div>
         </div>
 
+        <div id="extra2" class="modalstoryxx2">
+            <!-- Modal content -->
+            <div class="modal-content1">
+                <div class="modal-body css-typing">
 
+                    <p>Sarajevo. </p>
+                    <p>28th June 1914 .</p>
+                    &nbsp;
+
+                    <p><a href="#" class="colink" id="nextx2"> Next </a></p>
+
+                </div>
+            </div>
+        </div>
 
         <div id="sixthb" class="modalstory6b">
             <!-- Modal content -->
             <div class="modal-content1">
                 <div class="modal-body css-typing">
                     <p>You wake up in your hotel room, sweating.</p>
-                    <p>You try to avoid thinking about the day you killed Kesri Singh </p>
-                    <p>and W.C Rand.</p>
+                    <p>You try to avoid thinking about the day you killed </p>
+                    <p>Kesri Singh and W.C Rand.</p>
                     &nbsp;
                     <p>But you can’t control your dreams. </p>
                     <p>Your dreams tell you that the story is more complicated.</p>
@@ -288,6 +315,11 @@
         var modal7b = document.getElementById('sevenb');
         var modal8b = document.getElementById('eigthb');
 
+        var nextx = document.getElementById('nextx');
+        var nextx2 = document.getElementById('nextx2');
+        var modalx = document.getElementById('extra');
+        var modalx2 = document.getElementById('extra2');
+
         var top = document.getElementById('top');
 
         function getSetGo() {
@@ -334,6 +366,12 @@
 
             $('section').toggleClass('change');
             document.getElementById('fourth2').style.display = "none";
+            modalx.style.display = "block";
+        }
+        nextx.onclick = function () {
+            $('section').toggleClass('change2');
+            modalx.style.display = "none";
+
             modal6.style.display = "block";
         }
         document.getElementById('next7').onclick = function () {
@@ -355,7 +393,7 @@
 
 
         next6.onclick = function () {
-            $('section').toggleClass('change2');
+
             modal5.style.display = "none";
             document.getElementById('fifth2').style.display = "block";
         }
@@ -363,6 +401,12 @@
 
             $('section').toggleClass('change');
             document.getElementById('fifth2').style.display = "none";
+            modalx2.style.display = "block";
+        }
+        nextx2.onclick = function () {
+            $('section').toggleClass('change2');
+            modalx2.style.display = "none";
+
             modal6b.style.display = "block";
         }
         next7b.onclick = function () {

@@ -674,8 +674,19 @@ span {
     animation: diss 2s;
 
     -webkit-animation: diss 2s;
+}
+
+.imgset2 {
+
+    position: relative;
+    left: 32%;
+    margin-bottom: 2vh;
+    animation: diss 2s;
+
+    -webkit-animation: diss 2s;
 
 }
+
 
 @keyframes diss {
     0% {

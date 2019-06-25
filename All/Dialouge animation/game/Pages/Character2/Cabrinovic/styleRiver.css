@@ -376,7 +376,7 @@ span {
     border-left: none;
     border-right: none;
     width: 88%;
-    background-image: url(../../../Assets/char/textboxx.png);
+    background-image: url(../../../Assets/char/textboxleft.png);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -759,7 +759,7 @@ span {
 
 .pic2 {
     position: absolute;
-    margin-top: -23vh;
+    margin-top: -21vh;
     z-index: -1;
 }
 

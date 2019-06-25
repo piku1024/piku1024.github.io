@@ -388,7 +388,7 @@ span {
     border-left: none;
     border-right: none;
     width: 88%;
-    background-image: url(../../../Assets/char/textboxx.png);
+    background-image: url(../../../Assets/char/textboxleft.png);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -412,7 +412,7 @@ span {
     border-left: none;
     border-right: none;
     width: 88%;
-    background-image: url(../../../Assets/char/textboxx.png);
+    background-image: url(../../../Assets/char/textboxright.png);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -661,7 +661,7 @@ span {
     /* Stay in place */
     z-index: 0;
     /* Sit on top */
-    padding-top: 45%;
+    padding-top: 65%;
     /* Location of the box */
     left: 0;
     top: 0;
