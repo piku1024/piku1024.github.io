@@ -38,6 +38,17 @@ section {
 
 .change {
     height: 100vh;
+    background: url('../../Assets/backg/shotred.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    overflow: hidden;
+}
+
+.change2 {
+    height: 100vh;
     background: url('../../Assets/backg/shot.png');
     -webkit-background-size: cover;
     -moz-background-size: cover;
