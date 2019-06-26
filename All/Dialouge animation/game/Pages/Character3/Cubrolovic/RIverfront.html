@@ -98,12 +98,10 @@
                     <p><a href="#" class="colink" id="next7"> Next</a></p>
                 </div>
             </div>
-
-
         </div>
-
-        <div id="eight" class="modalstory8">
+        <div id="sevenb" class="modalstory7b">
             <!-- Modal content -->
+
             <div class="modal-content1">
                 <div class="modal-body css-typing">
                     <p>The first car has just crossed us when he puts his arm </p>
@@ -112,6 +110,22 @@
                     <p>and now you see clearly what he holds.</p>
                     &nbsp;
                     <p>It's a grenade.</p>
+
+
+                    <p><a href="#" class="colink" id="next7b"> Next</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div id="eight" class="modalstory8">
+            <!-- Modal content -->
+            <div class="modal-content1">
+                <div class="modal-body css-typing">
+                    <p>Should you interfere in matters you don't have the slightest </p>
+                    <p>idea about? The motorcade is now just a few kilometres away.</p>
+                    <p> You don't have much time to decide.</p>
+
+                    &nbsp;
                     <p><a href="#" class="btn-lg colink" role="button" id="next8a"> Stop Him</a></p>
                     <p><a href="#" class="btn-lg colink" role="button" id="next8b"> Do not intervene</a></p>
 
@@ -343,6 +357,7 @@
         var next5 = document.getElementById('next5');
         var next6 = document.getElementById('next6');
         var next7 = document.getElementById('next7');
+        var next7b = document.getElementById('next7b');
         var next8 = document.getElementById('next8');
         var next9 = document.getElementById('next9');
         var next10 = document.getElementById('next10');
@@ -368,6 +383,7 @@
         var modal5 = document.getElementById('fifth');
         var modal6 = document.getElementById('sixth');
         var modal7 = document.getElementById('seven');
+        var modal7b = document.getElementById('sevenb');
         var modal8 = document.getElementById('eight');
         var modal9 = document.getElementById('nine');
         var modal10 = document.getElementById('ten');
@@ -412,6 +428,11 @@
         next7.onclick = function () {
 
             modal7.style.display = "none";
+            modal7b.style.display = "block";
+        }
+        next7b.onclick = function () {
+
+            modal7b.style.display = "none";
             modal8.style.display = "block";
         }
         next8a.onclick = function () {
@@ -426,13 +447,13 @@
         }
 
         next9.onclick = function () {
-
+            $('section').toggleClass('changex');
             modal9.style.display = "none";
             modal10.style.display = "block";
         }
 
         next10.onclick = function () {
-
+            $('section').toggleClass('changey');
             modal10.style.display = "none";
             modal11.style.display = "block";
         }
