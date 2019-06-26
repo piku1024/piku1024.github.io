@@ -107,7 +107,7 @@
             <img id="img2" class="pic2" src="../../../Assets/char/char3img1.png" alt="">
             <div class="modal-content2">
                 <div class="modal-body css-typing">
-                    <p>"My name is Guiseppe di Savoia. I'm from Italy. </p>
+                    <p>"My name is Charles Douglass. I'm from America. </p>
                     <p>What about you?"</p>
 
                     &nbsp;
@@ -117,7 +117,7 @@
         </div>
         <div id="eight" class="modalstory8">
             <!-- Modal content -->
-            <p> <img class="imgset2" src="../../../Assets/char/friend.png" alt=""> </p>
+            <p> <img class="imgset" src="../../../Assets/char/friend.png" alt=""> </p>
             <div class="modal-content3">
                 <div class="modal-body css-typing">
                     <p>"I'm Matija Petrovic. Nice to meet you! </p>
@@ -147,15 +147,15 @@
 
                     <p>Throughout your journey you will have the chance to make friends. These friendships could be very
                         helpful in the trials ahead !</p>
-                    &nbsp;
-                    <p><img src="../../../Assets/char/friendmini.png" alt=""></p>
+
+                    <p><img src="../../../Assets/char/friendmini.png" alt=""></p> &nbsp;
                     <p><a href="#" class="colink" id="next8-2"> Next</a></p>
                 </div>
             </div>
         </div>
         <div id="nine" class="modalstory9">
             <!-- Modal content -->
-            <p> <img class="imgset2" src="../../../Assets/char/friend.png" alt=""> </p>
+            <p> <img class="imgset" src="../../../Assets/char/friend.png" alt=""> </p>
             <div class="modal-content3">
                 <div class="modal-body css-typing">
                     <p>"Okay. Well, yake care of yourself then."</p>
@@ -168,14 +168,29 @@
             <!-- Modal content -->
             <div class="modal-content1">
                 <div class="modal-body css-typing">
-                    <p>The man walks away, and then you realise you are </p>
-                    <p>hungry. So you find a place to a eat.</p>
+                    <p>The man walks away, and then you realise you are hungry. </p>
+                    <p> So you find a place to a eat.</p>
                     &nbsp;
                     <p>You go to a nearby restaurant called Schiller's Deli.</p>
-                    <p>You've been sitting there for about 20 minutes you </p>
-                    <p>realize with a shock that someone familiar is there too.
+                    <p>You've been sitting there for about 20 minutes you realize </p>
+                    <p>with a shock that someone familiar is there too.
                     </p>
                     <p><a href="#" class="colink" id="next10">Next</a></p>
+
+                </div>
+            </div>
+        </div>
+        <div id="tenb" class="modalstory10b">
+            <!-- Modal content -->
+            <div class="modal-content1">
+                <div class="modal-body css-typing">
+
+                    <p>You and your new friend go to a nearby restaurant called </p>
+                    <p>Schiller's Deli. You've been sitting there for about 20 </p>
+                    <p>minutes you realize with a shock that someone familiar is
+                    </p>
+                    <p>there too.</p>
+                    <p><a href="#" class="colink" id="next10b">Next</a></p>
 
                 </div>
             </div>
@@ -208,7 +223,6 @@
         //    var moveY = (e.pageY * -1 / 5);
         //    $(this).css('background-position', moveX + 'px ' + moveY + 'px ')
         //})
-
         var next1 = document.getElementById('next1');
         var next2 = document.getElementById('next2');
         var next3 = document.getElementById('next3');
@@ -221,6 +235,7 @@
         var next8b = document.getElementById('next8b');
         var next9 = document.getElementById('next9');
         var next10 = document.getElementById('next10');
+        var next10b = document.getElementById('next10b');
         var next11 = document.getElementById('next11');
 
 
@@ -237,6 +252,7 @@
         var modal8b = document.getElementById('eight2');
         var modal9 = document.getElementById('nine');
         var modal10 = document.getElementById('ten');
+        var modal10b = document.getElementById('tenb');
         var modal11 = document.getElementById('eleven');
 
 
@@ -291,16 +307,17 @@
             modal8.style.display = "none";
             modal8b.style.display = "block";
         }
-        next8ac.onclick = function () {
-
-            modal8b.style.display = "none";
-            modal10.style.display = "block";
-        }
         next8b.onclick = function () {
 
             modal8.style.display = "none";
             modal9.style.display = "block";
         }
+        next8ac.onclick = function () {
+            $('section').toggleClass('change');
+            modal8b.style.display = "none";
+            modal10b.style.display = "block";
+        }
+
 
         next9.onclick = function () {
             $('section').toggleClass('change');
@@ -311,6 +328,11 @@
         next10.onclick = function () {
 
             modal10.style.display = "none";
+            modal11.style.display = "block";
+        }
+        next10b.onclick = function () {
+
+            modal10b.style.display = "none";
             modal11.style.display = "block";
         }
         next11.onclick = function () {

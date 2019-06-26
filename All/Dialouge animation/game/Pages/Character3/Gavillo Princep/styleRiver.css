@@ -63,6 +63,28 @@ section {
     overflow: hidden;
 }
 
+.changex {
+    height: 100vh;
+    background: url('../../../Assets/backg/explod.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    overflow: hidden;
+}
+
+.changey {
+    height: 100vh;
+    background: url('../../../Assets/backg/Riverfront.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    overflow: hidden;
+}
+
 
 .colink {
     color: #ffffff;

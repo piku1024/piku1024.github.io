@@ -35,7 +35,7 @@
 
 
 
-                    <p> Before you could react, he hits you with something hard. </p>
+                    <p> He hits you with something hard. </p>
 
                     &nbsp;
                     <p>Somehody helps you on your feet. Through blurred vision,</p>
@@ -178,6 +178,21 @@
                 </div>
             </div>
         </div>
+        <div id="tenb" class="modalstory10b">
+            <!-- Modal content -->
+            <div class="modal-content1">
+                <div class="modal-body css-typing">
+
+                    <p>You and your new friend go to a nearby restaurant called </p>
+                    <p>Schiller's Deli. You've been sitting there for about 20 </p>
+                    <p>minutes you realize with a shock that someone familiar is
+                    </p>
+                    <p>there too.</p>
+                    <p><a href="#" class="colink" id="next10b">Next</a></p>
+
+                </div>
+            </div>
+        </div>
         <div id="eleven" class="modalstory11">
             <!-- Modal content -->
             <p> <img class="imgset2" src="../../../Assets/char/cafeman1.png" alt=""> </p>
@@ -219,6 +234,7 @@
         var next8b = document.getElementById('next8b');
         var next9 = document.getElementById('next9');
         var next10 = document.getElementById('next10');
+        var next10b = document.getElementById('next10b');
         var next11 = document.getElementById('next11');
 
 
@@ -235,6 +251,7 @@
         var modal8b = document.getElementById('eight2');
         var modal9 = document.getElementById('nine');
         var modal10 = document.getElementById('ten');
+        var modal10b = document.getElementById('tenb');
         var modal11 = document.getElementById('eleven');
 
 
@@ -292,12 +309,12 @@
         next8b.onclick = function () {
 
             modal8.style.display = "none";
-            modal8b.style.display = "block";
+            modal9.style.display = "block";
         }
         next8ac.onclick = function () {
-
+            $('section').toggleClass('change');
             modal8b.style.display = "none";
-            modal9.style.display = "block";
+            modal10b.style.display = "block";
         }
 
 
@@ -310,6 +327,11 @@
         next10.onclick = function () {
 
             modal10.style.display = "none";
+            modal11.style.display = "block";
+        }
+        next10b.onclick = function () {
+
+            modal10b.style.display = "none";
             modal11.style.display = "block";
         }
         next11.onclick = function () {
