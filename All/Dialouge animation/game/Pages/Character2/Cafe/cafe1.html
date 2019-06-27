@@ -12,23 +12,7 @@
 <body>
     <section id="top">
 
-        <div id="first" class="modalstory1">
-            <!-- Modal content -->
-            <div class="modal-content1">
-                <div class="modal-body css-typing">
 
-                    <p>Finally you remember.</p>
-                    <p>It was on June 18th, 1914. You were in Sarajevo.</p>
-                    <p>Sarajevo, which had been under Ottomon Rule for </p>
-
-                    <p>425 years, had recently been annexed by the Hasburg </p>
-                    <p>Dynasty, the rulers of the Austo-Hungarian Empire.</p>
-
-                    &nbsp;
-                    <p><a href="#" class="colink" id="next1"> Next </a></p><br>
-                </div>
-            </div>
-        </div>
 
         <div id="second" class="modalstory2">
             <!-- Modal content -->
@@ -70,7 +54,7 @@
                     <p>a closer look at three of them.</p>
 
                     &nbsp;
-                    <p><a href="#" class="colink" id="next4"> [Character Introduction]</a></p>
+                    <p><a href="#" class="colink" id="next4">Next</a></p>
                     <br>
                 </div>
             </div>
@@ -189,14 +173,9 @@
             document.getElementById('image').style.display = "block";
         }
 
-        next1.onclick = function () {
-            $('section').toggleClass('change');
-            modal.style.display = "none";
-            modal2.style.display = "block";
 
-        }
         next2.onclick = function () {
-            $('section').toggleClass('change2');
+
             modal2.style.display = "none";
             modal3.style.display = "block";
 

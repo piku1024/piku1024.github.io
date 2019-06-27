@@ -26,29 +26,6 @@ body {
 
 section {
     height: 100vh;
-    background: url('../../../Assets/backg/choice1c.png');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    overflow: hidden;
-
-}
-
-.change {
-    height: 100vh;
-    background: url('../../../Assets/backg/cafetable.png');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    overflow: hidden;
-}
-
-.change2 {
-    height: 100vh;
     background: url('../../../Assets/backg/cafe.png');
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -56,7 +33,10 @@ section {
     background-size: cover;
 
     overflow: hidden;
+
 }
+
+
 
 .change3 {
     height: 100vh;
@@ -285,28 +265,7 @@ span {
 }
 
 
-.modalstory1 {
-    display: block;
 
-    position: fixed;
-    /* Stay in place */
-    z-index: 1;
-    /* Sit on top */
-    padding-top: 25%;
-    /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%;
-    /* Full width */
-    height: 100%;
-    /* Full height */
-    overflow: auto;
-    /* Enable scroll if needed */
-    font-family: var(--rob);
-    /* Fallback color */
-    background-color: rgba(0, 0, 0, 0);
-    /* Black w/ opacity */
-}
 
 .modal-content1 {
     position: relative;
@@ -357,7 +316,7 @@ span {
 }
 
 .modalstory2 {
-    display: none;
+    display: block;
     /* Hidden by default */
     position: fixed;
     /* Stay in place */

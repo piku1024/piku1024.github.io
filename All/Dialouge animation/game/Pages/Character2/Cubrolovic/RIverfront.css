@@ -408,7 +408,7 @@ span {
     border-left: none;
     border-right: none;
     width: 88%;
-    background-image: url(../../../Assets/char/textboxx.png);
+    background-image: url(../../../Assets/char/textboxleft.png);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -432,7 +432,7 @@ span {
     border-left: none;
     border-right: none;
     width: 88%;
-    background-image: url(../../../Assets/char/textboxx.png);
+    background-image: url(../../../Assets/char/textboxright.png);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -559,6 +559,52 @@ span {
     /* Black w/ opacity */
 }
 
+.modalstory5b {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 45%;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0);
+    /* Black w/ opacity */
+}
+
+.modalstory6b {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 0;
+    /* Sit on top */
+    padding-top: 85%;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0);
+    /* Black w/ opacity */
+}
+
 .modalstory7 {
     display: none;
     /* Hidden by default */
@@ -629,6 +675,29 @@ span {
 }
 
 .modalstory9 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 0;
+    /* Sit on top */
+    padding-top: 45%;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0);
+    /* Black w/ opacity */
+}
+
+.modalstory9b {
     display: none;
     /* Hidden by default */
     position: fixed;
@@ -782,6 +851,19 @@ span {
     background-color: rgba(0, 0, 0, 0);
 }
 
+.modalstory16b {
+    display: none;
+    position: fixed;
+    z-index: 0;
+    padding-top: 45%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0);
+}
+
 .modalstory16 {
     display: none;
     position: fixed;
@@ -794,6 +876,8 @@ span {
     overflow: auto;
     background-color: rgba(0, 0, 0, 0);
 }
+
+
 
 .modalstory17 {
     display: none;
@@ -923,7 +1007,7 @@ span {
 
 .pic2 {
     position: absolute;
-    margin-top: -23vh;
+    margin-top: -21vh;
     z-index: -1;
 }
 
@@ -1032,14 +1116,4 @@ span {
     z-index: 1;
     height: 350px;
     width: 700px;
-}
-
-.imgset2 {
-
-    position: relative;
-    left: 12%;
-    animation: diss 4s;
-
-    -webkit-animation: diss 4s;
-
 }

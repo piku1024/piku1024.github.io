@@ -739,6 +739,19 @@ span {
     background-color: rgba(0, 0, 0, 0);
 }
 
+.modalstory16b {
+    display: none;
+    position: fixed;
+    z-index: 0;
+    padding-top: 45%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0);
+}
+
 .modalstory17 {
     display: none;
     position: fixed;
@@ -877,14 +890,4 @@ span {
     z-index: 1;
     height: 350px;
     width: 700px;
-}
-
-.imgset2 {
-
-    position: relative;
-    left: 30%;
-    animation: diss 4s;
-
-    -webkit-animation: diss 4s;
-
 }
