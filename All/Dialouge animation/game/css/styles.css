@@ -647,14 +647,14 @@ p.cent {
     position: absolute;
     margin-left: 0;
     margin-top: 10%;
-    width: 35vw;
+    width: 30vw;
     height: auto;
 }
 
 #img2 {
     position: absolute;
-    margin-left: 35%;
-    width: 35vw;
+    margin-left: 34.5%;
+    width: 32.9vw;
     margin-top: 10%;
     height: auto;
 }
@@ -662,8 +662,8 @@ p.cent {
 #img3 {
     position: absolute;
     margin-left: 70%;
-    margin-top: 10%;
-    width: 35vw;
+    margin-top: 10.8%;
+    width: 30vw;
     height: auto;
 }
 
