@@ -7,6 +7,25 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>lunch</title>
     <link rel="stylesheet" href="./styleLunch.css">
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-136338851-5', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
 </head>
 
 <body>
@@ -85,8 +104,12 @@
                     <p>christians, Muslims and Croatians- who are catholics.</p>
                     &nbsp;
 
-                    <p><a href="#" class="colink" id="next5a">Such diversity!</a></p>
-                    <p><a href="#" class="colink" id="next5b">That sounds like trouble</a></p>
+                    <p><a href="#" class="colink"
+                            onclick="ga('send','event', 'passage', 'loaded','AmericanCubriLunchDiversity');"
+                            id="next5a">Such diversity!</a></p>
+                    <p><a href="#" class="colink"
+                            onclick="ga('send','event', 'passage', 'loaded','AmericanCubriLunchTrouble');"
+                            id="next5b">That sounds like trouble</a></p>
                 </div>
             </div>
 
@@ -156,7 +179,9 @@
                     <p>where you can watch him. For the next 10 odd minutes,</p>
                     <p> nothing happens.</p>
 
-                    <p><a href="#" class="colink" id="next9"> Next</a></p>
+                    <p><a href="#" class="colink"
+                            onclick="ga('send','event', 'passage', 'loaded','AmericanCubriLunchSeePrincep');"
+                            id="next9"> Next</a></p>
                 </div>
             </div>
         </div>

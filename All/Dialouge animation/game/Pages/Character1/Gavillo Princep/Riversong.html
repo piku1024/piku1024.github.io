@@ -7,6 +7,23 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Princep-Italian-prince</title>
     <link rel="stylesheet" href="./styleRiver.css">
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-136338851-5', 'auto');
+        ga('send', 'pageview');
+    </script>
 </head>
 
 <body>
@@ -40,14 +57,15 @@
 
 
                     <p>And just then, you notice a poster in front of you which explained</p>
-	   <p> everything. Archduke Franz Ferdinand was visiting Sarajevo!</p>
-			&nbsp;
-		    <p>You had heard of the Archduke.After the scandalous 
-		    <p>suicide of his cousin, he was the heir to throne of</p>
-                    <p>  the Austro-Hungarian Empire that had captured</p> 		    	            <p>  Sarajevo from the Ottoman Empire in 1914</p>
+                    <p> everything. Archduke Franz Ferdinand was visiting Sarajevo!</p>
+                    &nbsp;
+                    <p>You had heard of the Archduke.After the scandalous
+                        <p>suicide of his cousin, he was the heir to throne of</p>
+                        <p> the Austro-Hungarian Empire that had captured</p>
+                        <p> Sarajevo from the Ottoman Empire in 1914</p>
 
 
-                    <p><a href="#" class="colink" id="next2"> Next </a></p><br>
+                        <p><a href="#" class="colink" id="next2"> Next </a></p><br>
                 </div>
             </div>
         </div>
@@ -136,7 +154,7 @@
                     <p>You remember when you found out about the Bava Beccaris</p>
                     <p> massacre in Milan. That your father had actually praised</p>
                     <p>General Bava Beccaris, who had ruthlessly killed the people who</p>
-		    <p>were protesting the high price of bread</p>
+                    <p>were protesting the high price of bread</p>
                     <p><a href="#" class="colink" id="next6">Next</a></p>
                 </div>
             </div>
@@ -168,8 +186,12 @@
                     <p> You don't have much time to decide.</p>
 
                     &nbsp;
-                    <p><a href="#" class="btn-lg colink" role="button" id="next8a"> Do not intervene</a></p>
-                    <p><a href="#" class="btn-lg colink" role="button" id="next8b"> Try and stop the man</a></p>
+                    <p><a href="#" class="btn-lg colink"
+                            onclick="ga('send','event', 'passage', 'loaded','PrinceGavilloNotIntervene');" role="button"
+                            id="next8a"> Do not intervene</a></p>
+                    <p><a href="#" class="btn-lg colink"
+                            onclick="ga('send','event', 'passage', 'loaded','PrnceGavilloIntervene');" role="button"
+                            id="next8b"> Try and stop the man</a></p>
 
                 </div>
             </div>
@@ -242,12 +264,13 @@
             <div class="modal-content1">
                 <div class="modal-body css-typing">
 
-                    
+
                     <p> A second later, you see why. For out of nowhere, </p>
                     <p> another grenade has hit the archduke's car. </p>
                     <p> You see it bounce off from the car like a tennis ball, </p>
                     <p> going towards the car behind it. And then, </p>
-                    <p><a href="#" class="colink" id="next13"> Next</a></p>
+                    <p><a href="#" class="colink" onclick="ga('send','event', 'passage', 'loaded','PrinceGavilloBomb');"
+                            id="next13"> Next</a></p>
                 </div>
             </div>
         </div>
@@ -315,12 +338,14 @@
                     <p>and then turns around and starts walking.</p>
 
                     &nbsp;
-                    <p><a href="../Gavillo Princep/Police.html" class="btn-lg colink" role="button" id="next8a"> Inform
-                            the Police about what
-                            you
-                            saw</a>
+                    <p><a href="../Gavillo Princep/Police.html"
+                            onclick="ga('send','event', 'passage', 'loaded','PrinceGavilloPolice');"
+                            class="btn-lg colink" role="button" id="next8a"> Inform
+                            the Police </a>
                     </p>
-                    <p><a href="../Gavillo Princep/Chase.html" class="btn-lg colink" role="button" id="next19"> Follow
+                    <p><a href="../Gavillo Princep/Chase.html"
+                            onclick="ga('send','event', 'passage', 'loaded','PrinceGavilloChase');"
+                            class="btn-lg colink" role="button" id="next19"> Follow
                             the man </a></p>
 
                 </div>

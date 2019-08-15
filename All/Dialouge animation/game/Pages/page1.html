@@ -5,14 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=1024">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Chapter-1</title>
+    <title>The Beginning</title>
 
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/stylesMob.css">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
+        ga('create', 'UA-136338851-5', 'auto');
+        ga('send', 'pageview');
+    </script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 </head>
@@ -26,6 +41,7 @@
         <div id="baap" class="chor">
 
             <div id="first" class="modalstory1">
+
                 <!-- Modal content -->
                 <div class="modal-content1">
                     <div class="modal-body css-typing">
@@ -34,13 +50,14 @@
                         <p>99 years since the fall of Napolean.</p>
                         <p>99 Years since all the Great Powers fought together.</p>
                         &nbsp;
-                        <p>In 1914, you watched the peace fall apart into the biggest</p>
-                        <p>war the world had ever seen.</p>
+                        <p>In 1914, you watched the peace fall apart into the </p>
+                        <p>biggest war the world had ever seen.</p>
                         &nbsp;
                         <br>
                         <br>
 
-                        <a class="btn-whatever btn-sm" id="start" href="#" role="button"> Start </a>
+                        <a class="btn-whatever btn-sm" onclick="ga('send','event', 'passage', 'loaded','GreatWar');"
+                            id="start" href="#" role="button"> Start </a>
                         <br>
                     </div>
                 </div>
@@ -56,14 +73,14 @@
                     </div>
                 </div>
 
-                <a href="./Character1/Choice1.html"><img id="img1" class="pic" src="../Assets/char/princeTitle.png"
-                        alt="">
+                <a href="./Character1/Choice1.html" onclick="ga('send','event', 'passage', 'loaded','Prince');"><img
+                        id="img1" class="pic" src="../Assets/char/princeTitle.png" alt="">
                 </a>
-                <a href="./Character2/Choice2.html"><img id="img2" class="pic" src="../Assets/char/indiantitle.png"
-                        alt="">
+                <a href="./Character2/Choice2.html" onclick="ga('send','event', 'passage', 'loaded','Indian');"><img
+                        id="img2" class="pic" src="../Assets/char/indiantitle.png" alt="">
                 </a>
-                <a href="./Character3/Choice3.html"><img id="img3" class="pic" src="../Assets/char/americantitle.png"
-                        alt="">
+                <a href="./Character3/Choice3.html" onclick="ga('send','event', 'passage', 'loaded','American');"><img
+                        id="img3" class="pic" src="../Assets/char/americantitle.png" alt="">
                 </a>
 
 

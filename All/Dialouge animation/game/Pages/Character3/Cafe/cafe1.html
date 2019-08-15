@@ -5,8 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=1024">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Son of Duke</title>
+    <title>Cafe-AmericanSoldier</title>
     <link rel="stylesheet" href="./styleCafe.css">
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-136338851-5', 'auto');
+        ga('send', 'pageview');
+    </script>
 </head>
 
 <body>
@@ -122,12 +138,15 @@
 
                 </div>
             </div>
-            <p><a href="../Gavillo Princep/Riversong.html" id="next8a"> <img class="imgs"
+            <p><a href="../Gavillo Princep/Riversong.html"
+                    onclick="ga('send','event', 'passage', 'loaded','AmericanPrincep');" id="next8a"> <img class="imgs"
                         src="../../../Assets/char/cafeman1.png" alt=""> </a>
-                <a href="../Cabrinovic/Riversong.html" id="next8b"> <img class="imgs"
-                        src="../../../Assets/char/cafeman2.png" alt=""> </a>
-                <a href="../Cubrolovic/RIverfront.html" id="next8c"> <img class="imgs"
-                        src="../../../Assets/char/cafeman3.png" alt=""> </a></p>
+                <a href="../Cabrinovic/Riversong.html"
+                    onclick="ga('send','event', 'passage', 'loaded','AmericanCabrinovic');" id="next8b"> <img
+                        class="imgs" src="../../../Assets/char/cafeman2.png" alt=""> </a>
+                <a href="../Cubrolovic/RIverfront.html"
+                    onclick="ga('send','event', 'passage', 'loaded','AmericanCubrinovic');" id="next8c"> <img
+                        class="imgs" src="../../../Assets/char/cafeman3.png" alt=""> </a></p>
 
         </div>
 

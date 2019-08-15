@@ -7,6 +7,22 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Chase</title>
     <link rel="stylesheet" href="./styleChase.css">
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-136338851-5', 'auto');
+        ga('send', 'pageview');
+    </script>
 </head>
 
 <body>
@@ -75,8 +91,8 @@
 
             <div class="modal-content1">
                 <div class="modal-body css-typing">
-                    <p>He offers to take you to a hospital, but you refuse. You </p> 
-		    <p>hate hospitals</p>             
+                    <p>He offers to take you to a hospital, but you refuse. You </p>
+                    <p>hate hospitals</p>
 
                     &nbsp;
 
@@ -123,8 +139,12 @@
                     <p>needs some energy to heal!"
                     </p>
                     &nbsp;
-                    <p><a href="#" class="btn-lg colink" role="button" id="next8a"> Yes</a></p>
-                    <p><a href="#" class="btn-lg colink" role="button" id="next8b"> No</a></p>
+                    <p><a href="#" class="btn-lg colink"
+                            onclick="ga('send','event', 'passage', 'loaded','AmericanCabriChaseFriend');" role="button"
+                            id="next8a"> Yes</a></p>
+                    <p><a href="#" class="btn-lg colink"
+                            onclick="ga('send','event', 'passage', 'loaded','AmericanCabriChaseNoFriend');"
+                            role="button" id="next8b"> No</a></p>
 
                 </div>
             </div>
@@ -187,7 +207,9 @@
                     <p>minutes you realize with a shock that someone familiar is
                     </p>
                     <p>there too.</p>
-                    <p><a href="#" class="colink" id="next10b">Next</a></p>
+                    <p><a href="#" class="colink"
+                            onclick="ga('send','event', 'passage', 'loaded','AmericanCabriChaseSeePrincep');"
+                            id="next10b">Next</a></p>
 
                 </div>
             </div>
